@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic NWDP CSV discovery/download/parser.
-
-NWDP exposes machine-readable CSV resources. This module discovers the current
-2026 CSV link from the official dataset page, downloads it, and extracts only
-recent rows. It deliberately does not infer reservoir metrics that are absent
-from the source.
-"""
+"""Deterministic NWDP CSV discovery/download/parser."""
 import csv
 import io
 import re
@@ -23,10 +17,12 @@ CONFIG = {
     "Andhra Pradesh": {
         "page": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department",
         "kind": "reservoir_level_daily",
+        "resource": "https://nwdp.nwic.gov.in/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b/download/ap_reservoir_water_level_2026.csv",
     },
     "Telangana": {
         "page": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw",
         "kind": "scada_hourly",
+        "resource": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/download/telangana_scada_2026.csv",
     },
 }
 
@@ -76,7 +72,6 @@ def _discover_csv(page_url):
         link = urljoin(page_url, link).replace("&amp;", "&")
         if link not in clean:
             clean.append(link)
-    # Prefer a resource explicitly covering 2026-2030 / 2026, then the first CSV.
     preferred = [u for u in clean if re.search(r"2026|2030", u, re.I)]
     return (preferred + clean)[0] if (preferred or clean) else None
 
@@ -92,16 +87,25 @@ def _rows_from_csv(csv_bytes):
     return reader.fieldnames or [], list(reader)
 
 
+def _unit_for_level(column):
+    n = (column or "").lower()
+    if "ft" in n or "feet" in n:
+        return "ft"
+    if "m)" in n or "(m" in n or "meter" in n or "metre" in n:
+        return "m"
+    return None
+
+
 def collect_nwdp(state, max_age_days=3):
     cfg = CONFIG[state]
-    csv_url = _discover_csv(cfg["page"])
+    csv_url = cfg.get("resource") or _discover_csv(cfg["page"])
     if not csv_url:
         raise RuntimeError(f"No CSV resource discovered from {cfg['page']}")
 
     fields, rows = _rows_from_csv(_get(csv_url))
     date_col = _find_column(fields, ("dataacquisitiontime", "observationdate", "date", "datetime", "timestamp", "time"))
     station_col = _find_column(fields, ("station", "reservoir", "dam", "barrage", "location"))
-    level_col = _find_column(fields, ("reservoirdischargewaterlevel", "waterlevel", "reservoirwaterlevel", "level"))
+    level_col = _find_column(fields, ("reservoirdischargewaterlevel", "manualdailyreservoirdwaterlevel", "reservoirwaterlevel", "waterlevel", "level"))
     discharge_col = _find_column(fields, ("discharge", "outflow", "flow")) if cfg["kind"] == "scada_hourly" else None
 
     if not date_col or not station_col:
@@ -109,6 +113,7 @@ def collect_nwdp(state, max_age_days=3):
 
     now = datetime.now(timezone.utc)
     observations = []
+    level_unit = _unit_for_level(level_col)
     for row in rows:
         observed = _parse_date(row.get(date_col))
         if not observed:
@@ -119,6 +124,7 @@ def collect_nwdp(state, max_age_days=3):
         station = (row.get(station_col) or "").strip()
         if not station:
             continue
+
         def number(col):
             if not col:
                 return None
@@ -135,7 +141,7 @@ def collect_nwdp(state, max_age_days=3):
         observations.append({
             "reservoir": station,
             "water_level": level,
-            "water_level_unit": "m" if level is not None else None,
+            "water_level_unit": level_unit,
             "storage": None,
             "storage_unit": None,
             "storage_percentage": None,
@@ -144,14 +150,12 @@ def collect_nwdp(state, max_age_days=3):
             "outflow": discharge,
             "outflow_unit": "m3/s" if discharge is not None else None,
             "report_date": observed.strftime("%Y-%m-%d"),
-            "notes": f"Directly parsed from official NWDP CSV; source field: {level_col or discharge_col}",
+            "notes": f"Directly parsed from official NWDP CSV; source field: {level_col or discharge_col}; no unit conversion applied.",
         })
 
-    # Keep the latest observation per station.
     latest = {}
     for item in observations:
-        key = item["reservoir"].strip().lower()
-        latest[key] = item
+        latest[item["reservoir"].strip().lower()] = item
 
     return {
         "state": state,
