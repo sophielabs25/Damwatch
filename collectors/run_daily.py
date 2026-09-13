@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from openai_agent import collect_state
+from nwdp_direct import collect_nwdp
 
 ROOT = Path(__file__).resolve().parents[1]
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -49,6 +50,25 @@ def _is_individual_reservoir(item):
     return not any(term in name for term in blocked)
 
 
+def _save_raw(state, result):
+    raw_path = RAW_DIR / f"{state.lower().replace(' ', '-')}.json"
+    raw_path.write_text(json.dumps(result, indent=2), encoding="utf-8")
+
+
+def _collect(state):
+    """Use deterministic official NWDP data first; AI web extraction is fallback."""
+    try:
+        direct = collect_nwdp(state, max_age_days=MAX_CURRENT_AGE_DAYS)
+        if direct.get("observations"):
+            return direct, "nwdp_direct"
+        print(f"[{state}] NWDP direct parser found no current rows; falling back to OpenAI official-source search")
+    except Exception as exc:
+        print(f"[{state}] NWDP direct parser unavailable: {exc}; falling back to OpenAI official-source search")
+
+    result = collect_state(state)
+    return result, "openai_official_search"
+
+
 def main():
     retrieved_at = datetime.now(timezone.utc).isoformat()
     all_observations = []
@@ -57,11 +77,8 @@ def main():
 
     for state in STATES:
         try:
-            result = collect_state(state)
-            raw_path = RAW_DIR / f"{state.lower().replace(' ', '-')}.json"
-            raw_path.write_text(json.dumps(result.get("_raw_response", {}), indent=2), encoding="utf-8")
-            result.pop("_raw_response", None)
-
+            result, collector = _collect(state)
+            _save_raw(state, result)
             accepted = 0
             rejected = []
             for item in result.get("observations", []):
@@ -77,6 +94,7 @@ def main():
                     "source_name": result.get("source_name"),
                     "source_url": result.get("source_url"),
                     "retrieved_at": result.get("retrieved_at", retrieved_at),
+                    "collector": collector,
                     "status": "official_source_verified_current",
                 })
                 all_observations.append(item)
@@ -85,11 +103,12 @@ def main():
             runs.append({
                 "state": state,
                 "status": "success" if accepted else "no_current_data",
+                "collector": collector,
                 "source": result.get("source_url"),
                 "accepted_observations": accepted,
                 "rejected_observations": rejected,
             })
-            print(f"[{state}] accepted_current={accepted} rejected={len(rejected)}")
+            print(f"[{state}] accepted_current={accepted} rejected={len(rejected)} collector={collector}")
         except Exception as exc:
             runs.append({"state": state, "status": "error", "error": str(exc)})
             print(f"[{state}] collection failed: {exc}")
@@ -98,7 +117,7 @@ def main():
         "observation_date": TODAY,
         "retrieved_at": retrieved_at,
         "freshness_policy": {"max_current_age_days": MAX_CURRENT_AGE_DAYS},
-        "pipeline": "official-source -> OpenAI extraction -> source validation -> freshness validation",
+        "pipeline": "official NWDP CSV -> deterministic parser -> freshness validation -> OpenAI official-source fallback",
         "runs": runs,
         "observations": all_observations,
     }
