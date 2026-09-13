@@ -1,42 +1,60 @@
 #!/usr/bin/env python3
-"""Daily DamWatch collector.
-
-This first version establishes the data contract and source registry. Source
-adapters should return observations only when the official source publishes
-the field; missing fields remain null.
-"""
+"""Run the DamWatch daily official-source collection pipeline."""
 import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from openai_agent import collect_state
+
 ROOT = Path(__file__).resolve().parents[1]
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-OUT = ROOT / "data" / "observations" / f"{TODAY}.json"
+OBS_OUT = ROOT / "data" / "observations" / f"{TODAY}.json"
+RAW_DIR = ROOT / "data" / "raw" / TODAY
 
-SOURCES = [
-    {"state": "Karnataka", "name": "KSNDMC / WRDO & KPTCL", "priority": 1},
-    {"state": "Karnataka", "name": "KWRIS / Karnataka Water Resources Department", "priority": 2},
-    {"state": "Andhra Pradesh", "name": "APWRIMS", "priority": 1},
-    {"state": "Andhra Pradesh", "name": "AP Government DES", "priority": 2},
-    {"state": "Telangana", "name": "Telangana official water resources / SCADA", "priority": 1},
-    {"state": "All", "name": "NWDP / NWIC", "priority": 4},
-]
+STATES = ["Karnataka", "Andhra Pradesh", "Telangana"]
 
 
 def main():
-    # Placeholder until each official adapter is implemented. Never fabricate
-    # observations merely to make the daily run non-empty.
+    retrieved_at = datetime.now(timezone.utc).isoformat()
+    all_observations = []
+    runs = []
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    for state in STATES:
+        try:
+            result = collect_state(state)
+            raw_path = RAW_DIR / f"{state.lower().replace(' ', '-')}.json"
+            raw_path.write_text(json.dumps(result.get("_raw_response", {}), indent=2), encoding="utf-8")
+            result.pop("_raw_response", None)
+            runs.append({"state": state, "status": "success", "source": result.get("source_url")})
+            for item in result.get("observations", []):
+                item.update({
+                    "state": state,
+                    "source_name": result.get("source_name"),
+                    "source_url": result.get("source_url"),
+                    "retrieved_at": result.get("retrieved_at", retrieved_at),
+                    "status": "official_source_verified",
+                })
+                all_observations.append(item)
+        except Exception as exc:
+            runs.append({"state": state, "status": "error", "error": str(exc)})
+            print(f"[{state}] collection failed: {exc}")
+
     payload = {
         "observation_date": TODAY,
-        "retrieved_at": datetime.now(timezone.utc).isoformat(),
-        "sources_checked": SOURCES,
-        "observations": [],
-        "status": "collector_ready",
+        "retrieved_at": retrieved_at,
+        "pipeline": "official-source -> OpenAI extraction -> whitelist validation",
+        "runs": runs,
+        "observations": all_observations,
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-    print(f"Wrote {OUT}")
+    OBS_OUT.parent.mkdir(parents=True, exist_ok=True)
+    OBS_OUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+    if not all_observations:
+        raise SystemExit("No verified official observations were collected; refusing to publish fabricated data.")
+
+    print(f"Collected {len(all_observations)} verified observations")
 
 
 if __name__ == "__main__":
