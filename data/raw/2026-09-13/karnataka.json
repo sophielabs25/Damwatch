@@ -1,0 +1,437 @@
+{
+  "id": "resp_036dbd168dbe547f006aa6f41bd7c887d2bf8507c39d339999",
+  "object": "response",
+  "created_at": 1789326363,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789326378,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.6-luna",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_036dbd168dbe547f006aa6f41c886c87d2ac00cd6ac5d8d59a",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQq5wcUQbP8iTLVdCphF-5TLSjgLHGazutPqV2EqIyoS83hbXE3YSwUrLXmWDhVMTl3egPIMDZN-kMxAnuIm4OrzAP-7hx3ZHK0dVLk0RxE90Y_kpwMla8qQmmGE1m1m9xa7hcSoiKNatEiXf6J8Y0ZOIlcRViLjVZa8u2Ivi3okcWpOqBMxMTapk_g1Flja-858bWzOp6hFNdEN7SWO5QvJxce_n6FcXrcfn-eItgAzP3KxOzuBZ1-fX35z1ZOhQAVhp1JM6OLodPRd5fW5-TrIA5PkVGt1W47O6PvWuFDXx7BOxMOkGSZ3bjqTdwkkiQTgjMjnY9MYkOTjwF_wpxYz8Lu9FI476Cw0cSAiARxO8aLnYEcaL4aZPQNQiPXPkpbMHzIU2OqB2TZS7O4H6_9ZiUNib-BGrnajjTKD7SeoGg-IVStgUp488jB_3vkH_QLV-l-HbTA-xx0j2bgjUF-zKseqp68u0khlXZhlbpABKh8DxWyaohGwajcMkiVvUXc5PoXLHoyDr8bPCaurY_DfXKaOn8Mc3kPV-nrWgb22FZEJJbS01fN4VSLFNHf7aE1s1F6MZkgi-YYwrKB9NvrNJdpiTSH02NlaUNPtUcqDeYYgpG5aNN9p5wUr8iT-VGYENh7fL2NSZRyipGVmcEKIukR7BW0yTh7shNwG1PX2fCi1XnQTD79niEfRQmQ1u9X2gi4QIDqiqqbGroV8sjrE6oh1eBH81QYAxW8haxqTn6Nb6ZwEa6P_2MTEz4zKbjP6Yd_Xf_9MW5oC7Xa0Mu6jl7PwZmkx8fq5Fy0po9iKBfGjyUezsd5E5sQh7Mjapxj-FLFZtfTKTYXeK--T5EcxZtDSID4T2LB64iscZ22Xmze1ZHS2RU1XQj9l2zm8QvFiuRcVh0fX8NDMFObI6dSK_yCZHTPGUpd-YEIS_6phUVoE3vzBmdyFBCPO0XS5jsAN3tfSooF51qatJJDKX80JaXRvp9zDj1bhA_iDU3WLqaCdftopguzo5Zwa3hx-lJgSc_qVoO-kCOBHKzcLC7HCMqk24Hk-HlcUTBBy8wA2k9SsOk8i3hZRGXRH_9J22b6AtuuEXuvvr-WOGHipTQsAnmIGqzohECag_An4fPLMDWl8Km0bFhWAHLKkN4I8E_JJLJVj5124-t5iT8PjgnsgkeEjs_Xpvht1bgjKNd2NbEd42IFppzMkUehFGeremSBgT1OpGWpSqbCb7nxn_ZKsL4mN5m_jEYN8QXtK278kYATOV1EsiITiFEvgEs2qr7rE7-jSO1zGuzQ9m-lvDaWbLAr2WrNG2nFBLuQuU1_v2U=",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f41cd3c487d2bb5ca3272783029b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://kwris.aciwrm.org/ReservoirPublic"
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f41d731087d2aa885884766c8cdf",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqdYr9AoayK8LJInIcI0RPVCeBOdykfatxF_ut0XwDXgPfYq6oQQ-spkBTOIcKn3srPlgZzuNHMDhif9yKcNlMi0solTDkeIklHfUNY_iKdVyHmhqS2o-LQQf9yF48HUJQ2vbpVdAlB2q8uPx0vvVH9WTrpM_YqBjmbegQ0ZZyd4IEBf6sLyGLt8cHNrxStRbv_WIHn2HGa7ys4uILkAhpUCc-1c2B4CXczMFZbdgchYe75wQ9Q6qYH6RjFnrk7YtkJGLPMTvzYLkefEHezCuKVZ0J8k9yQBAueHOl1Ap3Osfs0hddS1qaNZgNBMoSMrymrtlfkC5bXzXbQqtPseG3Z_GTybnatZK8OICp-0N5st-BNuuttTYhlJzOfF0ICL04Tiwn4vVeH5F48b3j19a4AkhkoUjiZrhT-lfRWuXPY7XYVRppT-QqpoHu--r1GXsxlEHwEa15D3jExDOC2s8MRda1Yi3Pa8JfsyWJplJrRjqTB5BdlNppgMcL1r4xW64e2XD8_N9EqrvYEkwI4MnMUW-swYpuyufGx_N2AjQt4th9ck3XupMeeCu848fAqjkTySrRlXPAvWBCYITiGwa7uWTaipeCLe5oF7x4Zan6jFtTvUGPkAYcDAxCevf8i7ZjLNQx-he6FYq7kXmIx-NgzSfpPk44EvHId5PhpfysIEvb7BSkfOno87UwfZipmoZFeRMS14LqOS_Jyc3StMuAVyC3J5dAljIzTFq4e4xmIYtYBhcX1QDSkzUQh6vzUXw5cbBzSnv2Il8lLbORvQOR6dlKF_VKbVvgpGMs97dejh84iGeEsvOsBxa8X4uc-wC71Vxnu1lvXdbaOl2cA5U2ZZpbN2SFq-GVvbxj7kDJlQQg3Mr21MNsKbcBbtdjbS1GYzDxBhgVGLDrw1n2A5qXnR9iHJDaojD57TTlvVipFOfw5AIBEc-kgCdC9Xmf21Agcvfi6xvVeHVxy70wMnF6qBfmnCiI2MA_zopTXctj00XxjjnGECiMTP6a5nv9pGC2oBEcOLv5o1p-kKYd36f0D4KPLdxTDN83q--qdxcbG8kpMUK3A7yzdwORw0ScNypEs0KsYedWgfErn1ujmeP5UWyYPzgxATghzqMSoj0FfM1vaV06GX6PysRkYYgJE6rfnnS1pEq1qhaCnkoMxR8ut3pULhs_Lrvq3INluh3oTQjBygiug5zBaVmuDgL0Aqiuy7PbjH-eeqIJhVlR5OmTUv0wg6OERgVF66hiVdXjaSHGGBRQRHMxaiY1rA5INhvhPyfsXnRhZMjDVf_AFOrNnL9QunLo_7Wc5_-GNm9g8xeQ5VU5HqAiExoVmMFemmnl",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f41dc30087d29d35a41d287df6ea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://kwris.aciwrm.org/ReservoirPublic"
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f41e580c87d28eadaac6a56d0296",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqEpvF2SBjBAyj4jz_EnFjR_GjPuUzm7a73h336lKccWoEBpodcoiWBlVzn7hj74HkvrdIhKFv8--FDMMMIwiw8ZvCzvwf_qtxHeCXFzFVtWfdly2ibO0v4lUjxTh0YPtntEprFi35_TtkKZKHUtgwDjk0rtxWPuUlif6-iKhUjdu1hJWJs1K3HCm1MVWSo_N3dgcBwYL644NZvcOrLu682c2mgiLWihg-C7tLgGvwYjc0p0H03bxLSeuTv-WaxH0_F0jEzIUmss42h5ORl8UQBYUw6O7SD2GSOtHOnExmYPxYDPyJQk5wF8_OxDSYfcSCNlh1fOj427Uuw9Yr6zaWVDoW4Zve5gHDokCXXp2yomUCWUCz080mo1Rm4aQxlSo9JXhykyVNedQWByuxeBplVHDwXLxNiyomq09jVe-nK3-fE9zgUjtrCAxVyTHXkkBVScV5jQiy_ZefR4QOGEUR_JuaLIhTZApmIuEhUTUOCsQqelkyQoUZ2IlAZ8w4C54TvoAmiC78QdrS-NGkwF8tvHuCD6_t7LxuyFB2Xwt4kHfSCH4T9v6WUKxH5j9tv-Bm_AeiVokS612qF74VAqQtmaGYZZWsOo_MTB9AXdb5xl8kOq4nL1ClvL0xMclI97ww6ZWL02S7XVujsImgOKsZk6fTftXy0vH99rripEiUyDLbfxbUhwliaZyMnJ3R5YOq4EhYZRkiZVLroADPJeocuzTXl8wa2O_G2Tmu40VrEXgpUbg-vYbrqX0aNHoOhw2nGB9v3Cym12b8ghSTuY22z4gHVjLsYYjvZglzklpFn1X5np3WpGmAOKskiwgcVwsrS9FY54qPKhxnQ4HJmm2SJPtP_Z0iA-Tn_nbXrkSpPscugne6S2xdOj5z6nQzI9aS9tA2o3aZpK3k7VWCN2KFj_EE8zy7Sd1RkjVvvgNGnbutUZPfNPm7GdtgOpTyYdOEteJqE18BGfcT2Fcke9BBSa_XmwHjmoP10ibZoB-E7pzs7wLen3xG60Q7uYZ-n_6LthyY1-iY0dKRzXJaoZ3gTOp5mnLQHOOzNZiKdNw14p6fQtk-XprZc1VceOR7gLiXmwW_xlP24tyFXS39RCGQE7P7cLy_b3EZwh6iWYUSW_bYgDvKd9XRfjDmvewS-Bci5kEd5Al4UvPRJEQ1CV_6InAHadr-1rFmP_ZXWhJc0mkWJoRCP86AOMNL_McQ80QZ",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f41e708487d2847d72955fd078ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:kwris.aciwrm.org Karnataka reservoir latest level storage 2026",
+          "site:ksndmc.karnataka.gov.in KSNDMC major reservoir level WRDO KPTCL latest 2026",
+          "site:nwdp.nwic.gov.in Karnataka reservoir 2026"
+        ],
+        "query": "site:kwris.aciwrm.org Karnataka reservoir latest level storage 2026",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-data-karnataka"
+          },
+          {
+            "type": "url",
+            "url": "https://kwris.aciwrm.org/ReservoirMapDetails.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://nwdp.nwic.gov.in/dataset/reservoir-data-karnataka/resource/26800982-045c-41de-821d-b1ca080a79a8?view_id=6ecded83-e2e4-4929-92c1-0d462c655ee5"
+          },
+          {
+            "type": "url",
+            "url": "https://kwris.aciwrm.org/ReservoirPublic"
+          },
+          {
+            "type": "url",
+            "url": "https://kwris.aciwrm.org/ReservoirPublic.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/dataset/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/dataset/hydrometeorology-manual-monthly-karnataka"
+          },
+          {
+            "type": "url",
+            "url": "https://nwdp.nwic.gov.in/dataset/hydrometeorology-manual-monthly-karnataka"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/en/dataset/?page=1"
+          },
+          {
+            "type": "url",
+            "url": "https://nwdp.nwic.gov.in/organization/karnataka-sw-sf?groups=water-quantity"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/en/dataset/?groups=water-quantity"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nwdp.nwic.gov.in/en/organization/karnataka-sw-sf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f4201a4487d2b3f28279de25361e",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqy682LtXxOUbSJqcLRSWiV4NBZhmJz32oW0gJHd55E5rxoYwvaMVgnSDZTYgVcIqHmNwwqqyxZ5ttUFHjxqG6_ESpt5HHHf91EGc_YWQlNaWVrOKeawuoLdgcGJGcLyjJkNHvcTXe6OQbhU002O0mHm48HZzy5_0aEpcsMNg1MZQ_Cp03O2a-VLvbRTeMLjDRkmzHaFxylvpdIyy1Zc-5BTvFcfcbDDnYxRBkilNZX0kLBq08A_dq2RJCUc5zEpfHZorEl8TOddykIxiwFsTmTEpie2PT6zke_eqydjVmJcV0YfuGPucRlhkauFZGJSHHFUXSd0c-7o-bkFqN4kM75sJwzRdZR9ak24feXJp2M6PO0YHb0uDTaVQnVDo37qUeHbPy9RMDQknd5-eoGtuhHWOQECj4fMJzSZpYIr6jtwItSGw1ewFCCjnlH6v-ZXcXZoNl7ujNAqxCBvACOjh_E9FrmCPBbqCxdPrxuPznuMPucQ-GCU6xC6tZtBlLASJlpagXigqAyzFh5aGqgkp2qHSlg_SII0RfiY4B-fAyN0OG4LOuApMYUUhxNNhVY_eNa6NlJ7homXU5BoTrTShUUmSR7hBbAbsXORYO7BBVeSHc4UxMRg0HvHlo0i9oZQt_1oayhJ536O3d1aFC9hpP81HvlY-be98dY767-e5yNmRkowZtpgppjhg58bBQDP0HPR4ZDA4fUjoXtHDXB_lHkuW5tS4waylGEqgim0y6dVmUlWlSvMj43LNoaGBk8GcU6MO9j0dkBjmbBfj_kp2zKUkeEggz5UWNNafTUBibRyXfb779xjPwgIugbLChAVNhr-NseZzk3WLgpwTU_7lYFr0cjf5NJEncJxiAmJzOWv6I1j7b6Ojn7-fh4ChcMWriQlfD7-7OAMaGDurWS9LJMnQ181ITr_6UkzLjg4mvQwHjRuiat9rynpcGA63NSHt-0Coi7Nn_q5I9iCoHUfuLjZpDS3STmlZkb3d5HIGt0FVqmcET13tx74oq-gV5CenXyvPqEdDJarCSTQmqmuMIuK4r_hIgM48Le5wTZy0GauXaRhhU65x8i-lRRWlDF072cX-biOdXFzeXErQBYZ3Hoo0kuf9ztSbO8p4lE2BcDfroV3XM5lrOdeOyKX_8YX55fZEyaX58w3W_tjUYUQ--pspPOP5PUqEgvX5HqAeFPG29iXAyZ4dMWM5ggqDMmJOwqaZRXHAQczXQ-Nz66Wb8FOkMuQx2ckY3LgcZTro_RxJ09fuydAcDCqepa5zM8f0NnZAmToYBLYyoYjmpZPdfuQCTbh67B8TtxWLyEzFLKOTL1W-bMYzCzqHviFXgPP6KCqexUfmua-kjPgGdwn0W0LHPcHaOeEZrV8Dz3w8byCkES3F3HfGZRW99bDxF2NM6bmRd5qFLpHX4odBTNqaguep1VTcGSR3opSKDuWUQtQF-vjHLTXH6krzsmFOYPfyxpRTihfSso5aIgFH7S7jO_Q==",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f420b8dc87d2b875bf901157cb36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "site:kwris.aciwrm.org/ReservoirMapDetails.aspx \"09/09/2026\" reservoir Karnataka",
+          "site:kwris.aciwrm.org/ReservoirPublic \"Almatti\" \"09 Sep 2026\"",
+          "site:kwris.aciwrm.org \"Krishna Raja Sagara\" \"09 Sep 2026\""
+        ],
+        "query": "site:kwris.aciwrm.org/ReservoirMapDetails.aspx \"09/09/2026\" reservoir Karnataka",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://kwris.aciwrm.org/ReservoirPublic"
+          },
+          {
+            "type": "url",
+            "url": "https://kwris.aciwrm.org/DashboardWLWATEL"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f421f27887d28937e8454dedd41f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqQGDXH1IzRyALJE8_HZcA-7i8iiZC5z6qJZaM1tKGeySpoz9FhG0lyE8lUVUdDsUsH4gmCdfGv3QcDp3EJCuSiQXKn-iJu5dL7mOET_Ou-pfsG_ou65yILMBXfqkhwyvMutHeyT91e0Fxo-PpwcikW82Hf6qMtxx3-K1fUQjWxNkruqc0FNxoN-Kiea6IibaIHx1rYKZHt_T6uba0zAwB71QN2VjjwYR4yBFVNpJ936UUPejh56vSJ_bMv0t48P3lx9DsSxzHU9MhwPrtdF6yTe9IXNvkfffaCN-Hrks2_wnmycL1m7D7KJBvFdUos8JtVrO_GXd81bTSylHKSEzcHgChh1QrVUzhEtgBdg45HbfdX9zyfbVoTd6QFZ-6dfD5R9AJnixx6X2d37Glna8xbVnnx_XsqIfL3Megu9McpEPXE7RmEMYXZONWlKON-6BMC3F8drwpEai02oYxaFcIWJqIAaJZ7fuWT9yuQQhG99jdvPw5Hb8VKX_IuDZX_PMM4RVNMWQyO8FRYXwNGY36WLWI5Q6SANYNcqf9DbY86c8Wp-QLIEOFuhkKWkpPAGaMV4hVlDRKLw8aM1DSpmWQr0MA6xysDO-EfBwLZ5I0ncswi9d1Wpi0l5QKOp7CLEfkJcYKpK_Dde3heYh97nxE0XRXZRXI1NX4032I6nt9Z9GPbjfqmxViDzHNcX4QIlROInAmydnnHpUZU-9PagU_vq6RkP_l3C4-eCcQIgrwWSciE-xcx2zFeI4UTpHhBzE1LJX8otvLYtONXakEwu625lzFyolRjMuLECme5wZEC7Mm3L0BDfhmOATiwgDkm7iXOfOI-Lqvv-Hx43KPx-Xfm9J1xZ1ZTHb1CB9v_YDLj-C8jJRgsTAnn70D2QGSPPxxOvOTC3DZj1YnTF_aP3F54NjdUYd3l8r-OGHI24twXA-vqB4ZvkxbRGZhw94NydWF_LqqP53mY0EtdoLVASLCS5XV3FYARcq1qrjaQRhOA9PT-jj7_bH0Td57jusZopBW9bhBTFWc1bp_Tcfoho85wRQ7Cf-9pWvoJm72FNRjK_urH6drO7uq_1YbDVhFft4YPmHj54a1P2BddkNlSZmGLrNYHef_u1R8KM_MuMhh4W1b84SYBl41qcWU-3ySGndyviEkGYTnF-mzx3qcfkmkelJy-ll-fIV0RZlSbVe26SoR4i5I48emq0ejsaHlmmHiaRVHk-EcOsfjWVoBKNPluIUPaeURKOOvUsukSfBEuOaVfX5iD0xcRAKxWyAwcqEf",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f4228a3887d2ad0868768667ddbd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-data-karnataka"
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f4236b4887d2b730f351ae9c60ed",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqoYgVYqUuZNg0resNsL4uOkil8CnsaVLzbdiyJluhWzf-Axuxf3c7BgAfoTmDOcYy_dyEFea9w2bMilitxPHHJPc22Sk6iNvoaylqedMrlBFBDATg7NdERKx8wUpu6ccnhapeApnEe_h2VM48X5iwtpnlyCwGGD2KzED07IZAYQpzO_AB-vcQaIDmE0uowYAGXpDwer4llPSiKUH2p4Z5vbKdmO3-gZkD_Szh9h0ZrwjsQgTN9p-t-xG2nB91_Vr28X0qFiV_P5YL52nutp_XuooqHjTbWcf6Xbx9fDI-2RoawXx3D4pns4zmFeBcO0Wp3VTQDICqHBFq6aN78Ee8MHzy-V-fELgDXty4sPExVVmBQZhpqml3S4g_SpoLCwFXw9qYbMS8XKLkCiUcVytzF0kcxFlMzL-cIIDcBq-CkMvplEAz4gab7lBTIugF8f0FN8Ly5jVqlcJfuBMDsZ7EeBx3wi1qetg9ERjJKckStZF84S9bxqz-HC7oT3JuWrp7CswNl6tzLq9IOxDPU8rTbeesHIYzS7wwm02aSOHB8_iR9aPe-3VM66iAi_y_KVFLFe6XH7MLQjVF6TrPt8ujwlRtgsgQXN1XQJqchLa4ux_xjGijjbcQTpyVCMvCBg8LWqd4Hk_v0GlvTywaxP6edZgANnZUSQJNFz7B8TFbEgjLR9bXUfmtsXleNGvxSonnFam60OLIyPBG1q6LJb7A7WGhpqb_2yMutqFoiJIdbONQpNKHk7KE__QDfLoxWumuF2I8v0JxUKckyn0YIQpKTHQNpybKTV7h_EyjoVjj0w_JAMLbBvRxttohgKS5g4k42bAXNdvFqc2sScm4AzvatRdarc59HxW_iu_A4lekTd0mFXc2S0Ey-ykDjWjF4LsM2CXnJv4drXMWptOZ0c2QHwfZPoytcb7MmVrIdE85ya5R1GkVwZWvswRV9Edrwvrdr4FxESgDuoBFEgQ6mOVQJpHTUgHoX87bryNB8FlDVL45IsvGbNdw1ubkk8c-fvcGDAktg23v8u8LPinJDKI47aLAA8G07fNKQlF0rdCKa-4TB3p1yq22XuCT3FSD2ZTmmcBM6b7BD6oU3GGyA9r1I-R5quVqC8QS_UxiIWujSr0F80DIymylj-dKccf7lCTLKFN-vQZVrczXS2cIurgVHbL_BvwZLVAlDBlJu_4p3O0=",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f423834c87d2a1f73d51596846a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-data-karnataka"
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f42448f887d28a42129d805e7fb8",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqchtYVllEEWhbYuKjLYc1VIKmJ-2k2MT29J63ivwqAA6w-uF-MlkwtbG-1vVAOltTUNv9oPzvqzowlgRC9a0ZWowkI5YGt4TkhFg3m0yn6gFDvEQmrFCxye_HooKTCJUG80h3u6ZnETA_ccC7fz7T7KtS6nA4aHKz1jLq2mL5nQUu1qcoMwainsI2EnN3YbqszFshGVWVcaB_wcc3htSK6IBw0um82OsZeKZL8xFDtAovysO0-Jwxp5IQyUiAvDjG_AUS1iwIzmQWAKq3C-t2wdSl1bejcsxaxf2Ijss83ru-WRC5jpFSggA3E_j8tPMQx6qN1jGCMHEPwxhJuDtI57DCsAADHYIPjPvj3r9oCvShxfcHA_TGj3CfCqJ0iQdZrjGvZoCeKcU-vy632JYzL_w6KXQukLIay_7_ArozojdMTzu_WxULxp_RfCPH7jxjBAnGEiT4KUTI7JpLzUjagd4PrpQr0N89WF0yf3vcqJYbuQNpmVm5bk7QDyt7POP3Y3jsMkiEcfLAyjUkFa13aAv5n7kj3E4whHZVdq-EYpQbnqNHTcIyxpqBiNU41n0Jz27aXjbyN2yz_E0XHUvsd6nTtaqneYvx3hLihsdRaN9QoG__31aBDzCrrJ-d5AvXhoNt_imN0Y4xH5LXcf9gYH2jLf23RFBo355uIBCarS_PEiztlE6nkPSBz5nKXC0KWZtDq7HpDJYPYnXxnfCjPUTs7N-CMx5Dnl4T1bDKVNItAOJ4fRUA2CvYQNvr4fiv37jXUlJlSTsASL2LmhwepKhIn_XWTzRJToQ0IjFPEcoIBQ32U7A1qHmZya_Ci16zFBu_-hs_EW8p9_KhLTucR9PFUmAJrJgaONqe_YziwA99V39mCauQ68qzXwUVFeAGkhPsmzfmMYl34m5o8ViV7XsPF76dtkRIH0H141v_BmSmGiShhVpqjj5ij1GONQCXt5_b2BZiPRLiEe9GcTAilWULlDyM-CUQTZabHxCb06Fr--PZNGd893wcHYzu_MtLr8Wt1Tt16UKbjn_DjjvkZP7q4KgtL5ZIBBKFIl5xEdpTi-Rz9-5zWwR3BjKa-3bE4pTbtw-M6xh5JLAw3rsyTtu4KGUWMhy1Rl8ROfZWOfnFh3jXs8cGmV92dj41CKq14DwRrt1iZajhaIrtNZkrgILAliHWSGphP0AYmVMRft0_xaoIs-vXwxB5rVnLhnJ3ojl0kyuplZQaVTmX_f2H-UoC6dDgcTL3ixeLCz_Azg5MSzDw6aHe5dlYuG6KZvEppnOJPwANf4NmF2O7Q3dQV6DslJ2nQeKYtcMKowpe57dxXPfuv77ReEpfFXHrVTh0UqMLRprlA387oBf26p9wchl052URGc1aOZ0mtryf5eSQdNUEQVICjNKBFQT1QFfQ3AIgrGW4lWuBJjekMazlyJVeQNQ6BsIHR4vFTIzkKMZzH5dbSpynKge5nNU9lMO-uYRt8X0qaWEFV8UENC0rrU6-yYO08Qb98zfuKSQ1egPPg72vBQqCXWzRc8Xbt0-6eXIsbrRFGTsRZmkMxzY_uiDOpAhZ36gzFlzoZhlXerdSqvqtbigY-OqbluvV6EyOYJyKjIHGpdI16y-6aTkwaKdZhzxjsn874n7InoIuT6jSBFqXiAmaKFsjYXhah4Z0s_6YFX8dejKn53Xu6zURFGHT7wM4YG7UmTUnJl2GjSzJdMIvfVPnXuAjodiPIf3ue8VRWubCa3WPr9LbcHOhvtskDmxW-LPoWF7-27pbevv_NAPQte3pH5pyYsMI7xQ9TdEROmVsCc0L8dwnchpZ0OkpuskT4DLaQ1I5Sx_wenLur5qqHy93zcrUmawH0HXYKjLMahw6fWqueDCKs_IRD_qL3H5V2Dk4eibaNSAVJ9yqwypm_Xbuk0Lw9a1A5RTGeHV_KsiUnoVsP8sJo-zKA_uUteaCGA0bXzatznGMnlNyzY8TaiGZ7NACSbKUrkWArSVIuoRIAk1F5Kh6m8bGeMJQM7s2bPVEFpGpGEXIthCnpQ0yIDcbkKYKNqyVjDG-yo01Lgr4S2YBCM6HEfqB_f0gi_NdUEZ_gdBaqOq6liQDzh7wHP6i0TgGjgkEFr4BerX_ZAA9F6cKEqfqLAE-B8S9sQqv2lDMY6RomIlCkR73847QNEE5LHXXKzeDNm0KnNTYrAAYAK_AEjBTu31Xs3Kbsf8RkAR1YLxEA9E4C2MlqBg4iCNp7mGjKeXMjrm1BKZc8mi8Mv2oj6cHMXhhRzkxXcD4vECIkAsrliNkX076ZnaU3Gm9PSo6GAkxtykedXUE_uRryKgbx6Y00ox_TJ8-NlFaamBj-3x3hVQlQ-RW_7XMh8cdkvBULded7Q9bUxUlOLG1TZ5rFjSl2goZz8ywAvozh6KnZHYBe1SmCROtjETnzHNZWcQnJS9dnnmEUWNgEJeDkusD777lXVHdS4qF8dLf6Vxn0O2jwWjcjlOO-wfKFJFZ3oVnWdJeEEenqb3At_HDQgOJ0OXAE_2B9voqczPI48dYn65yxkuts1-MGObLvuJ3G9JagO3HM_1C4c8_h_np2Vr7uF8ONltBiA==",
+      "summary": []
+    },
+    {
+      "id": "ws_036dbd168dbe547f006aa6f426060c87d2bc2811eb1ba790fe",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"karnataka_man_reservoir_data.csv\" \"Almatti\"",
+          "\"karnataka_man_reservoir_data.csv\" \"2026-09-09\"",
+          "site:nwdp.nwic.gov.in \"Reservoir Data (Manual Daily) Karnataka 1990 - 2026\" \"Almatti\""
+        ],
+        "query": "\"karnataka_man_reservoir_data.csv\" \"Almatti\""
+      }
+    },
+    {
+      "id": "rs_036dbd168dbe547f006aa6f42725ec87d29166265013a1e55b",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpvQqcfG2eUmaV8zDDpYrlzu_siuOVAFKDxUxOJqVP8sNHSc2992t5SIPFG82g5t2wan13jyC_XGcmg7MxuMLz2-p3evWRGLUmXGYq7IYGC-CccJsKhyqA80ZDS2J_HX9LHTeymhA0mPwrNVdgPnsq4FlwAPNQRNwHwwztMUKS7RGLHO4w_SzInSEiV8ax4r0tJpAmqJzWBuD1r-Q-D4H2tJfYHeFetkzEescNNbn57TK1EBPQYAEU1VfBxq78UJAfpzgJVhQJ1Lw3SWnUAnDKqireAR3-iMfS0ckwD4Fp8ADImEIBHsToY9E64QNjemLm69nqs2HcuLtrf7Y6b8nUuxvouUCPFGY1B7MY4KA8LTeMXIrNKdsFuFkDvDCwUweuaTA5Q-PH4rGE4D5ojHf2rNIVIldMLETRDUaY8092xxe7kLSCBzBP5XczFVxFyuhcfytsXQhow1QT5Nr2w7Kq5cgdLZIrk1GKobsZ1cs_AT2Ol8l2xTrGvd8e0AtUdwRV8ah7YuGXCKnJIBmUf_L27VogoMvYRcyFjB5qrkh4F8359glOGiNMFJ2i-q94QODwyLPO4WhEtemIwxfAEVmTHjtv65X3Zkx7S4Rudbzn6uFjYFHHw7w5kBsbXIIYhJ__Dak4nFX4zG2rYCHIg6QpV1GkD8iU6l6UrgCPPSwpOqtpkHvPueONEg0eQfLIZArHK7LDAMVg6O7RvxyxCkXfSVk09cHtCmuZsdDkfj-lqouaEiIFgfxCMHSPABU-inBOcTr6SVNORB6ayX7Z1wEIUSuM2twX6NP5n5DHlKnXNPH-jabPl-uWfMf7MNcAMiP7YzzlRagQh5Pr56DoDTZIza6dKkvVaETnmQXfowhfxwhMOf-300bYwsioGKFgiIVkAP2afEqoYm5OCUxoZb3_O9954XU87Q9vHOPtHCbrgkmqLrs0ylQZTYlmmYVdc07KdOl7s_CN-PUC6c0pnExPl9_H1x6wDckiw-VVEfI1vsT7U5wpcYZQE1g6wKeoM-_NuM9lSLyR6auhNU7_9M8_s1tLH8rDp875jHdp0Cpx6UJYQiNIJHFaFWeMmC4YoeuI4wu8M5DvnDW24Fd1PHXHC9GQ2bWl73SFQ6bLZGegl_RH-J_Z-veGiaLfUde14DYJBKQ-SpEr_GiO0ya3Jcv8sjcLG0y_vVkV-_uzgjVVpORg-w_rmkkFXEYxhV1pn9KD7SEpP5gmmPuLJMXeA3onrhfT0apOjKRNANtonTfCvQyJXwk5iU-zl3gNeAhLIm2vFvPufBcdfw_nDP1OWpzwVuNyMxwNQMSy4gHzUGd2KlxpZiNrIOHlS5CpoyfLNt9qGhCY06wmIOfu33YoX4AezaggU4Qbn9OnMgSu2ZspfL65Rlye1uaLFWecevqk0Yt3SyQQjd_dG6hSZiavXsJuScNc2M20I7Zk3Kx8OzGpARsfpPfQtL-MXsxy74O-Ec3yrnw_zD95oGIxyV9P-1l761hrKTVZ6Sbh3eqlJIRaFfH0B-4mi33cRgF12HNuKrBevN0CbD6jACSkskU-qvXf2VuwO0R9FeOGqR3Apn_ra5i0Cp3grMDbjyzWVNJ8kpYUDgLuFtQ2Cci89QCTCJRb7x5iNLafuTp3LxMB3Duvo2aUyWNPm8Gt7mByufiliHDihZqXtyU1QUy8F1GWzYLxpmZ6lwzpStfjZU4wxzUkT8C0aXKxfGlZCBgkzbu6F4Zh_hmeVx7oxZQW3V5YNixXeG8KdWfuTpXgAz4sfeBvGslP2fgF4236bATIaIC2WKJpkW8_nzw6IlEi0raA02En5KNNsyD7Bw2RzXPpSjHaDu7Ohxohy24u5thVmCtkazFkmm-GsaMiyE7M-YfqQDgY3g6Ca6_ibFwKntSF1QYjV0A8-8QGhzPmaREsoFARE8kwbzVzquhdSF1b2TtyjsAac4cKHfRnHVa4LNwTI6zCTXLFwngnY2vAp5q6M1Bn0ufvKMx2AyfV0UBO8K2hF79Ts3dyIPex_4I0W7kxxi_HSXCgQhVYQrQoINppGrcw4BUqNX9j9O9w6UZyTzTiUfS-rm89V4PbvPaej52JaFhr6GPEyH1w9qIO8hifFembLhA1Rhu_u3q5yHPisoaChdtM-natgvTQfRnDM-k1X3lxMHqLaMTeh2g22ykc3JyFRs47ttk2o3-r7PwvlTa6Dgva3jH6JaeW4tT3azYJu9cGh5ZmDdZk5VRc-HvpRdzRn1oYfLodtWtbzVWjoMjQ5FHh8mcZx9nBYv_Nr0xr_z4zpfMzI3MffruJjQWz26o2XuNZMuKudHaB3FT17epteLVmdJ6fwPoJULEvGXeSJbnlyYgTVyRrA3HCT0-xWF0yTpdMG-n04GdL4LfVVoH8qtkhKE6xXtEMNhhLb5d_swFSLbYkfeIwapmT-M9ErPs0FpyTA7OxFBbQY4ieTtAnIok3KW2bA==",
+      "summary": []
+    },
+    {
+      "id": "msg_036dbd168dbe547f006aa6f428927087d2bdb8bdc7a9c438f0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"state\":\"Karnataka\",\"observation_date\":\"2026-09-09\",\"source_name\":\"Karnataka Water Resources Information System (KWRIS), Government of Karnataka\",\"source_url\":\"https://kwris.aciwrm.org/ReservoirPublic\",\"retrieved_at\":\"2026-09-13T00:00:00Z\",\"observations\":[{\"reservoir\":\"Karnataka reservoir portfolio (23 reservoirs; state aggregate)\",\"water_level\":null,\"water_level_unit\":null,\"storage\":399.958,\"storage_unit\":\"TMC\",\"storage_percentage\":6.68,\"inflow\":null,\"inflow_unit\":null,\"outflow\":null,\"outflow_unit\":null,\"report_date\":\"09 Sep 2026\",\"notes\":\"Latest verifiable state-primary KWRIS aggregate published as of 09 Sep 2026. Storage is live storage and storage percentage is live percentage. Individual reservoir-level observations were not exposed in the verifiable official table; no individual values were estimated. Data is stale relative to 13 Sep 2026.\"}]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "json_schema",
+      "description": null,
+      "name": "reservoir_data",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "string"
+          },
+          "observation_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "retrieved_at": {
+            "type": "string"
+          },
+          "observations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reservoir": {
+                  "type": "string"
+                },
+                "water_level": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "water_level_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "storage": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "storage_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "storage_percentage": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "inflow": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "inflow_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "outflow": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "outflow_unit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "report_date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "notes": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "reservoir",
+                "water_level",
+                "water_level_unit",
+                "storage",
+                "storage_unit",
+                "storage_percentage",
+                "inflow",
+                "inflow_unit",
+                "outflow",
+                "outflow_unit",
+                "report_date",
+                "notes"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "state",
+          "observation_date",
+          "source_name",
+          "source_url",
+          "retrieved_at",
+          "observations"
+        ],
+        "additionalProperties": false
+      },
+      "strict": true
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 3
+    }
+  },
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ],
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 29974,
+    "input_tokens_details": {
+      "cache_write_tokens": 4926,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1238,
+    "output_tokens_details": {
+      "reasoning_tokens": 1008
+    },
+    "total_tokens": 31212
+  },
+  "user": null,
+  "metadata": {}
+}
