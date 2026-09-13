@@ -3,7 +3,7 @@
   "observation_date": "2026-09-13",
   "source_name": "National Water Data Portal (NWIC)",
   "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-  "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+  "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
   "observations": [
     {
       "reservoir": "Almatti Dam",

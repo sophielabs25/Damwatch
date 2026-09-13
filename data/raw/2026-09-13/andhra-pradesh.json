@@ -2,19 +2,19 @@
   "state": "Andhra Pradesh",
   "observation_date": null,
   "source_name": "National Water Data Portal \u2014 Andhra Pradesh Surface Water Department",
-  "source_url": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b",
-  "retrieved_at": "2026-09-13T19:18:03.683072+00:00",
+  "source_url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department",
+  "retrieved_at": "2026-09-13T19:30:51.087992+00:00",
   "observations": [],
   "_raw_response": {
-    "id": "resp_02bc94e9f08ff8b0006aa6f6d2dcb887d0a5f9144f829c7a98",
+    "id": "resp_0230edc5c9e7efde006aa6f9d8fa8c87d0981b56ad314e3de6",
     "object": "response",
-    "created_at": 1789327058,
+    "created_at": 1789327833,
     "status": "completed",
     "background": false,
     "billing": {
       "payer": "developer"
     },
-    "completed_at": 1789327083,
+    "completed_at": 1789327850,
     "error": null,
     "frequency_penalty": 0.0,
     "incomplete_details": null,
@@ -25,36 +25,41 @@
     "moderation": null,
     "output": [
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6d3691c87d0b61fe97a6c604c30",
+        "id": "rs_0230edc5c9e7efde006aa6f9d9fa0087d09a2c0d6884f42c44",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrSMVPaKVO7tR8c54lwJNe1mLut9Z-fqXg623L-ZPuX8M0iegSp2Q1OWoEocOywAWTOs8WAB6KJFmqISGIEuWu4BCCgOk8MJHbCltja5mv4iqML63PT0GJxvPopni-l6zyjuTYATo0BWxikG9iByJVvo8mhyLXW7DTwKDgS3ZtXAaApZTyQ_hYTIKldAc_Q9YfMkqSZs_M6oocQ7Gups2a3SdIjZ2E3g7bUGNNMsHos_0dObxocTMdZ8QDmsUbSjxlX1hlNCjQ3PtYdVlsML42T2qMYtKGtljrk73lE7FLow5rXTio_m8UTUd0avNawi5bZEy5vwTeDKNEwNwGT64bN7mp21YAJ4GaRxR4NFwz84-EvJU7d46FQNbRcY4VKgAHvCUs9OFHa73CNq7y3WPtUsquMicKZ1xn8nnNxKrN0RjIDacHy9aPQ9ORKI_B1L7eBPrSifp85tVR7yzdXclrVti473787KV85j0LzonGsHEHMmlsLvbSH6MQWOQveMD5xDIsU2HYEWMNKWsZdip0apURQQ7FfahnB8nbtJ_ovH3NTQ58uMcO5cxEgOXokDJ5z53JPFlK0p9m2RqnKcGVij6Itd3Z-bItdsiCn8BXhySzWZp2iEFTHQ5_FrxNx3HkVN4v7yfZZ13cPldYXLhawIKplD-NKJYDt0KcFUYu-IuiIgXeKZ9-41yPqWECgP1ebvv6pWACEgww93_YbHZecBpW4tTIDHlQL3h8mPUDTG4CR3hmkhDqSOomd46r7XvsPtrBLZmkF-6ehEeq210pfbK_DDhMwKiOtTJjpHoceEXOKJ44U0jfMGqvwLGE2TdzVqZO8hCITj1uc-vhdw-zXhZjJRaqOsAtTgfMPvNuC3k_rT_T5uYs-q8SpmE0I5NM-w5vJ6TyNmJxYmTYK03DQ5fz9m-T52VSZu-lqLWuIQy5Tem1HxtkL3MDla7D1qX16o-z7W2ZTJn9s2872IhWD-ywsVClCR8u5uueZsqnKesyRCO5nifHTNpipTSNA0CDIZ0ZoGA1B_BscL2VEs6HodLMsc0hMhczqeHzFNGBBKxvOuuBEnh7mzsG1gGRdJrXTW7Wj69XlxObgsFl5qQlnSa1f2IN_RL-gw2janjJ6XfJxcVe4yZaZa8ILKspY8qw3N5y1Ji8FeavxP-fcnzgJkMhhfJwuqRwuDZY5l5eait69Wndk7RgPkQRGwxkMubpbflWRDE-vxinwi1AGRYEH6Nj2BtJzViwCLOFS7KV7EFTUnTKG9fIwFJUTH5KFBKcZTj86jVWwA-ohj6MOma6O6oM6k0S5bAj5jrW3zuwigUBdlrmdWyZwWDUFS55Kkns",
+        "encrypted_content": "gAAAAABqpvnqUBYHIwtzu3PEXTXmRBEBgNJuPLL7HSvky8VakTPXAfEcCAJKiCDu15y77hl0QycJoYubqiYJCH_xxdH2jQLTJOXYYYpQcLE6c5rRiER-z_Ek8aESyXDgTae3Hz0QqsFYzXv4t3qUGrat_48Z8bWJdhgrynxPP6pGd-AYBIkjJ5qnU1ipkIY7xaZlhXVbOnyLHYbLK8pP6ZgqDrRlHuAkQxmM_8vW3axtrK5-4T_wqsOOpDv3u48sp06wy6ftR9hjk_JVspuFEVGFGONIRWQoDDPHBR1qpbHBBop8adBrpYV_sSb-CjZyGjWGU8-u5OcdhNrZ0BGR3pS7sDE39s5t3rb89EObuM3hBTkiSHaI9B1UN8GUh1C0bhKLlzIjAK6FgMDmZGGX4lGoxcgvAlsB3uEfGDRrBaDXlB6qSjWAMgBNlWd919c-2B3BGm--6Uc9UoilcuFMEFOZcpicKUCyTtSPVR-oIE0_VtK9UKWs2uSraJ3UxoUd53emZJeU3cDswXBfpvTr3bIKVRAHCWiphFioE8ss9qSZBJZoBKStsKjQu84ZwZHU_yfzOq8Nf2vmBwIdQ3UX_AoUvR5zDopPd-vQZaux2pCXrE_hv-ac_HHBPQpsBF474pVv8KQu9XCDEvY9mMNYStjMLuG6JDcYJpXbGDyhpC8eCwF0rw-oYuXD2YnN4mZcl7TlRuK09-vZCDmvx3t7Na1eSeoiMldcwYI274mT3EuD2yV4XDbTPJpDNQiGXUHqcI4Rhfj5_i5tfwTM23u_vJF3EXH-HEgBCIIlVnrTmXe3W_4ExGogdh5hHsvzheW1gn_QS7D1LwHVv94Bx9llrLDUChxh1akdroX3m0aVpSWmJJ_40e6eZg-dAxUq5lV9XqWUYkpJh5Kyeom07LCEwx1ll9_HRObHcWEwVUi8cOGp55CW7FahQC5uPwFait7IXpmpTlXIUE2D-L-MvBkTH0ujARe1QVyPZuuOZ6JHn9Jz4SwqRHIR8Ax_oXIqLKAU7s3-JWDNqhACpkDpm6GsKMvT1mgvVTYPIuIDxnoYeOcgdgdlQzNexQV0lxpubVVU8Dpc5ehZgG3aoyBq3emjVHBstpxuZC34BcqNoJLggWnXKuN4D8lWa-0j5iGu4r7Yw5AhcUvn3jNuxvVKN9gBIRpHUMZBn6H_gg0ihykijmJs9dveUohsvxWtGGC-akP21-s-vrBobDz5jL1lEjHk3yz8LXDjIsuGkuS4Vlnw3PKxIXeRoJNhYbUPzVV1jhzoEC45v6eflKenReKXX7er_2qwRm9uIAAndR0OBsGry0TP4uEWZFy8w-OG2LvryhbrFcREcNfEBdXp",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6d3ab5487d0a4d0185592b1e308",
+        "id": "ws_0230edc5c9e7efde006aa6f9da3bbc87d0932b70694a7f7843",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "search",
           "queries": [
-            "site:apwrims.ap.gov.in/mis/reservoir/summary Andhra Pradesh reservoir summary 2026",
-            "site:nwdp.nwic.gov.in Andhra Pradesh Surface Water Department reservoir 2026",
-            "site:desweather.ap.gov.in/Realtime/Reservoir.jsp Andhra Pradesh reservoir 2026"
+            "site:apwrims.ap.gov.in/mis/reservoir/summary Andhra Pradesh reservoir summary September 2026",
+            "site:desweather.ap.gov.in/Realtime/Reservoir.jsp Andhra Pradesh reservoir September 2026",
+            "site:desweather.ap.gov.in/Realtime/ReservoirData.jsp Andhra Pradesh reservoir 2026",
+            "site:nwdp.nwic.gov.in Andhra Pradesh Surface Water Department reservoir 2026"
           ],
-          "query": "site:apwrims.ap.gov.in/mis/reservoir/summary Andhra Pradesh reservoir summary 2026",
+          "query": "site:apwrims.ap.gov.in/mis/reservoir/summary Andhra Pradesh reservoir summary September 2026",
           "sources": [
             {
               "type": "url",
-              "url": "https://www.desweather.ap.gov.in/Realtime/Reservoir.jsp"
+              "url": "https://www.desweather.ap.gov.in/weather/Realtime/Reservoir.jsp"
             },
             {
               "type": "url",
-              "url": "https://desweather.ap.gov.in/Realtime/ReservoirData.jsp"
+              "url": "https://desweather.ap.gov.in/weather/Realtime/ReservoirData.jsp"
             },
             {
               "type": "url",
               "url": "https://desweather.ap.gov.in/Realtime/DayCount.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/Realtime/WeatherStatus.jsp"
             },
             {
               "type": "url",
@@ -66,7 +71,7 @@
             },
             {
               "type": "url",
-              "url": "https://www.desweather.ap.gov.in/weather/Realtime/CummCount.jsp"
+              "url": "https://desweather.ap.gov.in/Realtime/Seasonaldata.jsp"
             },
             {
               "type": "url",
@@ -74,7 +79,15 @@
             },
             {
               "type": "url",
-              "url": "https://desweather.ap.gov.in/Realtime/Seasonaldata.jsp"
+              "url": "https://www.desweather.ap.gov.in/Realtime/Rainfall.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/Temp.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/Realtime/Reservoir.jsp"
             },
             {
               "type": "url",
@@ -82,23 +95,7 @@
             },
             {
               "type": "url",
-              "url": "https://desweather.ap.gov.in/Realtime/Alldata.jsp"
-            },
-            {
-              "type": "url",
-              "url": "https://www.desweather.ap.gov.in/weather/Realtime/Rainfall.jsp"
-            },
-            {
-              "type": "url",
-              "url": "https://www.desweather.ap.gov.in/Realtime/Wind.jsp"
-            },
-            {
-              "type": "url",
               "url": "https://desweather.ap.gov.in/Pdfs/Weather/Project%20report_Rainfall.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://desweather.ap.gov.in/weather/Pdfs/Weather/Project%20report_Rainfall.pdf"
             },
             {
               "type": "url",
@@ -107,19 +104,23 @@
             {
               "type": "url",
               "url": "https://desweather.ap.gov.in/weather/Pdfs/Rainfall2022-23.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Pdfs/Rainfall2022-23.pdf"
             }
           ]
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6d5e0a887d0a8c9eb15aefb31a6",
+        "id": "rs_0230edc5c9e7efde006aa6f9dc953087d0a356c69b5dc958f6",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrWU_yYVh4QeOClaodjgy0Fk5YxCn_G2dU1Hpqm3v7AAWHBu9jangkwHDE6IDbd0s0S6-KKCZTML8zRcMPIFP6SVOMDsJDXqjZsyXwlv-1G66mY5Os90zwPhpCvDeEoohjTZWUj-PdtO7Sfy1vebcButBwlzRTQ0GsCPCUh40XqzpU7AGTRE-Cod-BtBBikZckgvguLbBSpixyFxXbLDCIcJdLFLccj3u3KLXRg_Z1wihIqReoaEppYGPBFEooBc9B1cAA8aJJFaDU-_hq94uA1JrBM5lTD7oXLWk3_3FoSmvamXa6algoxBVvyFPi8NUqyOLv76o0cUJkKra5IPU4nip51HSt6nV8y6i7fv0PEd6NLlm2E9DYoc1NWMK8xTcX2_j1j-wZ32GbPZ728bF8_VRRS7930TpTxBZDoTdcaGAfVYl3jUyFSW88HOSAw4rJ8ebI7YuTM62G9CrK6s3LSo1cp4_HknjbHv_Keb0-mEobxc0HIqsex7HwsP7uxtrVQ8xfj2Y9Sq8gtZYrQD7FC3Cr5VWegar9hHrovYSTf559kVogSRGXJjME2QjIyEadNJ82N-KxsX0DhMTPsqP1fpt-xIo1X6eEdq-i7Si6VAhVbH_S1uTQgPDJeBCaeHYzd1QROMRsdKRHe24826nrJOpe_BxXnXlzgemztFSUoFwX5M8RlbbE9Nn_lJOCbF4BooEOPUXT81x9YipbRqwgkVMPO_vVwM8XR-6d5ylMb5IQu3iHvBh5b3STQRwfoXrk6hjNy7EuUaH5j76tU7I8Wc1gGrcqRgRNKqoX_8Jh5WnQwBRiZcSMBeO2slqT-ZHARYbrkknmrMerVd7yOqb0mrFV23xR78yRhy1mmr3582TGiFnjlGtQD2X6x6GEiKyynwge8pXNs2zImaJQyztmVuGtKohhTvXJ5qbIZshT5O1z48FB7QHKAvcoQFIQlFP_Li_oK36DdqmsnAo5xe8uf78WLHoJ5nwf6wMXFVzur2u2l0wnYqBszCaOdG_EJipo2DVJf099xN2rRr2cr3mHwmsQr6Plj0s3ewzxzSAfKuKHXqXrQjxcD0N_bQRb5pH1fIxAO1RjYzn7UpXsBaV8fYQ127Pl2TxcojIraE7M05FdTy-nQgBmhBvQg-_WTv-pTNK89xWbwnCQQJZLiInKub2YsEHSDVU_LuQhn4f7oDJEY5hj8b01H02cYYye68IpAC_cOsJ4nBSzJEWVCNqnyQ2YmbXXkOg2MV_7T9jFSgk=",
+        "encrypted_content": "gAAAAABqpvnq6z277CR_nFG7qtWggN5GLQBgvmLhJoNbyeoDtjVMD_OdbsTjfwmrUlcLX1FF5rECE9S9ituvPHp3FLvfgJOaIQ4um6wd-CCtxGZVsef4Fs3GcuSzXJTVfnU_DceqnUTlfgtb3rk4ZfheOr_BW-QCetoI6MeLFm9SB3ZQVpM0_d2IiNeQmCBgguwQUwd_BvMdvoMeDjt22slXnBtKhPy76byzXkL0_iE1mGOwc7uj4K9P4khk0DcUDOlTHNS5wRy7LGbxMDXUbtIMgdFRBKVJdgZyNUrf_6iiQVZoSOo00Zq79u_am8Rw0UO7ytr5h_jrCCX6woWSJnItY63Bx2hCW7uZuVEzblHAYHG-nmJPcCvWY63m8RRb3E9U9OmkjjA0la-tLTqYNLaIoDKv7lujtwcjjxQAP2Kt6qtx8k-okvOU-BdX0mEU_YngMrCk4pjeY6AivkoTED-tnF2Vt2QjU-F2iPBW2vIn7pJDO-UyhsCgau9CHlfLvh7SqKFIZO_o85aLG4iU9vRt-B8I4nJDLU4Q4bUSuz34dLFaxtmIdO4-eHpgrioW7_YL8L56uf00Hppr5gZBlelszJAhkZWsvV6WIUfLCy5vZHilO0eWp8MdFeZ8denJnR9NKM8hB3vSiu40jMzn9VIERXFCtE3rOus8EtIEUOLR2E_-5wGkPU7hz8IearbnRP3ZBWNfFoSEslWX_vMpc8X1ZWXTNmVqKshFQW66dblfAdLP2QhbvxFYqEEYqP68lUfA_rlPoFG8cSJKr3SaAtZ8wyOx0RQsKGIB7GGZsG4aZ32gJhqH8XfQJwLK_1SWgmDDsmjsjNZU4nddwBPBnHtAJSSsxgpBu2sE28MXEJGNCPdnJyLK_vADcKt8mACbZ-87pEcaELAMe1kka85G-Wu5BvwlTKpXGO_MotzozucTbYWZ0gJeVDE5AeVAvPjioCzXbY6ObwRiTNTUYW13Keip4L09EkRngScr1sbxpoAEYRqR66VIxtvgsuXha5FfSmXM2BdC4a3l9DK8swqSySqNghnlxJFmEhcMwllLRGp4xkn1YK8vcxjd5_KpVRQWlPda6UrIumwnLWdeBvLj378YokAH45iD1yhmlrQqEXld0p58Tnx8_EhhPYc8aTEa59-5lCHnWuhAFksM837f85-2Apo6FYBDQOXCr80V9y-wS5F7KJsVbqECoc_6k1gMjTSuxGNSNjUDPoNNyhjR76x5P7zixSghXXsLzhp0TuBWh3CJ46WwLIY=",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6d5f6f887d082da8de385ead096",
+        "id": "ws_0230edc5c9e7efde006aa6f9dcd0a087d0bb5f0e66be09379b",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -128,14 +129,14 @@
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6d7377887d0bce850860cec55bc",
+        "id": "rs_0230edc5c9e7efde006aa6f9ddcfd887d0a221361a0fd1abe6",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrVafb0vPCrtoO9uaXOoOqDzObUutc9Z0Ij6Sg1Wl8pyZF1s8yLpE_2kCqwomL0xwKORy9rmjiiNcFShUH98xFP8VJZOz9nAcKGlrDfS0ZFpDuK3rZG88W02CQZ0NIN-StuHkulWVWBX7s-LSB1vejhNBMqZl__QxJgVZekUmUkMd0z6THGUq4WkZdILpPGqxOYx2EIWYqGf7TckvylLcS9IBa_5gN-xbNzWSvxlGwxNTfLVovp2drZ7R2T9SDF4BYxqdbpmSkFUEicYpd2CXYXG9C8_38dkctWm7b9eDB54ePWRb8cF-YXBfZTDl8n6tjM-2mMseCv3NkKZR_wo7MUjZuqpTG-GDqd75k6pBgzBUYm-65GsJt8hQaoR4mwsdCcocnl8kiJiBksg25YutkZMbbrpYP5UqAtrVxtZhwtmBuZfpgV0zmIszezZJ-l2V_7BgkLcSS4XufD_V1cmT-l2LRc9qd7gwdvQzbUQGmFKcI9AfWWA-apqA57DnsZ46t1RDDY11m1cHx-nrFb0QZcwIha9A5diWkPGhlu9tWprs2gslish-XfLYLhy4LbHUYPfao6F4fPAsbhRlTZa7wGPIoDryTWoXyKRKz1QNZO4W70vfTcD3RO1nRiCUqqsTK_uvow_ncQ52VlTsKzBbwD5NlUyZOh_ONF-4rEW2zwPiCS62XGl0lTIHWdy__SjAH1NVWrj6H5A52ivjJFVpV9wOha4JLJwkvR4MdlYVpXKJOQjTMXRhdxPpUJ2jZpd2peTb8AExMfTyA_wjnoh113XErYZdr4UXgFZF-nj-Pw5TDhChiae4UMaE5C5fSLCySzSC2zTiIG85T-X3wqGj1wFMHixnbXG1Vci4LuZAHjF53O3DnRtQeU1esYu2xYTi9u5pNy1xUsx8RzMHtI6_Q6GpypXsia6n7bJPqGJeqJCWHNVl8Izs0VIWirE9hn8Jb5PwRWZfIF_pTxefELWtu7XLAcgpKV3fWh8RaOUGaWIpn9g0cX6XIygK8Gl8Zd01KgKme5EhDd5pUNbg4joQ_j8EV92JfYjsZMLNc6zZZQ_na0OeV8tg80z4S1pgajx6_5rCz3qo2Dj5GVELpJ5et5XwjJXwtsabVGiFPzJSr8PW5B5LBQzWAUXKQFakjgKHSo9ynlewIehHXIeVOZI2hiAuLuels7nDUIvA_7Ex1lEXBTvCCllxN7d41BMZB9TbH6XnNfDgYMqprL7TboH8IkA==",
+        "encrypted_content": "gAAAAABqpvnqgNxdlbuwaypuqvrSaDDQTknKQFYPw2zwYTM-0DfV1lIiSwQZymII7qgKgODdYYpVzxxXygBA8NOd8Sarb_KqKhAFO-dY9U23gklnO27NYVMIz08Sl0XClzhpMsLdy5UCZoIgWi1moM9K8S1Mm6wi5PdZm9NozujDm0XegGdpJ7_Ldimy26lSQdxwkpDB5OEDUJCvjlKoxKS2YANSSWOFsULHuewY3u-IzJcFLoGrZaUqQlv_1I3h_G2yLR7OVFujiKzOIdCqEmN0ThFLd1iHKaFTt8U4jqbsVgV3cBRCb_Q72w72b0V0AMcZvyhTejiojlM12C656-H7XypStVYxKnE4g7v-0he7GeoZ4ZbF0681srkOgjGChNIeuSL3D7IuP8BSFGzt0XXLun5mvq0ZhbghQLmRX0QqyWrYToCnH6qWdgfjZuuzbvGv683f4O6U-5rhN-gkP_fvFSAhKbrRvo66s8JFeeUTrNGNrKjC-7Q5Pr8muaccoP_G76sZ8ZeRnYQ0edx4FXudYPhEuanmsZVYuaZVNCzqfxFQeLD9ap5Cl4PTEF54Alatbw-CPBXy6vRhyqXkjlWNnL2cWV9wRHLb3LIjVBpQScfoz8EPp8NQe0DjGNexnDxer2xglOtqCRlD7_dxjzUG4AGW1UjBZ_WYpx990iHCnUn77boM3ykiXunHpfL-4u37kX5PiPh_XRfrUbOovkrOqsNAmEVx-hsyIWx9PT4LR1Ht9AZsPOoAzD-Dw1Q83aV9HEgCkUqe20JGgZbq-fq9ngdYq1Bf3LLBuFudtxCHFjWt5ZiwqTJrcLMvykCBK8g1Pa4PtQwGoCw360aTZDr-ItSeN3F_eCTPVjYrXnJAaKmNWdUOsNH2fvkE6Ch87A2hrmCLwQi6NI_-DGSElidhDaOL2iaFH87VRz3wBPjG-VBtNA4i10CDmKxiqZpluPhSlVRH0gzwoeOqYfN_86FbPU0RPC5RYnHUi5Gm2XdKLoUDZqPkBvWHsecE6IAkKRuleZyXL3X89oNvARaUGIGca31IQwa7GF3VR_gaJbDw17mjW6AC4CACBjwPe4K2qwUD2eOpIN4wCQnEYGu6_0QV9p06WSbXGQtFM_XG1drYZ1SnoSEsCUDmXhN_7dfCWKW4IjpX-1tGFG-mwW0CbgqB6V2NE-qBNs3Eqpr_sPG-P8Ag_DWCGF7sBBJTCwgZN9Vl40djo2z2QdbSpQR_R-wG7xwkPAcfjfh_3NgZByqNdI8jaDo-GPA=",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6d75d9c87d0a93e64aaa8bd78a3",
+        "id": "ws_0230edc5c9e7efde006aa6f9ddf1c087d0970badc0a41998af",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -144,56 +145,28 @@
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6d8397487d085494a09a998a4fa",
+        "id": "rs_0230edc5c9e7efde006aa6f9ded9d887d092812e425bc89c74",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrCxFyW-EV6jAvF2Bre_gN1hZ9s1yvAZh__uCwjSPAEgoQqwM5_ftFRKuPaXWgEezSrc1j0MBB6nL5QcnZbcMA-Ig_ru_0hMiPQ9IcejPAbixGW4FmhKxdSHOkcSNbRQBdUWOCYTznce3ySGI_9pQWi6OPtyETzHfHD6UbwS6DJgdW5DVxMlCMdTuZId1xHFwI69pgrUUzRPe4UK_D0nQtjs7hNPmCaquZol_mPzUirOzlMRdC-yQJkXwCNAfKXPd8Av0cHpzenIw-RoBjerTkj_jKgwyQg10SL2gP-pw_kY7d11z2gtOGJaroPMN8YFT7TFdLJEWV2JJbsZTM9AQSlGm9xUulTVuBZLr7JWlEBOqCdCOwW_1NFaiyVd6v_sv2U56lhg25bAw8gopc1uWIEr5PIZk90mrkIbgqVFtJQHDz5-_GG7ejCynsKLSfkYUyonAddaNQJeoPUvlShQfRW4gIthdPCHPA2US6_HebWspcpR30tdzGsFYD4-OftinUev0cH8QNwrSzRWr9tzJhqPfV61n4FByPx05Y8OCEg1sPaWvjT32P_5AHYFlWbAL3ZCJRCH7XRltSH1vofvbNIeKS0z-3LNooJHa-Mtw3Odhx-QAK5xUPMWiMp1tpBG2H0_ikx-1ZTXgqA-r0BhXkoJ385ZsvlpG0lHnlMoNvdVaCc-bCsWLbOW499Vsr3HZGrBQ7enQm9SdTsSK-3lo4oyo_qBFKC7sxmHV5QiE_pypcobsKqUo3eRpga2o6wAYPN21NzjmNGOKnVVSl6rvJkTEGbgVPEsUS_gPCnjhyiVj090AvXKerzjEuyjQ8M1V3U-uivvYPfHLf3aMI9X9ERh7s-U7pdjOBK5Y_leEJ8Q47pyp1TMmJdMBudCWkv0O7GDiYi5cpnh9zIp2Jy56H1wXotai1_qk3JEkLwZjNerzE29OQS16EOO6jXiPzhsKuHrineF-_mZFKPTvIE5s76f6amSElEYaCqI3g8r01pL93YzNm8ewFDdQ75ESlM4k3Qz-qwn6pGo1DNDUiKSeFtbiPSJN2-kBQbrB2UJbUNNdRGFDKj0-dpFE10qopkhKRF0ZCcWzVte5_gZIq1gDjdxmPT9otB5Bv71mrm120gavB5Plm8l7DJyBmUdChuu5t_DRnF-okYR6Y8w5PQ9y50QIsVj6QkAj9eCPvpRjVWbg-kj20PFJIWBtzaIPpMLQQ04WUCyXAMwOHZA8oT3_widBuOjt_YjtzqQn0rxHT52HzFaKWS7eC99kAgahvzKdcfy9QDT5i8Ubb9mJ8oH8aR1RfiSnZShsZstla8aMmZmY=",
+        "encrypted_content": "gAAAAABqpvnqpZ8hiF050Z3Od4NiMJjuWBx1S7-zIlL07dhWoxMwbb6Za2_b96mwhOnT6BmROG3hsjLhfuwRAjapTx9tRVEPs8yDu7Ix7qHHJTxXOeKnLgSxxPpxbbGS4kKH2boJ9DOaz7jH6_I6Y_1qUVPW94oJK_yzpUIeiPY5-XYIe2b0yKRcL_3NYZ_N66g7AZDiXb8voyI85n5JXNRx3Uep4AfzG8aVNZyu0thRsvBVSzC-OKTe8W87txmGjSnpVmzYnTyjjY-4X1Vw3efim5SM1OC0mHD8osh9vCwf79czx6t7dKJgD-JoPwODBFOVGOcKPmo92_UGGknLk93rEqDXQ3JAQs-pofAu3ett4EENx7uOo7SlOvRt8lj5UIJ8kmb_Ivk0ht3lWTNXycErLIw6libh12wzIh3eJ2mRZiGcY_q9rcqyYfYreMu-jBJS2xGdi2b-e5Ai8SQJIdoPR7YswMumtBB6cu4i3srFFls02OxmBSPODLJ8KpTjymxUi6IcDmA71GCKLBYvaqZbush4LvVyOgPU-xqEoHQI13ZseUQzK1lnzsTZhgTkzVkbJatq9N-2G4Q1Qq3GdNN7Poto_yeyhtZEYJQ2R0vB4jwisd0pWQWxTSghag-PM0zxc7T4aaKyQDwJ3Kr3olwB32MzIgmlZ5__SipdJ89RvspqaofQ-m9HqsrLGemyPj-tkHYwrQQFg2KHQv6H_draWf7VUUsEd_A8cGPc1yloE3wFU7mXJa36NEgt-d-CeDyu8i0m3w214nZgdvyXgFguJFbxD6laSO6Z1_yP3cCUC-iccvO4RiQ02_uDHz2qpEZ2y9JvJsUAHC3YKvZUBytHI0pYjuM8qd_09RlUkr3qlBhQESpZG_5YMcODlrqyH35Odg_nHB8_3Dh1qIqsd-oA505zoUH5M-C3sS_tulFr276sizlNvLwvJ_WUlD5lKQpQnPPQVuff3otUqL69rdwG2sxXOefbFtFsHGZz3IqPENlVR5rq69aF_7HGaIbEN5M7tEwl9EabBL-9lbs9YISZ7J0UCury5cYbxml8vozmMOLSsYogd_UofdlxlMuUC1PfzdecylZR2dyuSOWHTMPBH-qZIKHCspGr3AAb8pXh6YFXB4vRPI48HKm7cFqytKnjvM32aD3iG133L1hWhdog1Inz3JQQU6L9W_emIEr_BR02OjspUBESm1hp72boF27c_6XfxwWtqQ997ULPjpaP_7EZsfvzMAFdHWKGesocBDBmmCVMjpaI2qkpHazkHG5lOu8knf7XIq_CarOYeHFGeEDYSs-SgqEwV2R3_uJlMcHEpkpOSA2MvFkdUHaBmLkR2CVtoORp",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6d8811c87d0841f4bae92ae5299",
+        "id": "ws_0230edc5c9e7efde006aa6f9df2d6087d0b3fffdc14dc090b1",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "search",
           "queries": [
             "\"reservior_water_level_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
-            "site:nwdp.nwic.gov.in/dataset/e2dc7dae-f0b5-46ed-a7c4-1edd0a73064c/resource \"2026\" reservoir",
-            "site:apwrims.ap.gov.in/mis/reservoir/summary \"13/09/2026\""
+            "\"reservior_storage_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
+            "site:nwdp.nwic.gov.in/dataset/e2dc7dae-f0b5-46ed-a7c4-1edd0a73064c/resource Andhra Pradesh 2026 reservoir"
           ],
           "query": "\"reservior_water_level_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
           "sources": [
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-west-bengal-surface-water-department"
-            },
-            {
-              "type": "url",
               "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
-            },
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-centre-water-commission_cwc"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/en/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh/resource/508f10b8-70ef-47b4-9699-7f0b62ce28a8/view/a809e3bd-65ff-47d1-a9c2-66801f031590"
-            },
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir_discharge_mohini_pickup_weir_madhya_pradesh_telemetry_hourly"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b/view/944a7cd8-c922-46e5-9cf4-2f6e3b7eb955"
-            },
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir-water-level-manual-daily-uttarakhand"
-            },
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir_discharge_rajiv_sagar_dam_madhya_pradesh_telemetry_hourly"
             },
             {
               "type": "url",
@@ -201,270 +174,93 @@
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir_discharge_bhima-sina_link_canal_maharashtra_telemetry_hourly"
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir_discharge_gudha_dam_lmc_rajasthan_telemetry_hourly"
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir_discharge_kaddam_narayan_reddy_head_regulator_telangana_telemetry_hourly"
+              "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b/view/944a7cd8-c922-46e5-9cf4-2f6e3b7eb955"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh/resource/508f10b8-70ef-47b4-9699-7f0b62ce28a8/view/a809e3bd-65ff-47d1-a9c2-66801f031590"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/organization/andhra-pradesh-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/organization/andhra-pradesh-sw?groups=water-quantity"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh/resource/508f10b8-70ef-47b4-9699-7f0b62ce28a8"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/?groups=water-quantity&organization=andhra-pradesh-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/river-water-level-telemetry-hourly-andhra-pradesh-surface-water-department"
             }
           ]
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6db1f7487d0820e1bd849aa014c",
+        "id": "rs_0230edc5c9e7efde006aa6f9e36c7087d0b33998bb8e7e48fb",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrKo7Q0f1PWkVJ4DGvunUTY95PWmlv87OogxdiYL5vFRMGWtxUe6Ya-xk9tH-31DOAdplOZ5Hx4xHK3nWOG289gBtAmtYnJWBjMwj2TBPaA0VtiIZ24VPVAw-aRnj_IS9q-BDkDaulH1RUke_kUeb_plxJm8Ok5gzv8kj9mvK2BY4XC2aZF-My4aLJvlcE_nFPu0R7-8szi11tIuyA1GyXbxb4bQEm_E3Z1IwzJz1AjeiM1MSo8VZZ9naQHOOBKfb_GulvZww5glpzFjsmh-AonT5iSlQ9AwkZ0zaGNAamgaUTYniL-ghZpqIGcxOXa-Z1KNRojj3yQARDjxt1smppLSWWNxOdjtOens0g85OgKniDHdZwtgdHRwmJjnPbnMMHkiHJKUwhhwKsnXaJEW2Dq7wbq8Lzmc-DKbrCHYZVLr2_ajzxJ-cmU4ZjmW8gO24XDPWfJ8GMKX93Fb38-6a5-s3jvCIUb2asktItOAW7wpnB9ZKvuuxoeAcNLTdRwZNwXLb4lf1WoTiKEJ2aqRnDeBBWaW1_evHxUvUxuZzHJoPbP4lQd4r7uMOhzRff8aRktUFln16QWIQ0iS8MLbhlFp9NHpPEhlFCh-ZlDwa0nC9Z_LyDtgwI0RZ4KcrobCDPTF51LFIctxlGrfgl1LHNDWcmyE4a7qqqFgylx5V455qJGsv46cUDt4CxC306lmIzHGfsjOJNxfTDISSvBXGtqQxVsrJSpD6O48JSc76PW7iUNgZhubQYfmLhmL2eCYufVUnwlr28-GJVZ1G9dfcn-ZXHcFZNcJX95QACbMGL-j9k922UflXl8j4mKIlR8JmZFfpAXYbwqSFc_1IbdV93Ti6FreK3nqEsgEkFfrMp2X-HlZ5368C1_D_b42kxmNulpXsX3I_0WfMQ1-hRNAqpvwMmXKLZAXMubJ2O_a9Bmgj4Kw24sXsHuGYb4plC6g5pzVeUSpBUlThUv28GD5zv7--o4iecIm_SqFeQfKHJQ_1_d7V9q7S9RhI9TPOgLUN_xcVq2r6a5R-Ebh4axaVyzbtg7eorrkUMeaYvElWvTjVqBsqXLwB9y4SD_h-eNYGEFXMrKHSDGrZSZ0G13eS6AJFl-Xr-K6o0hReRp8ODKQuAvSqEGyxbTnqAyKlQ13gEHKyb1BZtnnv5_ohIzSvw3Qv2dXoXwEVSBx647PUO6Y0KvUUHpALLmVRbsk_efnxqKMXJS-ZIZ1p8PG4121q8G8hrokFtYRhOyj02zEurTl2GNxJEz4ony5f-mS036aG8jOe47KMhWoBOzqZde4Dec1z9DrY1iidnh9CF6IbJOBhxF--g8cuq45fDzhrWM1_rktkVrjaiFhS5076JLC9RWQ==",
+        "encrypted_content": "gAAAAABqpvnq67awofCaEbGCTJjFA1xEGEiJ6uLVeqCNZXhJnjRAPo-kzF_rLAdBzcAEwfQ0dlJvliL-8palmi07ucI7FgBqjXTqU_pK7ZA7B8lvkgndVNwlEaF05xo6qpr2lcxTTKSqdM_5UVTD_IZEd1ELmZ9qZxz5Yrwmbx-04ExFgdhUIyONxUKtvqUMTk4LAIGSKUntwZGmtXMSsudCpnhYa1j91gxYJ279xPKTDyqnccJZnK5_8W3obOhicS7zx6qDIZuEeZPOgIBvPbHP9oVYpT2NSK_jhHTMrQHvgZhQ_Sxksb4Bj0fDkLeRXWj3rhU5j7AJJj38aqyXXZx5UZtVyWMutn3rXUFSBKDFCcswYscCdrA4BPhs7fqE9DmW-FaGWT4lhCwwyzpX-55WEldJdyMdfWIyTv_wMU_0U6DSmv8fGG4E5UeJCVmUrCW3V92gWaKvwvBLfgHA3iuKSzzW7EB8dQ7dEGtkHH43inqf0jjRGEEUyjXUFOj1tnY3ehsPSbI-dhFUP3RglwIHg8jnncbwbT1pWmtjpVRIapdrn9qc8EfLuHt7hqIMc2ehpuL_-Els_uKRKWzvJG6OOTHFkoRK-sA6xpLn6Y_jyTZ2SOzZf82OwEDp6EWgd_KdAdG52Upkop4WPv2mORCNwp0HFDLW_9BwA27JpzDD-J8t7JyFuQUkqDRjveL-C6xIppITa4NR24Zi0Ut6SIYbMd78jFivF504RFatf5t-rm9lP9LGtYRx8Fx-ALou414yVKhaYpDOg17XzYiVKll9ZXU3x60uY_sE5PDQ03Ujfw50EWrCpr7e02sZkc6kfMYhDf7CNNxj44hB-Rp4qrXcilqlO5B3G8fdT6xnyw0aEq_hMSDge4gMA00nIRYBCqPL6yU3m2v5fFFvkd6VYgNCP3eCuTRhez2f5n2_QVAnLef1FvGcnXZ1aFlKbP_ertDetz5H7LUT7X3FNxN6AKXQ8zoqFK7iWzMRGENKWrInG68U79PLwD-ekwq9hpXoUpcW86_B1Ekh4FvW3gjnbfHJ7VXhslDxcYMu2XlG92XpYMSaJmUMaz5GjBL7No7zTU06RcAPNHYW8_Ih6YgE9VHB9LhVtm1XeWdihUr6qTrmMMkiaZmJ_1RNdopy2tccSJfI275TqKuLuts1Lf2j_9nzuYUwrVu80k226hDjj_0G87uDAwiCljfH4JdxfQsb3S_Oz1jDjR0VdsmOBd-mvMmVO1Om5fg8nW2w5Bgc8dYYGGa3qNyZ8H-DboScGhNlnuCQOHVFMzDc-J9bCKd5KYFOfsX5ZIhYYey5oaGf1MtGFuRhDwhRTHLDqa1U4R-Tup-U4h-ZD-P9REP81WvBbB19qrGEhXHi1pcGUxChD-00HejeFxo9KPM_RzzOx0GbUcHcC5uNubIvhbuj7_BJAUxn7TguFW3Lv1U-iino6OhuKNL9NYYJd8OAGEZn7vd742as9c0pIHv-vtK9MWyjgKLzHnfo__SRc02hVsW2D4hXojwDGRDuxpOBIVUZ8mGPICuVYJMTpRlFN8GKCJyrFaUurRO9tx_cR_xELJZ2ll2YT-plFocKK_iEj9haMODUGICrxY9nQcwFduFIAyA-XXxzHWbZIS_51YQ7ylq0BYc0qQueOYQJV9w=",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6dba94887d091c2e2236b3cd754",
+        "id": "ws_0230edc5c9e7efde006aa6f9e46f9087d0a0169a6df3b167e4",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "open_page",
-          "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b/view/944a7cd8-c922-46e5-9cf4-2f6e3b7eb955"
+          "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6dc7a5087d094004a55b8fefdc9",
+        "id": "rs_0230edc5c9e7efde006aa6f9e69bec87d0ab39eb2ff1b5fbbb",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrtIbmeSgN4tUZ5pmJmqZeXzccDgOb-4X9i63BGRZTCd44Ry_Pwg57TlR5JvBM23vSJ2HHbSD3YN0ph87neXjebWLVSGdhirRcl7OJvYaFfwHPCUzw75beCzgnj7yKqSkDql6Sa_yEohRFgIxF4IT8P912cT8_FCSC9s-XrZfXwow3Z5cJIJurxMFh_kI6558VojRvQLGgjcSyS8kxvC31c1ZTdTnGlUCp10IR67hgEu_IzKBzRkQ_21_a8uBrtaE8sLNO_ac8uhoXlwC9FEUymr0-PwkAemngCjx9OkhM2tOWL2ijuZMUKIjjdh8L3QsqUHvCn-BdnMd8XteFA-Jguy7uA4E6ra69Cw_C1cy4e092hYXruJHNoiuivHKK-yjYPF3mozmUTyJwpAVfeDjbDSA1l6A-RSEnwalOLWPi2C6Rtl4zKQH9GMCS-7V2Fk5d9T0aCEhfLUHVhEdq1vkrYRdD_H_XDxF0BogPAzmIOZkTAPJlcIX_q-03yhbrwe8qXHMp2QOXy1bT0IMrO-vUDNZAxyhVHKuXtniL67gqt-56jAfGwPjF7pgbk91gcedZ752t1TAYPWNW4YkaxpJQWKtGfKPAdSkjsau3XkXQo0aYSKlRXUoA7ZKe7_nO9USrFNWL6KSEmjkAXhzw9W08KthkrCWqm4H25sWecO1xiUo2utcPFQsT4fAI57GoaPsX5ql7TikT3DXFySxjs0mr1X_8z-TApf2Yb9KzeuNhkS5feLwxM4OduneUszLasfEVulU7mz0oaGBhpXWOqSltg-4Fb5J_YDDWEQP5WJ1MxhlVtdBfeDjqrbRC_Y5I5pljWCyONcXVbjRly64vntMp4745X-mFBEM9ZUHMXqH49nfptCE4Td3z-42qbMBKbpaE_beJKgieiS_JJ7hchqCqLxA8KPeI5kLIWWVb1c6vWAZz5a_EvlKKTO3ppmw9MT8nM7tQ2MXKwumz4M2fBL7ocvyGR852L5k3xG6Z5DVpYyIC2iFD1B-lrtc8LB8g7emFibiVMCCciU3miqDrI17Cc7r1gMFtuLMgQWiuM1iGY061Y_enDEaWAVfp-nG-3j9Wzlf0r29BKOFvNBOYJytLGZHUfuE109xrUPtMTdzX1eWw4Ir8AKqlH-S3bxW8l5_g3V62xZz4RHKdSW7djRZWGGynwqBgR1IpHawkNOeJht4EnLIhfQ3S9xhFggUY8jri8tyKGoyG6G_dclo5YwhA13NfuxhuzDkNLM6gfEl3uxprCsTyuqtCope84jCDXmYESVngdNSR-S3FG0lL60osMUxSqP06kWJ9jRsCYAOVW-M58vfPWt3UG1VaNEkFMITuqpxb_XEYH1IGzLK1DCvsKJOgsCCtPSpeju4zjOIHj3IE_SmB2hxu0Elk2HGSmoAw",
+        "encrypted_content": "gAAAAABqpvnq6bwF9vvupIe1ezet4VjrvkHMmENcoDzrvdpcwaZYFbb1FKmSTvwm__KGQoAS2tXUKyaIPypJTuplBGlZKjx6oYNQqigmj6ZA_v8ub3AbjicLUSc8AuZlnuCWLZ70E15yqDBzBL0bDN_fcJmsUHCIKIrpabWaNdMCLDIGOyOyCAwllw9RCyl9hIf7iuzG1nLIPpaBuaW_E0Y426iSBPZ3w9RNAVow58nzPmwhmSMdGq4H4O_1We00spP2mz7OnnYxGu-jQ8lPvCF9FdU0fA4wFWLCXndWsmMp1VTCzpE5D_2nd3EA9QWkqeE_u0qnBFrAMb5H2Li6rj8yAxNSVMd4tlad8iqCqvUfY2hj7S6GRsa0ruZ-dACuC_v03JeMxVbZ1OJQFOKEkGDSPKuqqEsVK3705sLEwcvu-hY7AdytqoR1UqesMSweoK9O6GyyR1Rc6p9qIGRT7ieIRTffIib1juHD1RJK3xY8RyAVNm-iluV6PFf-50en-jZMZquVTrlM8hGE2k3lcELqyQ3ohTmEAlnSInu-Qcj-jzamZdvtdhIBjhPXxgab8WEKBUTC4sIzpJypij25NHi7xsl3Z33P46NaJMh3mrAVKnd7OtxDgZ0OSexAunBR8Ax_0d7PtESNRXLCfHw2T1xBJn4p1d2KZFFO8xEJxp-ZTfGAEID3gm2QUFXzRJC1GQLldtgIHy_ZH0zWxvM2i27VVdu7qkN8ttN2nyzHWswesHcCB2r-ZOzn_skmPcaI2eSKfeiVI8HxALhP5TUJQmCR7GK2N5jwurFFAV-e45PUfEjBm-cSeoQqARom9FiJnWvz-FPIQ25mr40PygmqE0TuWZ4jKf-OKUztfN9tym6hU0Cyo3X9s3ReAV6PifBuLbL_S9illgQGzQ38DUAkjAS6V7gkQaI5N1sNyigTWU-dlsF9H-MTQc6_tUtoH24-8v-IIktirA_IgyDR97DrVplYWIn2E11CwaPC4ARo2Irb-pY1H-VsaKpU46s-QuDyLUViPoq7Q-WPy9yt_26p9ru9XbBQalbCNbMGUuWZ4wMTM7y8A25cSqsiKC6Dvn3uyzDcs5eoP7mQaUPlptX97EWnCi_maJMrgIFQuQIlKsV55yi21xPRmVywZHdWCUTSVSmZl7hjLTH6-d1WdO2uraIyLqAajMQUQdoElwCsY_I3mmpMDtk8o8zMBaWU9-YCsvZ70r-EEQLWlHJ_oLWHuE50Bux9xUU67eJ3sX_Pmn26cWri7NRusLC_GbO51gTRrtrBOn4NRuCmfnJOAh4vSdbxQk0QFHpT4A54KMXFbVP6y98P0TALb9o=",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6dccb4087d0af1fc634ea79036c",
+        "id": "ws_0230edc5c9e7efde006aa6f9e6f47487d09f69504c7b66b880",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "search",
           "queries": [
-            "site:nwdp.nwic.gov.in \"Andhra Pradesh SW\" \"September 13, 2026\" reservoir",
-            "site:nwdp.nwic.gov.in \"Manual Daily Reservoir water level (m)\" \"2026-09-12\" Andhra",
-            "site:nwdp.nwic.gov.in \"Manual Daily Reservoir water level (m)\" \"2026-09-11\" Andhra"
+            "site:apwrims.ap.gov.in/mis/reservoir/summary \"13/09/2026\"",
+            "site:apwrims.ap.gov.in/mis/reservoir/summary \"12/09/2026\"",
+            "site:apwrims.ap.gov.in/mis/reservoir/summary reservoir \"September\" \"2026\""
           ],
-          "query": "site:nwdp.nwic.gov.in \"Andhra Pradesh SW\" \"September 13, 2026\" reservoir"
+          "query": "site:apwrims.ap.gov.in/mis/reservoir/summary \"13/09/2026\""
         }
       },
       {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6de0cdc87d08b9011f0acbbac1f",
+        "id": "rs_0230edc5c9e7efde006aa6f9e831fc87d0a524b8af785f672c",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvbrGdr_EZNujiWG04ISt5d9QZqhZ1IlGuFpf9tmMONYoBaZ3OMzEBc1J7AFUi8TFki9BFhV5V0ZS4g29_jLqVHpRFSW6NlhOjTEJqWpFa7dpzE-Mnn56bFqHYI4S6GIsWGIwbuk5Qfe3E_XcH9JTy-VUo2yH-p9Nu7HfkPsD7C4JG4Tqbw9x8qxhash2cXV_OryPp1vyuX0fhJG7eEdScaKomgjZCOLwGAqc3H_6BLfgpg4D-tQMv63FmgdCPm-WA1GSv1pmZ1GNVeDYVGFwjFo8Arn5k09INiKHFHBdCYMI8S5uAKJrj3Tqg7EB4f0NhIUgU5R-YgDIOZa074SbgDSHUffT0yn04nzyuSNwHDNN9TtzD0q0DSwLJ9u_qQQ4UBq7eVmLKpfnbhwYY2M7DKASpN23LIh7u8MXf7zWiSUeuLzIVILNC8qHXFfRytF8jItjHoC4bxEsg2a-nY7aQ-yUML8de4dI6JnL8v5pf2bmFLwR2D6zfuzL1vbg9rtG_uR0ceqK50G3TgEO8A-4kv2YGEK2Gi4FOvEpW_8QSbSLdQoimru_g_9fqPvtDHS13RoGkLd1NXwtQTOC_3QzDKenoCzMHHLWq15L7fs0Z1P56VhRcaARoXvEfvG5nwYSEyFKu596NoL78M6FTAUtM-pzlp7Knqzs8sjTWgMxZ3-N7o_N8yghsolDc2Axh8VAGiOX73v_KdntU-Va5HCZdSIp0SnqbSNFniuZWQOl3KxXFty2FxZJlmcNNe7tvytOLrHJSek2dwPhlId0aIXx1ftnwmtS5-jIDw-Dh3nyW2VYO12Eb_MioyDqf4W5aYjnMNhTCHsi_nsCros4HBJ-zZq_PLOBLw3Wm-FnFDUgHmfPe7X3iAhRLA6_brDOFFovyQkMwlBY33tk03rP6mS5UgcGqkTjFg-12wXk15G8cr0ixZ5WEre3f0yaEI_id-SNIJKxF2IWflK8H33yhQPpkBRn9KtIX4u_EUjjC_tJtNID_AcMhsAmHE0Dv93kF77RBYYzbgECsIYydPtH1ZQ3xm7Ywi5lL_bkQgty-1_TK0KzahcHJJJYIBQhKtkL3Lcnbd-QRTgcXxuTlZaVxm2z2XKlfZZAK72QdhD0WyeCaeQaaH79xzk-gDiNW3mgGxzyvQGh7nvaSzhmyE7O5I_fN76YZYBPABDf2dN1r2ImYS9hlsgpMq5AO6CuoMeFZDVjsVtI-SnpMjpZn2vdDY6q3qUKfaZiG515c8i5jyI4ZhrrCWfmVhaizeqSeYqtkDR2ohctetPJ1P9s9ADbZvpMx5a1LwsQSyRw6sbHow939qYMDGIYfEYRP6TLf80n8ZTZjKS6riS5R11PG0FwMyYdWMzqA==",
+        "encrypted_content": "gAAAAABqpvnqvOzeB3_2TxkwOSf9u5D2KLZKpbk8Jv58g9SkCgSzgoSgh_oT0THyrJcSJ05eNgqrWGr-V-NW45YOF8i95yFWZH8g1WkUNOiLuIwgXhum678EYUwnljpTqmEMEj-VMBwuqWvPqNxcwNtjpS9QaNnqbmyBMicabSjhsmLIqIuUlSexx-v98PUKpxbyZn5r8tgorCvqrn19rWSyJjtx_9FDpF5Ev3rCRnPRqDn0jyuOFU7SJN2U9W_8G4EuQQDkRBtXzDkGfcvpnc5CQs3IcMklIXNVlspFW-q7VxuRwXnDpnoksglSSMB5M2ermDDnMVMQDf0Kxupcwj5rz898OqYE8YEv1-rxNPFm6hjZOSwNIaqTLNhMqkFdlc_NOEYi1UyUrtn9m9r0xjhlqGlxIec_nZgYIg6vfdY-Sha1hn_D5G113OXQLSxFASFnIUASS3qnlxWmzDzqLCZl85C1dsid09MMkyicvFVH9FKDCEd6M6dLPRClvQgIrYl1zTb7vFFGOncTRkjvBcazpymYR4MIstsqJ_nZ3kfM3tmCDWvscj9K7j-UyJiya7dAbnFB5Zxyqj9h5lCdAmD5MddgsnlYQosvLUt8_ABqVEIJK_qISjGeNMi6RxVe2V_8Lr8kalWjahWRz2TmvTalYAl4wmIHxJgUIZPvBqeCR5h8piw4HJkIUZEr0u_BfLk6AiH1m5lSayu5PHA73vAU8ZyAkgMoNWZabnziTKWPhk1cWNomQ_3QYMmJ4M94XMNCyhtHVgWRJQoXYqqjN7XGH_ydDrYHnhg45n6qkLFtsJk5xvRFVHceOZ4HO2Zi5E_doZ_qRCfrmyQN_8TUO5hdP9goN-FHxnVsaDOa9CqllOymKzqUp-xywINMDNta_Z53gtNvrlb8cP1TS8u36son1j1vtK3Rg217wBCZSqRKC16IgnbsrVPpwR0Bvv1czpxqh6CAKbrPkcvvUuxvBE1tm7pnoIH0hdyHgcVdALf5H0URzkmNoEbvH0cwo3de_8nKnceuiWCCg-6fXqCANhIe9lNQPhb5CUQEIHCUb99fm_Frd2fUBQbLu2uN-PSL4RzQ7ndAVzzAfBt0JRA4gS_kRvpQ_TbWX5wuj6RZgguB0rDAPYMNNcFm_fSDeZM5CeFFqFCa2ftJcG6Y4h1yTO-FwRgqrP9AyDkly07_wXOkV4jAGfSevMtMenukLcOQwcX93AR2he523CzlkeIqgFgPQp7ItKo4gHdwO-byTRGKC7zkoil7Yu5G1apQGEUkorIrZGdBXx-nJvT207LctzpmSEiIPrbOX17keYOdC55YzbMns2Yf6NN5ldGzlTl_A_PqtEETK2o5TkeAwsYzOv_DTkNf3RHcDVzQfgK8F5zImnWsEIZa93kFMKyrFXSHFKdEB9MlW4t2dz4lhha7Dfy8k7PqlAhhZ2T_IijIwHrbVdGwAA8UG8A1NpM1awwUaSEe1ZvYNufKvjXhBomEibisImFHXvaGlnDQJ2rWczUKFGkXPahaOkLnCXa60vypLbE4mp7vtFo4m32WDUbgLCAbYB03ivKiw8bHmrZh0xSHySevBgsHhYyALwUYTuayoah5k67Zssj8OSn1TcQklxnsX94IZAaMFd53fkDpe6SQ7RRbM1fA4Xy8i54BJs-DJGMHQteHFGhTr4ZSK3WLMcestGXKb_k8Ufv7Wg3WQVEJiht4jVPjB79qIzb9851qkr4DJO3Gt4ibnakq4SXnVA0Jitwn_qLDvjLS9SmcuCfcl96tA1tqFXhWFf3mLvslZwzlOTgVk9CJCL3_9gvRxcYh70A_o9sgJotdW9SJmrtDBNRfbPefMNLuz4ymp3LGdvjTe1yu5Atf3sirPjfknJYswM8BnAa5ol4OFn4-Msv9pwKZRNTTawXSPlJs4WGp9EDHGr2vFSAfvQScvw-WlOcLulVYdfRTV2_7f_4eOJKDprxJ-zGx_ayiNQ2z9HAcmXRK5aCK11XkM-dPX-0WCYifc6YDM2ZwYJ0RxJpY7QhclTbakw03pd0AvzLZxetTdE9PPqQ6Zs9GiwvRqjQLaTO86wUIFJl0IwBV2of_kOGtmFGHTOuSEudKDOW-rFJjaMK22K5d8jLJmOgOKv5N3L_5rt-oBLhrjOorpAijaIXMDeyQoQf_P4NO_ywc6zgcP3NiIEyAYuDRrsZVYrwG5cmt2HfJgAZd3aUb-Nhzi89ryZRebeVB-RYVFmM_mPOBohXHBlxiFKw-dqDUxq1y_5fAGy5gZ-Nxe93yoVwOguNfgMR1acvG6025Dokz-WFfmICuwNm5b-K6em9JOTwHmQAidIaZ2G8vWszvr-ZPsMZmokXdBN8gN81zOmBPkdGsdXERngL2LRv5_CM95LDjHSegi_zinG6PNcgR-_7ZjDW3AUmYrLALdGgB17K7eDAZJrX-r1b0kUQi",
         "summary": []
       },
       {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6de735887d0882071d5929b3700",
-        "type": "web_search_call",
-        "status": "completed",
-        "action": {
-          "type": "open_page",
-          "url": "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=6b4a1ebf-413c-4503-ba59-59518e97471b&limit=5"
-        }
-      },
-      {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6df865487d0aac6494c6ffaeca3",
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqpvbrLPh3G9HfeDxVWeKlVZKKU35eMXlP3Rx3SP35yLRuQFEN-YWZ5F9V8c7zt5rkmxd8tZIabfWBCy4_1eZ77yAttIwyRwVF5z6K5qnz-tkk_R6GKG_Jo0hhgDOHh_OEAiY7UiANPIyab55uEzZbLoU83Ob3sA2RWF_uCFZGGPxcc3tabD_lOmlE6jfkeFH47H5BdkKJ0Yf72z9wooi8yYNp7EWX5kTEUFoiRmQgWv7ZX0KSdn2DEVBT3usQ9VbjKsGnV1izTFfPggNx-LU061IbhgdEGLZwtwb0OHAOQhRhrZkIK13c6_d5ZQbOzoJQUNIkCeEuwL5JNTa5kPM9z8NG4NYGqCkwwqtlJ9pmnvTLwwFCE8zBMhmwr8Oy1xzA4v4tHw0IUvnNBbQGW4kN0I-H0CDn9J9uIF7TwFxx3MxEUzRdNCnhb_SCJ3N5gk5NPIxlKp-WYgfQxajnv8LQdvZeGdpRNmP9ZaX_Mk6PIANV7OUt0LaO7DVEHvSXJNDGR0ehusy_ko6P4Yejs-DjcUjJaxSKvHO8DSmSIWZdrU0EfTDQ_4OBmaz3a8s3f095rGxB99A7juKysaIaKvus8Jh6N6lYkFJq9BTLB90YF3_EPipNnm6GQg-Qe7HdAfjDjFra0VEK163eK8YibgThTNKhy9-uGqBHi4IX9OSq4b4j99F0ln51qb4Ps5TvhV5TltevJ330iPU-AmTPcH7-kfYuLjVleHhhah-82Kqmn5Yk9J5fGngAR5pEWxz7FJvnFBB_WQlR-d1fyhzLWu7XVeSZO_vRu2WMlxE0n2MG90WHeFE0rCU-Zdtz_LpXKJWEE8eWaXjQZkMxEQEyJkeePBvjqS8t9gNfyLiVUi1nERxCk91VjxOsTdrhUCjOp-_HSBS27tN7hFXlih3iI9ms33H5FKHl6fbz99M2OifTf3O2HtzF6tfolovez28kn_wa9kEco5adBdlrRiW52nyR4rWlgsNxHOazdRUWJgpdwNMJmWFnkq-02td8EKBm2wbZbhEFHQlv2CcsV-uz4PFlwFyZAsyDkQti1cCUexair2HjfmoiJxO05KJMT2Z33GPOG1OnqIll20_W-gbghI_boA04xajt43cw0Nnr_tQcjpYU3Pi_6b1bGbHUfYEi00pyaL20aMEXeCtqNriAkSqlb_rzxs224QVitKX739OPE6ofqE2f_pM9DeY2-q1bmRdMxY35",
-        "summary": []
-      },
-      {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6dfe29487d0bc754eb4e483fec7",
-        "type": "web_search_call",
-        "status": "completed",
-        "action": {
-          "type": "search",
-          "queries": [
-            "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=6b4a1ebf-413c-4503-ba59-59518e97471b",
-            "nwdp.nwic.gov.in api datastore_search 6b4a1ebf-413c-4503-ba59-59518e97471b"
-          ],
-          "query": "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=6b4a1ebf-413c-4503-ba59-59518e97471b",
-          "sources": [
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/apis-view-yearly-contribution"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/en/about/functionality"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/about/digitalpublicinfrastructuretwatersector"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/about/nwicwaterdata"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/hi/apis-view-yearly-contribution"
-            },
-            {
-              "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/connect_us/directory"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/about/mandate"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/en/dataset/?res_format=HTML"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/user/nwic"
-            },
-            {
-              "type": "url",
-              "url": "https://nwic.gov.in/"
-            },
-            {
-              "type": "url",
-              "url": "https://sikenvis.nic.in/writereaddata/sd30.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://nwic.gov.in/newsletters/2024/apr-june/flipbook.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://cgwb.gov.in/cgwbpnm/public/uploads/documents/1747121552315530012file.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://nwic.gov.in/uploads/public/notice/10NWICIndia-WRIS17thDec2021pdf-846eb4da76c53c84ffb4601e8eef52eb.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://cdnbbsr.s3waas.gov.in/s3a70dc40477bc2adceef4d2c90f47eb82/uploads/2023/04/2023040379.pdf"
-            }
-          ]
-        }
-      },
-      {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6e34f9c87d080d5cb9675165991",
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqpvbrcUYh9owIpwCOhwX2OqMadpDfPMo6VgvNgNjsSezW-0NgfPfq3T7-RDjhm3t1it-AFWuXEJXAnLQPUjFX82VOxtO5DjD7cmGkyxdPrlAbkInid_0cOoSDWX0tljJ7P7-HzpK55bkYF_yGobUujbr8oI_lDp-sPUHK6N81mUHhGJwR1ROeZos8B5XF1ELVKl7ipGk__qMCg8Z1glFA_Tpt0tXvRuCNQp4MuZitG4s2oUUcwjYn4_WkZPVmZlP6AuCl0DMU5CJKWdUSV72em6-bhyJJW24ehVtJwhGMOELxjIL_bfaaioI_pDHW2Di62TyM8LtqT0xBCCwgPCPA8LaN7Dps08zlTjJqWhhfe84raFM8qs1ZgrLmoY0CelVTxLHImDQvq2rbhHLJ_mndw2MgLNqxl1juiMvhWkfKgPWNuEJlRhxz9gGeYGf8AE8Fv8XTkKfcOnrFfdXABZ1eEB11ApRjQipJx2uIgpubd3921bUY-qCktafp-6s6av3NTD0EuhEdOuNP-rabMtSLUn6lrieqJdpyRNEBKJ5yoZBrLoZcHXusZf4xsGBFpL_2WJ3bY4Cpk9m4_-Tqw56rIw1mHlvhhXdNjRhWgo3ekLsXwo1mtKE-jXZyGHjh8-DiEaogcveGlk3mJI_1rLOqiZBJqjN5v39fWmZmeZzfDU0KfxhP16Fhd1NKZMQL1uTlQpSCd40QMixBnfAo1Tq2Xoe9wHjnPlf_OkV0vlVjYsHQmYGbUcZ9Hj3glKLEnD0H2i_VeXCJf_CY3v0JLDoB0s0u2DQgG5kYYt8yY1HdYKPbotJC7EN7WWp_fAQXVI80krAVdc_LQYv6p55CtoRvuKj5j0qoz7kDTXDbZLvJi8gwU8lUi7pqBDzcK7-5vhiraHeQkxUENMzlTenWliZRwl1inVD98jrbb3hl0b94GIejuT6Ep83LEXJJnQSGuji46Ntd0wbj8tITcC9S6dq8AjNCrap0UR_ch-xGoXfbQpxg552NhQyzvBiRXwGsfau1TiNLwrayQqpMlerNZzZskiwDPWCKJXA2NOrWQFieQmuCZ9rubtV9jgjHy8-2K9JScrxIj5ZMk8LZoa8sSd0Q6L0kbJdQHAVHI5gsurxnORprz7Cj0TYwr9mnf3t55s1c5GEAc2-CxvulUU3jcbTIRS1ne7WrYJjNyobl7fuYZFzHGw6EGEuj7BPD-9ea4HdXBgF5GsuUe6A16eTAf7SutAFSdHLiEsyyPSVzgDJ0tlAJeaPGtbGt-l4WwTBMKCrXz1zlx3RJ-0aLcedT_sNx-LeK9BwAPtdzqiyEP7Hd-_rZp9SW5c6AH8MsAMpywK7oPgM19zyNr8b3xhkCm7VeD3JAUczj4JQpD0w0DOBN-rvbPi_-ExgtaTUOCm_ZVlxfFhp-6l5fWo0md66hccejeHkFLzlWzpTlkum58JVLynmaIbmmgaOPE4V4Kf1NJZUq1PY5BH0-1Wq2HxQ99iqq4pap7-N43irU14IFSzT-aDeHOVLA7U2br1xVMzI4z2RLy5HsCR50a5-NU02hFGC3FHotFd7hSTaaPdDsXCOjHDtod8btKJ1_Ih_WJtEcZ-lFm1Cu_KNRxPlf-hXUIbVcL0U17w==",
-        "summary": []
-      },
-      {
-        "id": "ws_02bc94e9f08ff8b0006aa6f6e4121487d0a5d2656881aa75ae",
-        "type": "web_search_call",
-        "status": "completed",
-        "action": {
-          "type": "search",
-          "queries": [
-            "site:apwrims.ap.gov.in/mis/reservoir/summary reservoir name Andhra Pradesh",
-            "apwrims reservoir summary API",
-            "site:apwrims.ap.gov.in \"Reservoir Summary\""
-          ],
-          "query": "site:apwrims.ap.gov.in/mis/reservoir/summary reservoir name Andhra Pradesh",
-          "sources": [
-            {
-              "type": "url",
-              "url": "https://apis.io/apis/us-army-corps-of-engineers/us-army-corps-of-engineers-reservoirs-api/"
-            },
-            {
-              "type": "url",
-              "url": "https://pmksy-mowr.nic.in/aibp-mis/Manual/NITI_Evaluation_Report_2020_Vol_2.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://apis.io/apis/us-department-of-defense/us-department-of-defense-projects-api/"
-            },
-            {
-              "type": "url",
-              "url": "https://apis.io/apis/us-department-of-defense/us-department-of-defense-levels-api/"
-            },
-            {
-              "type": "url",
-              "url": "https://data.usbr.gov/visualizations/reservoir-conditions/"
-            },
-            {
-              "type": "url",
-              "url": "https://www.dmeo.gov.in/sites/default/files/2021-08/9a_Sector_Report_Water_Resources.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://nid.sec.usace.army.mil/api/developer"
-            },
-            {
-              "type": "url",
-              "url": "https://dashboard-api-v3-specification.hydrogrid.ai/"
-            },
-            {
-              "type": "url",
-              "url": "https://nft.reservoir.tools/reference/arbitrum-nft-api"
-            },
-            {
-              "type": "url",
-              "url": "https://twdb.dri.edu/"
-            },
-            {
-              "type": "url",
-              "url": "https://data.usbr.gov/help/31aa8572-1c1b-459b-8fba-4fb2fba1e810"
-            },
-            {
-              "type": "url",
-              "url": "https://www.sanjoaquingeologicalsociety.org/wp-content/abstracts/SJGSv6_Metz_1984part%201.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://nasa-revap.dri.edu/"
-            },
-            {
-              "type": "url",
-              "url": "https://dwr.state.co.us/Rest/GET/Help/Api/GET-api-v2-groundwater-waterlevels-wellmeasurements"
-            },
-            {
-              "type": "url",
-              "url": "https://uihilab.github.io/HydroLang/modules_data_datasources_nwps.js.html"
-            },
-            {
-              "type": "url",
-              "url": "https://documents1.worldbank.org/curated/en/099102025185038804/pdf/BOSIB-5209c992-8e1b-4778-92a3-4175ed9cfd6d.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://ggim.un.org/2unwgic/documents/Amit%20Mishra.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://arxiv.org/abs/2112.12388"
-            },
-            {
-              "type": "url",
-              "url": "https://www.usbr.gov/mp/nepa/includes/documentShow.php?Doc_ID=29837"
-            }
-          ]
-        }
-      },
-      {
-        "id": "rs_02bc94e9f08ff8b0006aa6f6e8630087d088742f2fffc09bc9",
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqpvbrv51fLBb_PpG0Aeax2MWOh4-YyZitS6kYUPZUI76kgwZycLkDN2dJ9TUTLd16UQBOCsj2-4nkaLbVgk4U_omXqUTodMJw5ctKqxC-saiXQyC35LzPF5uE0qLggIDtgwUjYJKF4as1oUtAhR3hWSCjSbnsXvVRvQK_5g3vknkR6UjNWC7Qzlu8gYdl7JWfu_YmWzZoQIV95oQen10h_nJVB8BVGFZyfCI6RjLIhLFzMteBRb9LA-7oU7yw3wcIEf3g8KdhHHXR5V6X3a3aDykVC_YueHlOd5VGMKIo79zZkm3qUjSUceXOWhnq_PtNoDaAohOzA_z6GxgqcY4gDxbPgBnnoV305pcg0GzWfR2hXzoXWrSMQGezlWoTyx-NDXLQmmtRGH4gnKSweJemLHVa0FeiH6DWtGWsFxfpa97iqn9vhPXpNpIndtIWgrqE1iG8w_XHVWdwSCZa4il7MIzNjvWJkOvlPx6nI36oqh7Rqc5eZ3foUN-DNlmy9MnldxUv22Q8o-4lO-0fsP54mmbNT6AMf7PHWBh08HlrvkCZ39grdeJQetCZnMibza4TUwzw3jIEBN-UPlLJ_cXUCDcF95AtXs0_nkt70Y2JQqwXpzjotJ8r36TcRjchLCXSQcyboiH3u_yF9jmE8egLlByK3dtDa7ScU8iVeEjdm_lJ_HmyO2x8e7VWsgCobGn7g-W4hUTkAa34HhaywhyxKzlgkq2QpbhLWKtMUxYMi_R1Voyx4xYZHdFHYHuhB9DJo5X82U6HT0b1yuq8COCst_8NrDlM1-9VWFqhTZhvPFyBuf-zfVUi3gHLrt9MVZstVXySdjEOiA9c1HNX0WYFTl_UXrEKc__UlXdXEOHtSCZpemcl3Ar9m4QsOjJryfmrf2vp04wSu04eG4geU16O_TVqBw226nxuULnF-1vBKWAE2iQM3FtQjDzkYVAe5YcEDbPRjOqilZivC1dvygAP5ZXJmhr660ukfM7FiXzGIwKkThmK9bjjchzYVP7erSuwiHyS8bJqzIO9-uDF4DW0lGHZ-gt043gT4hHBnKrFcZdGetI_t1bvKgjoeWK4ZMjnC_BOZMjtFFAgKBrL91i1-ja2L2rlELqJBNlTR_E1wHCErkqIfEW-hKXtVL2Ok9QQWILpulDfDGO7S9BUWGFIzEpUAr3CeOS7taijjUQfctM8MClZecnQ2lzxdEBiNTYUn--9ihl4ePlB4ItpOR7rkxKzgq_914XIT4Gb3r7ap4gFepy64W_KTB2waknPRJH65QDITymdMGOYrIXdcrXJg0Y9nJzflfmMuJ0mPHwjD1hL0PvuiOUkLcAU2IdrHLeNT4NqyBIifL9YsvlOxIZJbGasEfJw3jfRKnouxqu7nkv8Xm0ObthaK_iY-M7I1zkZe63hLHyoSTZFG_zf54XXSPEsgNiJuXdFZhE6YWrx2AzbpzlvQJa7kvNDdi922Q0qyyfBKLxmhSvdPZI6k18tToHuKgkPyzEh5w4i9ld3rijRbBcRTcL_aHrUoUcXuDmc_WL1ItoPe5Hvi9aP8T4is9w-XvZxJ12R7mzgbv2c6lNXkkr1VbzAA3JL1AjQS41FdeHF-khgjkrk1dmO3UK_SmH1Hm0F50U4w4YhpqRB7d8ZgYSfe65D5I2RIhoUE9tOalvI-rOSfceuJAsP2JTAKLtZeMVIduIz63609MrYeB8doGDuTrlEGFul8QCteK1_unyVwvpqWvUElTC5Lx6V_OExKytpy_BPndsUHYymzspB7Q3_ipuX5MgQ8YEf3w0pIONZbHvQ29BBtXw5WBlA4oSCYRv_feXQP79vQE4nUW12d_u3UwLQ6WmXZg7eU6Ei-kQcgq4jIrkY_gh-3h9I6yIGrDrxeONV5xNH5yoZ1B0Yic0Z4YlUkSbKbxC1RjIf6ymO3l_3X6ecy43NiobyWZwkxvWtE1lDAukaaojrpioG68sNJeUzmiTrmu78Ntmz7azbZd0FJLaa455t-2PY-n209g23WgPSu_tGuJJK_jhoP8ckDjio7uDz8Sxp4kBkKqulIrALMZyQGvtWk_zik8snMOqrfgP2u90NqBW7yv_vLLy5i2X6UrM-YjgsdPxoPU61_P8CB9nnGyH6COK-lc94fLe9OwGhExzPBgzihw69zr4FrKYp6gFyrYPGlhuMIaV68-cgVy8JKBFHEadqLgznxeO3cm-zbedqDZLnyIi46NvkAQ3S8eszcQb1QIskqhBLT6UwKnZDJc9mWhtclc2jPvpBKoB2Dszj6MB4EEcf1zJC2sfi63ybUX5sWm3QcGS7ihfyuliksn4S0fGkiLxSvBljjmH4UT-_27bdMwmESJvb_-xSR0FtueTSXUzPWttFY1pJUrEZIIG1QJtMFvFc5vovWEM4QSFIiVzcGJ1rhsu5V1hETZcvNVDKu833QrUJaR2KJXTiQ9lb5bKuU1NTyKhO2NpDAhlLfs2fPK5NgKJQNqCSzpZeJb9vAro30FsVGh38fVtRapDKnmIRu7HMHYBL-NxkGhttZTu6tweOn4zALMlHx9r-ystLigr1_ct-1b3mm6qHRVlu57G4aniJHcFF6k2F-dMd5U4GSJrujbOTRLBr3yYLSXu98zwL08uBAewd1yBYPrMK-9wuah-nuIrU8haOnqJf5alHkSSAA00=",
-        "summary": []
-      },
-      {
-        "id": "msg_02bc94e9f08ff8b0006aa6f6eac1f887d08dd7b6f28a836cda",
+        "id": "msg_0230edc5c9e7efde006aa6f9ea17e487d0a558b4d6774342d9",
         "type": "message",
         "status": "completed",
         "content": [
@@ -472,7 +268,7 @@
             "type": "output_text",
             "annotations": [],
             "logprobs": [],
-            "text": "{\"state\":\"Andhra Pradesh\",\"observation_date\":null,\"source_name\":\"National Water Data Portal \u2014 Andhra Pradesh Surface Water Department\",\"source_url\":\"https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b\",\"retrieved_at\":\"2026-09-13\",\"observations\":[]}"
+            "text": "{\"state\":\"Andhra Pradesh\",\"observation_date\":null,\"source_name\":\"National Water Data Portal \u2014 Andhra Pradesh Surface Water Department\",\"source_url\":\"https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department\",\"retrieved_at\":\"2026-09-13T00:00:00Z\",\"observations\":[]}"
           }
         ],
         "phase": "final_answer",
@@ -649,7 +445,7 @@
         "total_tokens": 0
       },
       "web_search": {
-        "num_requests": 5
+        "num_requests": 3
       }
     },
     "tools": [
@@ -673,16 +469,16 @@
     "top_p": 0.98,
     "truncation": "disabled",
     "usage": {
-      "input_tokens": 39060,
+      "input_tokens": 28133,
       "input_tokens_details": {
-        "cache_write_tokens": 492,
-        "cached_tokens": 4568
+        "cache_write_tokens": 0,
+        "cached_tokens": 5060
       },
-      "output_tokens": 1451,
+      "output_tokens": 979,
       "output_tokens_details": {
-        "reasoning_tokens": 1340
+        "reasoning_tokens": 884
       },
-      "total_tokens": 40511
+      "total_tokens": 29112
     },
     "user": null,
     "metadata": {}

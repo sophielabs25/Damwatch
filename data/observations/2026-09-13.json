@@ -1,6 +1,6 @@
 {
   "observation_date": "2026-09-13",
-  "retrieved_at": "2026-09-13T19:17:20.830835+00:00",
+  "retrieved_at": "2026-09-13T19:30:17.575417+00:00",
   "freshness_policy": {
     "max_current_age_days": 3
   },
@@ -18,7 +18,7 @@
       "state": "Andhra Pradesh",
       "status": "no_current_data",
       "collector": "openai_official_search",
-      "source": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b",
+      "source": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department",
       "accepted_observations": 0,
       "rejected_observations": []
     },
@@ -48,7 +48,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -68,7 +68,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -88,7 +88,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -108,7 +108,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -128,7 +128,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -148,7 +148,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -168,7 +168,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -188,7 +188,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -208,7 +208,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -228,7 +228,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -248,7 +248,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -268,7 +268,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -288,7 +288,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -308,7 +308,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -328,7 +328,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -348,7 +348,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -368,7 +368,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -388,7 +388,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -408,7 +408,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -428,7 +428,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -448,7 +448,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -468,7 +468,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     },
@@ -488,7 +488,7 @@
       "state": "Karnataka",
       "source_name": "National Water Data Portal (NWIC)",
       "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
-      "retrieved_at": "2026-09-13T19:17:27.512452+00:00",
+      "retrieved_at": "2026-09-13T19:30:23.691382+00:00",
       "collector": "nwdp_direct",
       "status": "official_source_verified_current"
     }
