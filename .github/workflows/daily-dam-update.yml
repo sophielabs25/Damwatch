@@ -2,7 +2,6 @@ name: Daily DamWatch Update
 
 on:
   schedule:
-    # 08:00 IST = 02:30 UTC
     - cron: '30 2 * * *'
   workflow_dispatch:
 
@@ -21,11 +20,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run collector
+      - name: Run official-source collector
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python collectors/run_daily.py
+          OPENAI_MODEL: gpt-5.6-luna
+        run: PYTHONPATH=collectors python collectors/run_daily.py
 
       - name: Commit observations
         run: |
