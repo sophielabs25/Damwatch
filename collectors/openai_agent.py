@@ -11,19 +11,19 @@ MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-luna")
 
 STATE_CONFIG = {
     "Karnataka": {
-        "primary": ["ksndmc.karnataka.gov.in", "karnataka.gov.in", "kwris.aciwrm.org", "nwdp.nwic.gov.in"],
-        "source_pages": ["https://kwris.aciwrm.org/ReservoirPublic", "https://ksndmc.karnataka.gov.in/"],
-        "search": "site:kwris.aciwrm.org Karnataka reservoir latest level storage 2026; site:ksndmc.karnataka.gov.in KSNDMC major reservoir level WRDO KPTCL latest 2026",
+        "primary": ["x.com", "ksndmc.karnataka.gov.in", "karnataka.gov.in", "kwris.aciwrm.org", "nwdp.nwic.gov.in"],
+        "source_pages": ["https://x.com/KarnatakaSNDMC", "https://kwris.aciwrm.org/ReservoirPublic", "https://nwdp.nwic.gov.in/"],
+        "search": "site:x.com/KarnatakaSNDMC \"Major Reservoir Level\" Karnataka 2026; site:kwris.aciwrm.org Karnataka reservoir latest 2026; site:nwdp.nwic.gov.in Karnataka reservoir 2026",
     },
     "Andhra Pradesh": {
         "primary": ["apwrims.ap.gov.in", "desweather.ap.gov.in", "ap.gov.in", "nwdp.nwic.gov.in"],
-        "source_pages": ["https://apwrims.ap.gov.in/mis/reservoir/summary", "https://desweather.ap.gov.in/Realtime/Reservoir.jsp", "https://desweather.ap.gov.in/Realtime/ReservoirData.jsp"],
-        "search": "site:apwrims.ap.gov.in reservoir summary latest official Andhra Pradesh; site:desweather.ap.gov.in Realtime Reservoir latest official Andhra Pradesh",
+        "source_pages": ["https://apwrims.ap.gov.in/mis/reservoir/summary", "https://desweather.ap.gov.in/Realtime/Reservoir.jsp", "https://desweather.ap.gov.in/Realtime/ReservoirData.jsp", "https://nwdp.nwic.gov.in/"],
+        "search": "site:nwdp.nwic.gov.in Andhra Pradesh Surface Water Department reservoir 2026; site:apwrims.ap.gov.in reservoir summary latest 2026; site:desweather.ap.gov.in realtime reservoir latest 2026",
     },
     "Telangana": {
         "primary": ["telangana.gov.in", "nwdp.nwic.gov.in"],
-        "source_pages": ["https://nwdp.nwic.gov.in/dataset/"],
-        "search": "site:nwdp.nwic.gov.in Telangana reservoir telemetry hourly 2026; site:telangana.gov.in reservoir SCADA Telangana latest",
+        "source_pages": ["https://nwdp.nwic.gov.in/", "https://telangana.gov.in/"],
+        "search": "site:nwdp.nwic.gov.in Telangana SW reservoir 2026 SCADA hourly; site:nwdp.nwic.gov.in Telangana reservoir 2026 water level discharge; site:telangana.gov.in reservoir SCADA latest 2026",
     },
 }
 
@@ -100,23 +100,27 @@ You are the DamWatch official-source reservoir data agent.
 State: {state}
 Today (UTC): {today}
 
-Start by reviewing these known official pages:
+Known official source pages:
 {json.dumps(cfg['source_pages'], indent=2)}
-If they do not contain the latest data, use this focused search:
+
+Focused official-source search:
 {cfg['search']}
 
 Allowed official domains: {json.dumps(cfg['primary'])}
 
 Rules:
-1. Numeric values MUST come from an allowed official source. Never use news, aggregators, DamToday, social reposts, or third-party hydrology sites.
-2. Prefer the state primary source. If a field is not published, return null; never estimate it.
-3. Preserve published units and report/observation dates exactly.
-4. Return a direct official source URL supporting the observations.
-5. If official sources disagree, use the higher-priority state source and explain in notes.
-6. Return every reservoir clearly supported by the latest official table/bulletin you can verify. A verified subset is better than an empty result.
-7. If a source is stale, retain its actual report date and explain that in notes.
-8. Do not manufacture values from percentages, charts, memory, or nearby reservoirs.
-9. Return an empty observations array only when no official reservoir observation can be verified.
+1. Numeric values MUST come directly from an allowed official government source. Never use news, aggregators, DamToday, third-party hydrology sites, or social reposts.
+2. Find the newest 2026 observation available. An official page is NOT sufficient if its displayed observation/report date is old.
+3. Prefer current state-primary data. For Karnataka, an official @KarnatakaSNDMC X post/bulletin is acceptable only if the source is the official account; never accept reposts.
+4. For Andhra Pradesh, prefer current APWRIMS or NWDP Andhra Pradesh Surface Water Department data. Use DES only when its displayed data is current; do not accept the stale March 2026 table as current September data.
+5. For Telangana, prefer current NWDP Telangana SW SCADA data. Do NOT use the old Telangana Agriculture reservoir page when its observation date is historical.
+6. Preserve published units and report/observation dates exactly.
+7. Return a direct official source URL supporting the observations.
+8. If a field is not published, return null; never estimate.
+9. If official sources disagree, use the higher-priority current source and explain in notes.
+10. Return only observations whose numeric values and dates can be verified from the cited official source.
+11. Never manufacture values from percentages, charts, memory, nearby reservoirs, or another reservoir.
+12. If no current official numeric reservoir observation can be verified, return an empty observations array.
 Return ONLY the required JSON object.
 """
     raw = _call_openai(prompt)
