@@ -1,0 +1,40 @@
+name: Daily DamWatch Update
+
+on:
+  schedule:
+    # 08:00 IST = 02:30 UTC
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run collector
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python collectors/run_daily.py
+
+      - name: Commit observations
+        run: |
+          git config user.name 'DamWatch Bot'
+          git config user.email 'damwatch-bot@users.noreply.github.com'
+          git add data/
+          if git diff --cached --quiet; then
+            echo 'No data changes to commit.'
+          else
+            git commit -m "chore(data): daily reservoir update"
+            git push
+          fi
