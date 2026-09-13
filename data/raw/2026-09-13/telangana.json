@@ -3,18 +3,18 @@
   "observation_date": null,
   "source_name": "National Water Data Portal \u2014 Water Level and Discharge, SCADA (Hourly), Telangana SW",
   "source_url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw",
-  "retrieved_at": "2026-09-13T19:31:57.606364+00:00",
+  "retrieved_at": "2026-09-13T19:37:14.294755+00:00",
   "observations": [],
   "_raw_response": {
-    "id": "resp_061341a565a9a5c7006aa6fa1a7ec087d0ac6c041b22298104",
+    "id": "resp_09b1036093535f82006aa6fb5446a087d2a8522c8af7fdeec2",
     "object": "response",
-    "created_at": 1789327898,
+    "created_at": 1789328212,
     "status": "completed",
     "background": false,
     "billing": {
       "payer": "developer"
     },
-    "completed_at": 1789327917,
+    "completed_at": 1789328233,
     "error": null,
     "frequency_penalty": 0.0,
     "incomplete_details": null,
@@ -25,14 +25,14 @@
     "moderation": null,
     "output": [
       {
-        "id": "rs_061341a565a9a5c7006aa6fa1aeb0487d0b1d544b61991c517",
+        "id": "rs_09b1036093535f82006aa6fb54c66887d28105a429ef5597c2",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotDDlgR15hczJrMQnl1eGxQOx5UNRBQfORDFqgDYCbxxMEtIDnKT1cxW3o-dc8-PiEj17HrwgJZhVkUgGeKe8jM2ijtoCkRbsWWaPByRE09QNCQHaYI9JEt45z3o51rqvim-ZgxE7yWh3gQonycYh6B0SbLEEFay3d63Cym2CTn4QPSTna2H-D6H7mXfrrbRfiYJn3SIOvQypxY5kL3cZNLtHebkv9tX8jnyRAZ8mIcZUKOxj4cMsNWapxkE_-qeA6J0ifMOR7u5X95Ec52zQkyJWzbilu_sch1A_uWzO4VogONrwLSs30jzHPHKfSwDU08ST49nIgmMdbGdNXlUZ9DTjb9X3YzmCDvI7tTtyBJqcAgRGB87S6cRpDC8WSborvnfv1NAss1g0zHxWxFGyL5WOboZxOXoNQmTAiQ5LFCG_ngsDR2jXpZxtQRnSR-jNqRBx3G4_eumbph_UAruN2VM_W6EnT6gBuTippJJOMuDvqctlLqU5YN2RHjmj_4bDWD38o_ImYU3kHVeNmcv_3v9GButuQJNBlt0hYMsctmOZm3l5BcYgvyUdbQktRflXvr8Z43tHfkKE7uUoNQF7FtSVUK396sveDV1cdYnHZkH62tqIgAdqNzRPDAHcM0sXCIunfPDJZJyuwYhwH4FmZys6T-tjygsemFUwC5DDCzekxS_7-MjODtULYaW22Nz6lO5Os1HM4VQPg1bJBRmcsGe0T_XMrIarXn5GDQEmQU38XYA7g4ycrEnC0XGodon_5Z6DkEvRoDPq1jJT4FPg2W4Gr4-OA_OJnM_TYESppW_InTv8nhWtwGMqSmysPvn0iwy-4ygjFpXyA49JhjNDAAWY3uAPK5RK4AezhdFotdv-gDopZC7S1lgoKdcN1ZN-Gnpw1NnYYAbv4jyeqhysTHpGb3JhIVbQeO0I4txi2fSNhIjykkDxihwUtulL2VP__KF2M5GK7qqnBMao2aFPNg97Maql--zg6FHcWneFHsPpRSj5XCfviDto5megYrrsKiNka8JuVc02D-N2ldtvFgjml810jN2qGb5kIx_KoRDsUhWDqOyVzKcaYoagqDw6xsyIY_C7u2A9OFDGvelg1K5URwTKU2azvDpAfs8tAdeFoZnBwrVOzcBVQVMEsaZb0uBQAl8qoPfaseQXRJY9OWjW7mv5bRXzkjNKIcFLaIyZMDu8H5XcKOCRD9KEGuPpiNYm4IVwcUOnWbxLBnZy4xuCNT4O205dYcvKuvJvP7L6mTlQeXAAqnIsnRzM4TAf-IX9LmNcqfCr84pWG28oEQDEDh3zs1CGd0ZpP3DUw33iAFbm9oicSIw7nOvfyW49GkuG10h0_Mu6_Zp52Xk9bZQ==",
+        "encrypted_content": "gAAAAABqpvtqFbtYZPJkuAS5z1L4jyFKt6sbkTuRu3jhFAhl7PilMZsYdBuYOBKGQ70i8rqFVk8koRIAfXWD6Zne7UE5rXp-pfPfXd_olh1tD5BG8ZhH60uYCiF1cjQlD2o0689TbV3PHoNXrQtDUt1HpUpETfdpvmJ01TCQwmUvW1W5n4oU2Blgf9pv3SHwf8Dq5gHdWSpZZpF5P6Y7OGUyTwuaa6R3p0qkg2BLTkx-r5VwrfkgZQ3jEawRTuZHWn-hbwq98CMisZ4SNAMcBNIEz1-2vvlXl9bB6fc_EdaPYU7fKYYalmVRKRE7D2bjYyyerodY-DtXtEoDzrcWudMiaGGjCV-lwTQqOS2RdUqBAq6SmM6iZaiZXCKG_kkA-J6mEaceeKjh_2YEiA7qdK6yRrwTH-96kLnou-iZ_3rZyqIBFW_LSl9wTlCyAlXlXT-KbzB4HgvGEoOaf186D1JKef_zfCi35oOmSm8B9DIjz9m7OuXruVinVptJLdL_cJF-JV646dBGXgES2GymEb0nysvhPRK7x3YDr7UsWqtDuosQt8NKK9MpPAgVg_5QDCdwgD9OHNeklgaGTZIXlVAS0bvPG83BHdt1nELc0oufik4LAlqHnDOXOeQsRRDtR7_eJGNMKkdAscCRxEwEaOZIMYMOa3-9dy1LITS2umC3dezqdAibqa_Kf4n6Gmx4d5k-wnyXjNSeJ3Z3vY7R5JJHAhlfKZ928VbAuCTfuyDZoVXEdnNF4y8luDCxHoxvLuLKnfafnlWRSdCCHAFd_MSowsIEQMnn8gy-BEruapIo45eAU3gggfXOOjPAaWQjePm-2MIAKCBpCef4ytXW0IPhUymXkwXig87klEPpiaSekhCUlC3E_BKKimuVbIf4ocKeDNOrC5ktANzwONmo466F5dHpR8KUObU56iRQ73rN5D38It8UBVr1c_722eD8uWA_ZRlqmQgAhQJebDXWRHOpJYAefBRSFZt_OR5yxJB2r3krUE_yheTa0xXm_1vY5zgLIqi7reRaxW5XjdQIKQArrbV9P2h3_lvQyV0nC1iIPoRxu8bZfKLsT_wcrybT0tiJ8fOayflUpclWFtCjpK7eoHWlsX20ChAbG1p4-Lt4uQWOJu-LADXb08hw_cUETfVYiByBlivKRLnO95eb4EQCwUki2X7uoKTmYqcbVf_kuuxGpiXyx3wnqwYyPjKNaBLmG0HgPl1DrmVP2lgMfeQkBIQcfIM539KCKNBnnh9SC_Jhvd2UN6FEMcx9dXKBUTfYHmxKdZf6UdAg9RHnC-5IaDYS9xAHYXPRK9DBh--7NxhXnfnHPh-jOvyJfQdAYWVLjD6ZooNq",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa1b367487d08cb7c743c7ed485e",
+        "id": "ws_09b1036093535f82006aa6fb551c6087d2ac0524d5cda3e006",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -47,10 +47,6 @@
             {
               "type": "url",
               "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
             },
             {
               "type": "url",
@@ -78,10 +74,6 @@
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh"
-            },
-            {
-              "type": "url",
               "url": "https://nwdp.nwic.gov.in/hi/dataset/reservoir_discharge_flood_flow_canal_head_regulator_telangana_telemetry_hourly/resource/8b611996-038b-4d78-b8c6-383ac51b5a58?view_id=d76d16fe-65de-4176-8a14-8fea2f6eba22"
             },
             {
@@ -91,6 +83,14 @@
             {
               "type": "url",
               "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?page=24"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
             },
             {
               "type": "url",
@@ -112,14 +112,14 @@
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa1d2c8c87d090e1665c1d945bea",
+        "id": "rs_09b1036093535f82006aa6fb5726c487d28db26b4a7849ccf7",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotprfKfcsL1jtyXwKhFevpgPsEdwmnPjXYDvDcCwoEVMwLn_dojYpQ6X0pT7T7-4sD3rtra4pAvQDMhmDj_2D7y4G0KhiT1x5cqLGXjGks3DEVuJBgKVMEfaQLwE2ufiRlcgNcKQGMVaj8F0kADDX9mW5qsu7mZZt95vRDmFlmkAAFV5ZfyWHlIicC5wzdlK_amGG_Eta2ISBjuzRJEEzBZ-z_IoUW8wqVIyoZn5bu-pu-Mtjyp9IJekcQkaswzUd0DC9I3TTA3qwWE-cIn0YvjRHOUVmsK5uzsh5F8hcY90UQQ8YGz9g4kkUP-Nom5U25bxgzp6t-jJaxq8BWzrWImY0f2BxujIit5Jjv29WtRN8Crom821hl03xPfkDzoNQuWDr_8uaP_LC6DsNNjVrzhYCnxfgaIAV0qU4araYeXBq4YcT88D5JP_FGlItXIwYgLi15znuL2RG_RcSXLkEV6igUd0dVJYE6etbOiM_5dvtdZjWu-znFdYwoQPsUpyDeCT9gwi0Rx4KF52ZrP7nyj6k0kgqtoFjBoDn0PhY52LNclVukmOTZYnnHRHzvqQrzTpKLTQw_qZJY2F27MkqS6-BNPkk5LkZepK53d9lqZHruZT5rTnFcSuAxyGaVdBtbHsAGNXU7CAirobW3pT22KTXYwfBZC6VRebDkg9epNfwO27iY819SYlNNIOOTWc7eOnWtumX6HHTQDxIM22LHpSfsZTHzMmaNpmWijMNAMSCq5rNn1UzwiGelVFlcM88ilZl73wEPjL073cCVTMDGm7y8y_QJ9Gg_wqUhIEazaAoBUDtYBCHJi_GCLhHKfN6_VMpUe519G0jTrR_6B855A2Nviks3so9Pn1LGWxoY5wxy_b1lueBwUAIidlbOkKmo7LbhcGsjhkokWoI3Bo6ewKCk0joYw7599G7hh7mkwTFMNSlDdQR1l50jAywDOYOyWOSskWDks9Wmb95_WJFkxwVjk11nCvooJ6XV1QtyX5k_x27TQ--rw7nJVcA-5yUBaMU-gKPX8zsqJGr7DbjyuJrMmJVJLo_kMdl4rvoLJ0nXZ69-wfDKfb7Z8qL-zyVJkqvz8f9RnlHCgIAHn-XOE63qfb7rKPwnOIbp5mC51SdVZdxL_X2uTJU6mkPbEzvpmhvlvlMLE-_drp2wtHIBd9k42xpTje0PDQog_oj9UwIFLubrVtMNz4zI9Jy2xutSsH0OL2AeLTIGWkY6I8EhXjTPn11mO_7cBss0GgFyuNqP8CCTNyY0XLM_Gp10MXOg",
+        "encrypted_content": "gAAAAABqpvtqyzqQNz7fgv3CcD58bcj6bzmMRK0zNBy4C5jWmqdwJQ2zZu4nlNs1pzLq2-_7f2mMg2pIaAB_JQjG9iZG5oGZT0J7QzyBlof6xj4hlFRgsY1_kot0YjE9XhyNkiz4oS3gU3IusHS2k9BW7Bx7ka5GC2GFmXPuci94HJjyf2LsZyKAcfdLJ-agYeRuayCdJ-Bp_CfSOtExZBa3_T_1oQJWzJ7cN6YjJCgjBmrg3EAeeoc25PMaJZijyZ8ZGzI9VWDYgqnIxJpvwKDuh7zFU433OXW6to0jeK3l7x7uDlrbLEhlaJ0RI8tSpklzgeNPN1bzgwfwhgEAymWe4pdgXyKtPXRfvlFZz8_oKLnbvDimR_EC7dg-3ycjvyEeHW8qrS1j1jnfxtY-VrwGzYMttyXDiEemKrhEbXEdwb5dAqNFr6rLaoSiQi8nw4vnEhSWvVCctcoWBTj5d5-CDp6u3xNw2CaynuJvmoOgWbMRDwVnnGNMHx0AFDGMV8Oa-qVPmGyqMKeF6MnitayRX7SQTBIL2Muk5y5mb232lVwIoR8ZXEGO8PE2MKgGe4KT3meLJ6j_p1RmQGMuCuEfcxrUljMOuIPS5Upu7IQv-x3ANxssS2ng7_eo7Py41nCey7CstPu0C35x6UbvQblr2ARJR8YVmNkn9O8LU1e4lNfLXmtjC3fGosHwD4jQJvFNK7p175WRhgyfaeIpp9ZlivYJyqRpQk2-7G7MHspNwQZu7TNHk1iC9Fu68mjBU-4khGfeqhUr_YP8XktWP4-nE_VHMvn47jhbs2SsWg09mh0kRMUnAKzPvqrSueGSgC92JC82OXi79qjnVjBGBlSwuZz3VCrvtJDsj-0zwNbpu8MflpP_JYVtXf2L2A_i8pzO7JBNbadbGGgLgJe-hKIo7QlXuSbbxT2qrcIYRG0Sx08vOSepbI4NZgf3hq3GDVB-6OPVvFPdYpTCBBnwhVNnlMVcDji2zZXs_uscGU7-5OV-FZAm1UdWAlx0V3snTkG48RDC4fgMfxOkw4WUePledk5iutL8zq3bCEE-nBzzwzG0Z2Pe0QihzVaJgaIwpOvgURc6TXeQ0Jri9y22OAzaos8aMp1voDqLdp5aA1MLZMn2Q5LxpH05EzJ4gYEpCVz-DGo2wf9TWSAyfTjLqnm2geiozcp2zvEQ_fqE7kBfwON_G6YGcDAB_Ha8akab5M7kv-Dil8oXKDQ2CCQYKTMuB89a5Qq_QcBoNm8OrPGjybpIyyYnzYc=",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa1d68b487d094359076c4bbeb63",
+        "id": "ws_09b1036093535f82006aa6fb57477887d294a9f0041fcf7b0b",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -128,7 +128,7 @@
         }
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa1ea70c87d0886d3046b9ed8c4b",
+        "id": "ws_09b1036093535f82006aa6fb58503887d2845ae6b4dd3ed7bf",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -137,51 +137,14 @@
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa1f4bc487d0b1e74944d7d0e768",
+        "id": "rs_09b1036093535f82006aa6fb58de7087d2bd42feb64a2ee41d",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotYv2veMTmiVY2W9eCigHNFVrAVCNJR9pBLuzhVxGO_9qK6dwxFSy39lIjqixPvKItpgtjU2LivUyVN9mic53EEzNoZLv63n8rvMXT2f5l791-YJTAdApYWwzpMQ2G_QflJRT4sI8cMGl2l4_53-TOHjvsvVBqvikynHeRKBqdqzgzsYczCfAcX2idfpJvlhlL6SgdGQWAHx8Ey97SM6P_PDuTqBm_iRx_Ec_ILoHVT8VAqaZonMRLAye9cX1CLHj-iPNTxvDU4fgIehNeKiVAQWrfpXUK1IpoFmR_aKdfCdMC-9fN0Xuvjaw23O0YJfaejXYZUsWi8MB5xe1cXU2IBz2ukbHDcGeXU7f15snG7WDJVBXO1FuPegoe02aedJFjxdNmODJZsNiitjiy_mAac0mhxW5Di4Kz4ZnxzdqdybiqO7rSs2D-u0vknBeqpyaY7nKY5VGffV4GO-0UOmgJC9L7fR9WJaL1gYlcdGGjqddPQRW6hhIz-59WgJ2XaZy0XTWq7jC7gmy_7MHVXtnljWxDdlhW-BHptW2AKlSrt4xc0T2UGbylZMIA5H9sUNSuuS42j-e0v7YZ0mDk5IG0rWfgtp6t7L1jYNsOQNTytkSDzxsLM7jBAI3sLgVT1fz7q6ap6ET5NIx2ZuF_1qIxjHZWIvq1q7C-bkP6uDJnf2IEav5GMGwUCT1hNxpskBY38xMvd25CW13E1sIwqJlIVpUCgH8N8XcWF2N7Hd__AVwON4gP2zZTl5gcw82AkYeh2MF21YwKPJq7Wu0RgRLeUxcGVGo3OHcXnzKWx8HsvEMyAUxWTmMl3Zuw4BS-YY0yNho1e_HTNTe01dWQQP3lCxkZ3ak8XzlzNK_x8KgYHHR0HLIU8xymA0jz4xBOoDzB_gbM8VbUmQN5jsyK87KXDl-XMK8pnj32OT6gBYOGhbiryqYEpOsva68rKYSyrkNr3FjL8_syPCxQh53HdPlRLS9fWDbsE8P_SOrjqz_5ZSknGuuJ_Wga6VWleETP7SrecEZwVhHUJU--ziY4nk4hsm-zaEfkCBBmv5-f2IyeHDHIxL2SmzhoSYlCHsPiadLvSCLaBWSkA9BhupWWUsc-QWkYli_Prf2spK_I1AC4SWNmNirdSpaFhMn5B4HaHwI54PZvPL_9q66gj35WI6oSqFkS53pYRbTkE0bxb66zCwC_aywOx-4tuu6w1J_nLI9QS995u0MbaHm01MBvU9wUvFKIPh_pMgWhRW1V5japwUjUh27gbseQa5snh8cFlAlddy2S0_tBo-tc7fyK6DyvLqtq5EI8KXjdxnf9w2Al-ISpS-6fRcZz7apWHod2rU-LGgTZz7NBI6DApNi4ZpNfa1Kt5HNdFPn7yGR1swoGQxaY2oNSsKRtxBlbIySz6XHRmImuJyqwwDRlkHqpu38vk9A80LJgtYrQkWrJDJREckWC90Yv0k6BreSIjWeAU4Qd",
+        "encrypted_content": "gAAAAABqpvtqAQHIT-H-wguhJpHZKrATKP6PRCwrP02R_NSunmV2RjWbbz1LSIfmIUeYZmvak1UEJl5khKCRpMhTAztx4ZbdmWDg-OkC4X3LBrw39VQmBiPGkFTZrv3IJwQ2c2rKDEp-ItYn2KQsUKNKH5hu1JjdM1tKOjtgKchB1RGwQMFF2N99WNAKNavNCy_GuYunb4l2LV7h9K4tt-8iKkC-qkvhtf5ymTuj_xRkh4P7fI8x4GuviUwzu2kkT63GJ813YRYH9Dh8CKAZGc92QlqF2DvEQFXMLEvv2jgOMhAUCl-FDpS1asL_ZgWfa-qdPrD9Dd-3K1zperc8GwiXJ55Bq3xOgpzLBuP7H3Nbw8XmwmcAlRzZQsa79uRxp14r5v0jy5nWjNEU7FMskbVTNLgQY03XJqhgd8LQAvs3JVZi4JVpk0wBQDPzz1P6ykkCDbd5uLEGp4zvjsEqz7E03wE1EPvnbjtdUKPmZ06GIXSAdamX7l_TcvtvrrnDBTrswkJuT9JpVx2u1vI7zSpgZW3gZj7CkafHqpTpbmzYnFnpEHTUnXPfKxwhbOQKyjw-3o_wHg3_2XuJ3F0oG9U1R9-NOUPvbqpeHo4hB4w32WdZU3LPegkvkVguSd9l1vvTzAmDgK3f2Tl4imnwlw_OduaSfynO9drIADFTgjsRD2aoBluTcOSj6vCXvzr9EGNAOWVUwPqsjf5a2a6rT-bkQknpOEzu1A0OWH217-6zbUh6liQB3pQ4K5NDX9jn5mp2uKhhNGr9hmQpdAanAjRtA2CliXzd7C8wiFL4y5GUMX06seLOoMEnR9vZOME9-ZCb30baZUNdW4_ht5s4OI1AqutKo80fHJNJ8nl2ZLALja86VxRsWZDF9qXoDrhHbx26i8oM2UJKk-9tfmQKZ7BmFi38kbG5FpIGABBMnfyOd4pbuPuMdYdoM4bhhyIte2bDLdjCZWJgKzj-bay2mb5JndjlKbwKzdddUuQboiGN3lRHpeQvjYZGAs6xtBNCbel_UN9yQ1ESy8ZYl4HUZqkxtBsXcqeh21KGg0mUr6e80g32-AN28sNNLeJxY4BrXqhF9E8c6yEYn5aTKbMMQLRU3jHhoeaZ7yNfodl_ITMuLW0CrrtupuqlGwlwRsGiEGcEiARVT1msnAGTBpdjpS65peexsOLLMrRGngeq-eS8-FPxfSjphY5mAC5ox_Q8vTPOcdtMsQFiaoFf6-ulf_-zHyerSn9OkZZoP6xXS4tnTCXCpUY1W-ufY_76UoZQWwZhRXO48btN9bAweHGdVeTaURRDa-6GL11dbjjnjaY1VAqeFT_x_Ojf-laeyTua5j9CiIbqnWkAhzRV4WgZG9PbH_Jl_sIRzJJSdrOMJ0GwKM7TkttsSDHESs7tkLsN1jbc818MD2gDpIIHj9M5_KVKKF6dVnXSiQ==",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa1ffc6487d0b12befbddd3a99f1",
-        "type": "web_search_call",
-        "status": "completed",
-        "action": {
-          "type": "open_page",
-          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79"
-        }
-      },
-      {
-        "id": "rs_061341a565a9a5c7006aa6fa20bb4487d0ba269d629c2ef8b1",
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqpvotvITSMnWsYvpYymh-4UcwspYOHXLWjSID2hOp_VIxpoqxNOuyYQd6Ao8B9PK45O3mn4kTYrjhjuYJ35eslOoJMpw6xTY9u8LcClZRuHKp-GZ19_aVlD0AAKOhCda03x1TVZv6zmfm_EeuDW4lXPfWCj9shiLsOC5T6snxK1SVO5DzqyobwgX45Zz7SU3D7Fz9LJrT_y0XHTm2UqYlpXM4Z_JyV-7xpzv-_niOrEQ7Ue93RQofdezOm5Gm-Q_I4PJMheMasGJuV08vKmj_kIe7UOEIVOB5PL8aZZ92uHXi-zlAjDsutG55ULq9LjVydV4XaFSXQVK5aRxq6vWhYCnf8BrWSypLgUA-IoFSk0uhTRlEySbztOQ_mP-VYM8e4esMluf6Tyod5uorEq-kftJlP01c9xSmF1mzQjyX5mcHuDYNqy_47OcIWn7D7F2Jwc7EWpK2C5_00cLQzZa0hpOAiiYfgFfmYLBblcFZZ96ffbe2rJ3Nq8JsWdCEYf_eVIqt4viOxhGJNCe1AG77Y7iuD2u6oljRef_txBMFYyyVxEqm9TZqngEPsdtSjfrBvjqW8MrrdMlLivGcrGtiTpdd6kr6ZoeYSltmxBvS1xPQt8ZVbDJTUHKQMhtdfhwKPfTlTI-XAYswLLxkXwzVsUKh__5OtYVPrR4v9IDb7uqb8Yj1XPRhbxXDx7pGfHnexe-xmctaH-E37udQgixaHSHq_xG4jxgFzpHz2GF4DgKOg6LUJclMqLrI6jAQSVKiw5zhw4cBbc63qdP8A-QANZoDVlktc0rAhKS6Eev3FI5rXxKb-1qcdu1xnP3dAMXKyN8rEGdI7q30OSzZZeSfk99-OWjsMejkqBilyOeRP0KWOOrarH1zimjbt5ZpRR3GWrJN0Lg-zYqcurFbS-O12FX_Kh3lAqhReQP4GagpeLMeJOYynuClNCsKhUe0MPDoTvnpfML9whGtky10B2FinCMy6gf-kHWEr1ej1ga6CmzApsKNli26deSlQrgjoONvtmydA8a-2lSw3A7SP_ds0AI97q0mYfCycnZS5cqRdtvPslIwgkkopUXt_bySdt1ED3atPVhXTIbb3veEqEDasA69gkCsg8tc8EJIiN3mwRH5w1nO_X-MeNCKscVViFF9NzgAaqFC9CoTln5iiDlQVZPXWxMpm_hQOqBpus4D2Mq1-hiOeqpsjqdmU8eltzVK3CvflNu2jnRt2xY3fucHqbvAMQ==",
-        "summary": []
-      },
-      {
-        "id": "ws_061341a565a9a5c7006aa6fa20df1887d091fd4af1ca7f711e",
-        "type": "web_search_call",
-        "status": "completed",
-        "action": {
-          "type": "search",
-          "queries": [
-            "\"water_level_and_dicharge_scada_hourly_telangana_2026.csv\"",
-            "\"c13c124f-0280-4880-83b1-7fdb2ce93c79\"",
-            "site:nwdp.nwic.gov.in \"Data Acquisition Time\" \"Telangana\" \"Reservoir\""
-          ],
-          "query": "\"water_level_and_dicharge_scada_hourly_telangana_2026.csv\""
-        }
-      },
-      {
-        "id": "rs_061341a565a9a5c7006aa6fa22605487d0a909a6a5eac7b26d",
-        "type": "reasoning",
-        "content": [],
-        "encrypted_content": "gAAAAABqpvotPVK8_EtzziiqSkhR_-gGdbrJPVCc9dlx9O0N0M4VVAfio_wLSj0H8qvkAWEkOpG4DBjmYBvTFVq-BXoWLB17F6Foo72GoM9hbzC9bfEDamCQGpANA6AZ5MSQ7sUciRz5j2QK2NbxLau-JoxoxKdFmEPrWm_Nn-tyYgy16-GwxI8D-3nODfw3jrrrIg16l9pAAokwLZ6rZC2MwFIWFXbHJQgfrheI3PIS7ZUVkXD-3f87pVTwpspOziYE7eRcmD4BTAd5ECjnAhIZpg_OqN2M6C1QvxSB0W27BZ1ZoWyUwiGpchktoQPdOT6XhXrwelZLl0elpaZODEKBRG46obooesNMQvFFEuaeT34h82cYhnPRIOrkjgyrxgS1rHFRmzWSNSj9vcRtnW0D_QAwkIhYbA_y060mBjWhR4gX1cv_jPUT-bhygICsSlisKFkrUXvPZZDhxIeM4L1gd3WMqEGjZQ0uf9SkRv8ucNotJZD9xDUPbpbx2NTU31ZY_xWoqGhNfU9lalMnEOi-c17ODgEOoilONw6cBgDwH4tpLi4SQGB-U7ZgJqLdkEKgcGC79x0TtpxxvZT1qBj7jaDsllU5zxpZRrTxaVp6nRLkwJw1hRK0KPsLtgmc92MDlDUm48vEjAElLEM6FqHW9QD8UOlU7-SvnZ6E-EoEVbnhclMzNdp5cmG714IiMGKT0dBHbDoXn9u6ZU9gQSHT_tAUA70lkEaaReXhNWFwXsuq0-e2CWXshN0AAfXtUu1rN-xFdRz9NuuFYpFHJOIW3iU-CvodJyY6SoICh1JdosooqLfGUZisHUVL19udE9M2I0K24KsXFy-T_e9L1D8pm739vvmpqIm1liiIzQtOauqRBKlwTyNiyu6t7wJgjVEs1rqlriCfW3lS0UY5pAcd3GCXJx65UVaQe9gOufMS2Hk57dc0Dc73KXPyPuuo_6-DNH_VAMeasy3NVPPnyJZUSXbnGhsaC3bc1r02671ejq3FksBGRBAumwLwKnXLJywCG-tdvZxnw44YlFwO0J4__PivCWd0L9CrrXRWlg3pNW6UknU-OPCEqMD1ihRr5UyTi0LqxUWudwdLCS4F1xqIv1VZWOUVWDi1Q4if8RRGlgP3yLswxZn3_gxZWX75DW-XCCtVHZO_N0k0iol1jds4VX3a0IRpM7ippimNjdphq2C-AJwSS-qZsvG-vBJUYfJy_gar7E0NkYJqTXrHksjvSDp0a7mCsK3zLR9XiKm-MlBZtCtX-JTj7A6Enjcf_aYzWo6dOG-CBynNFh-0rQ_ltLO2u8Vi1A==",
-        "summary": []
-      },
-      {
-        "id": "ws_061341a565a9a5c7006aa6fa22973887d0af38a078288bac9b",
+        "id": "ws_09b1036093535f82006aa6fb595d2c87d2a1b357a0a9d527fa",
         "type": "web_search_call",
         "status": "completed",
         "action": {
@@ -190,31 +153,46 @@
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa23812487d0b6dc294466521adb",
+        "id": "rs_09b1036093535f82006aa6fb5a157887d2ba8d375415be2181",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotIzvpEkv787rtGvfEp9aIIHmcljTRElocSFSzD-sVAmaFF0Oc83F-WGbFIqsg_S-5r_aoGxwXZQ4iRVE4Q_PXm-X6R3L5Rxx0UKU2Fi9Lff6jREPiemfa5ujwvEjN58WV4fX-usoFB24fGFOVlQJ4ezIS1xTuI8xTKTiiwtA3N0GNQwyfoS3zdsEj0V2cpmJ4_vDnYNnyv1o-BC4c4qES72xCTyX0e-qhjz-ehsnrdGNAHCNM3YK5wI0dK6m8elcA8JzsxxKrBOVyail3EXEB2RYac4ujc9N2FbNkqPtD542gRhu3h02Bv6fD4-4wWDEvo0uoHA8I-BHWB2BtLEuNxDZ1m9BcR2gsBJij1fa6z2ocKdDCToyybcxMqvMfo-rYYrxcKvDGPo_Rqy0kwyk99lujD9r9TDP5vG4_75NKiFFjlLps6gpuE7_afUPi1hD5_ANtf8FOHJqegu20SuPDp9ucOj_1_v2w-IzqpDi6pT9QNEEvEFIQA86OoBZavxZWa_2ClXgHhSf1mifJCcLZ5Pin81In4j-FxXzCYdst_mPt3oqJ0bLFmXgr4wMkwsTayhlPEPxDgpFrdPnrQuQBmthuLpI_pTAwSgrdoTiB7mNgKBZl0jX4dzbF6_7AvVr7HV0kNDNPSJMdPGt2QuNEli259BynZSXE8Fk4YjXjhxyvcjic6qPI61pHMlHXb214tMjkeU9yfzrRCgKoyGv17qSjkH9DRRXVmIOtFo8zqq1S6TWPqQEQ4ieFVXt9x_Yhz96O56N-hrapDF5deLSb0CIjYfT4Vojfr27JSYJskqQXntMlLRkAZc_VL8eMk22bev3pA4VFpfQu05jJw6aRPypwf4VwwoBMTkAeK6dOgUcklw-mVDJtJfWoFedeB5PQ25yvAi0Hx20M11QZaSRSSVVBCWZA-5ds3DEPK07f8kiDw75XowvxUDfgtfBlOfWhTkUB31mKUxmymdVaMKxSVVApjPd851_BDEME3q-Ve-ZdqaevPM5dJOxOAImPNq2Jd4Fllq8HxdErbfayylVxiIBixB4NJ5hNs-U-mUprjrToWLxAdfoq5INBnFbnD_pgiJJ9EeOw5SUL3NbkkbQqSkINYl33maLv_lYL9bz5Tm1VBXLHzVR0iuWkJND9EyMDoqB5uBx0X5wV6qv2-HBvJmBvZHlOfaiujlmDCRW3LlVY9lX_ifatyovXkaaNWHGY",
+        "encrypted_content": "gAAAAABqpvtqZhgKk9O8uPm9BBQ8pcizGbxSjHuPq2-js_6zvpk1Wk_rbogkpppd1zulntNi9j1bs68CUtMvj88bNqTKJ488sCTVpaeFRcjJ6OREC4pYEnxTlqGr3WsKq2nX1aaR2mnnpJr6JneSM0WPN2mlE_JWHBRYPLejIAxcdnAEL49S6-9YNsStZquPpnFC2NoVG93EIRrZ75n6NXhMfITHShZHZu0DmFnkAXulDS_LnROCscB01yh-d69srt_cvaQ2a0AtY45VeCQtBJTrIAdf4d2YcNeAhLZgNqQeb5D2oxBkQ8qPt48lCWRADsL3TrHqnFuqq-m2yi18Hfw3n_z7cz0yDQcADIQqYARKVPxQjDYHYxGKxf6B9RU-TIax0n25-v4U48LlXzU9XPj005NyRYdlOMJ-K3F16Axlqqwl4zMfrGwVTQ351k0So_PnBHmjpw3sIpIGqNk1JsAs0jGADciMCqcI3OlxklCneM1eJupFJcJEivT875Z1cre5FgqS-vVJAsPxdCQTtPluYaTyDqOpD-8KLxYpyuliTd66YIjhtpZFxm-BdcqaRLpWb1CMkjkcdT_JatP2eKdpUjeCSkvbemFEjqYDHaFZYctAwfXMfhuxlKytgQGeLqHNEYwWT2E0jQM76BmgyqDDiUidQ5I6xJ-GW38vDPn4BjknNsUkwZhriAarRX-TsU-ZlnsYrUA42mIgtb4wb-Y5vgHVoYbSoYa_pD5IOospPpsXjFoAWeKSjAwzZDvUag3q5CIrfLdV3YGwY0N8o7peeRIpcVZmuTUn4kM6kxNZROx9ngiOBsvaUXZhKg35SU50GAXveqayTcj2DDr8kpK4G9QFJBx7n6S2EaKRrq9YoysnrPw1jFpbcNTXFtPZNpPAyfMJeJvGUqbN8gIAWX-J31YR91lFsrt6vNzzPNDNgltPigeGJFPNYmGcrbkYZwJjx_-sG5jmn_zluO_lBR6Rgc0da1PBqkJ0lj3XrO_g7p4b5mvpl6j2HMDW21xAiS2aYdEdYjO3SjSJ8ZdosdmwEj2P8VqnfqdbX3WSdp6nRlDuoiCHBhY6EaTkIAM-H2Lit3vSWQFK5gPrTQh6tp4hny4H3O2_UxCHPq0b_-AVTqZhf19AbJXMOZD3F4APA1v7qXu1zAd5viseZQPq00Vd4Sine3grqybX5KIuC9fGl36bdeop4t4boiuX-l7XdRMXLKKeaAW6bmDhaYHPKX557hCYeS-lZQ==",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa239ed487d0aed2dda2aecf922f",
+        "id": "ws_09b1036093535f82006aa6fb5a3a6087d2bf939c51fb6b2bc1",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "search",
           "queries": [
-            "https://nwdp.nwic.gov.in/api/3/action/package_show?id=water-level-and-discharge-scada-hourly-telangana-sw",
-            "https://nwdp.nwic.gov.in/api/3/action/datastore_search?resource_id=c13c124f-0280-4880-83b1-7fdb2ce93c79"
+            "nwdp.nwic.gov.in/api/3/action/package_show Telangana SW"
           ],
-          "query": "https://nwdp.nwic.gov.in/api/3/action/package_show?id=water-level-and-discharge-scada-hourly-telangana-sw",
+          "query": "nwdp.nwic.gov.in/api/3/action/package_show Telangana SW",
           "sources": [
             {
               "type": "url",
-              "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+              "url": "https://nwdp.nwic.gov.in/organization/telangana-sw"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?organization=telangana-sw"
+              "url": "https://www.nwdp.nwic.gov.in/organization/about/telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/group/climate?groups=climate&organization=telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/wind-speed-telemetry-hourly-telangana-sw/resource/f31da111-83b2-4549-9813-f0677a9cccda/view/fdab4ec1-2e90-4169-95ae-deca6c75b1b9"
             },
             {
               "type": "url",
@@ -222,101 +200,187 @@
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.in/en/about/functionality"
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.in/en/group/water-quantity?page=10"
+              "url": "https://www.nwdp.nwic.gov.in/"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.in/about/mandate"
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?organization=telangana-sw"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.gov.in/dataset/village-boundary"
+              "url": "https://www.nwdp.nwic.gov.in/hi/organization/"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.in/en/dataset/?res_format=HTML"
-            },
-            {
-              "type": "url",
-              "url": "https://nwdp.nwic.in/user/nwic"
-            },
-            {
-              "type": "url",
-              "url": "https://data.gov.in/"
-            },
-            {
-              "type": "url",
-              "url": "https://www.telangana.gov.in/departments/irrigation-and-cad/"
-            },
-            {
-              "type": "url",
-              "url": "https://nwic.gov.in/"
-            },
-            {
-              "type": "url",
-              "url": "https://gwd.telangana.gov.in/PublicationLanding/DocumentDownload/37"
-            },
-            {
-              "type": "url",
-              "url": "https://gwd.telangana.gov.in/Document/Document_20250814155952025_4889.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://gwd.telangana.gov.in/Document/Document_20250823165439095_3687.pdf"
+              "url": "https://nwdp.nwic.gov.in/apis-view-yearly-contribution"
             },
             {
               "type": "url",
               "url": "https://nwic.gov.in/uploads/public/notice/10NWICIndia-WRIS17thDec2021pdf-846eb4da76c53c84ffb4601e8eef52eb.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://gwrms.telangana.gov.in/flow-meter-apis.pdf"
-            },
-            {
-              "type": "url",
-              "url": "https://irrigation.telangana.gov.in/uploadedFiles/circ967.pdf"
             }
           ]
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa26a42487d09a5005fb76bc3b6a",
+        "id": "rs_09b1036093535f82006aa6fb5c1a1087d29fbb521ae5156f00",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotle-4w2LVB3ErTNo94So5j4fbbux9KJLRYslxLQ4iKpJJDFzwvybZtWaAkpy10cp7rR753TsjOWvJNFo_698v374KdhkEQImye9ACOTK8y0M3SMHc3GYRrJCDvK2F7JFGAQ_IbRO4itFJMUVfVcmFL1WNoGUqnSb8oL-L-X0jPBjhNVODgxJp6brjX1vW96PUZihsdT8Oxv9v1PiZ6VL-nskHbe87azrsFgMrZOConoiWz_nuoL-KN40bBuayqO_Mfz9ymV5EiDuHpTldxJW7AJFY2psH88uq4C5KvUPyyS9H5zfee1qSnhhrGIqipGq8KaIfewgWduu8Jlwbjsf1EgVzwypnV4RnlzRTNCITa1k-9O7bqYrbiXfo-48rv1KYQp2MScFig3ew0oHnmWs9ypuPBBvQbgM3HUtYwh-A2Mb3M-0pYuBq_XWMef7czxDgCLDzMZBYr4Dgy1RgWt8L74ERr6ban6hSjAOGaa1ox0EPjlI-2a-qDJCUfyF4SMP62cswhJBZOumc9_9fD3MMCAjDxcV15X4IVKWSp-5ti21f-KuT-U8ckLkM2BZ_jGEZxQqkltNfiGF1IUyj-DSoBWmUQVOMj_K7yNI6ke82BCKJc_z3s1Kon0_3TYjucuOMb_l_iKUdxu19LjpiiaTl9SQW7rDX9Gv9CPK2DIAwydcAsz8PwXiDIavuI3yJOklSVbaJwJERu4ENsIgi7rl3Hif1soTWv5brHuBE5vzbs2rmclKpeYZ6dJOx5VEqEjPvGQFSlpIjgyh8OjJupqTmtpqJKRj5N4Yt13cpK93SuoiAoOHuHEHAkmfWOdM--ORgLkZTVEGvBJZaUP46lejYEcYLcixmWLXFkvNxrESkmtgYGU7MDlSGTWTz0mqzZk4acblwb-W2CoCe63MeHQ5AS6W60b8s3Iik4xrrlzKR-0nxrWx85HPNMTkxusGCuol2UdY7LhmwHoSrWtoXnR-nPZcoU0fe5vWN9gcH4V8RqBWXsv-oieXIvzZaS0pn8f4m2LmyiTMP1BT8HkXScxOX7AbUQd97sfF752cTqzldzgAToUrSiDdbZnUwm2QB-wRZbbBryj3KTBZbeZaaFupumzNUIDVMKc8EyHExyBztQr8khWMVn-zXt_DlDPv83n_g2mQbPXXdPUiV7gaZMwQRdK4JMV595_a6UQeVPVuS_qLu1Nk3CdgNsyAeCNQSMHOi_KtgKWlnmGzkTFLYTxmxqEjsnaMinkygdheYiN5JrUhC9xWsENUq7jlaxMYQcGr2-5xf2vEjVRKMaxwZbFDf0zuBEQvQd53fxgg3ubiSBZFw9uS016ZnnNdT2U8Akf7wSRidJB3F0iC2bqIEnP7aE-prr2x2h7xhUkKcw3lVjIbWl_2OIxP05a4eVSwjUxw6",
+        "encrypted_content": "gAAAAABqpvtqjgTqmgyNHeqLgb4YWKskPdmoQ_vQe6OWgWIzRGGsAgTDwdGe94gYCUYJgZLiDMTVLY_94vsyc747zY5qxmn_Bxjg4VnvFWhyk5v_tWkA9953FayBhxGPIHn6Vz0jQAdcaQo13lmA-5QruaHxWM2E1n9eG0owPRHdDSutCYVTWRsVjYWVSKhoX8Qbjoqfuln1S0xJSRw58vRFqLXxL8azeGyNYvlcCFPQ6xTiAG1xoXUHb5V4xHqDweiGsvvdWBOXAjZCLExskbhJOWl7MIqjDtXt2kKzf7ui2GrIcTOTyquxG-QBnE6a88HIBBYhy5qPaOyXXGVyBXk15sK7s4n_uR5L2beurkiwShvzgyty2xxQ2R6au6SlYsnaMzl9wwIdShGTrIhLqMa7OUQoPlfNWKaADaXOEr36DHDbBVdtQQMhQgF39wl-clDnxDj_Zi2h3P_bqp9fbQtrGxhVWau1qjkBmg84WJvDB1VEU9kn9DB-4qHDgmp8xoI2R3aMF9C_oVwU9WRKlSdmwU4lWd4b8VbOOKPpF2Q8s12mcHqXbyIvBEm7RQewuhqTffYxVoufj8polAQ6lH72yDhvKP3KSPJ6oBu6dqsdnSLpK3ZpoaQgyLyGCkbT9SQ-ZlXFVJvnnqH3DMH8pYLqRI_lZJN7zEvNdywMZC_MJFdKEsqW2IxTsjRoSbvIBomtMsuh43Ya2bXZrzBRTCQ_gY5DsqK3QwQ8y5c9X5H5xqmRnstmvRZn3EdEO2zivf4TFxDnbedbK1w4Elk45IH9zNDRoy0kbI7SK_bw3Ife8nnhZqfqTGp3k7RLeJEE9HlsWZBIV3ZpGmeMhOU6_RnFGvuCby8bqEuXAAp0pn8T7e6acF-kQHoq2p_scUMPtY_mN2psA9Fx-y7WEdo4rtAnfnHFkh3qgWQx9Bs_7m6OsDZLfsOFtzEjJFME5c4voXARibrEmOhRkQYK9ouYqhK53HByAjifNpMuAAEeXKY9F6fQrL1tnFvj4lxYRQ3-IxntS6JXdgcHc3kircowNbMv12B_rDYlKqY_mx6-TRzdavMtJzcO3zWGzRlj88CR0OfH8QyeHCaXnyawbyWslJR6XE633VqMC-AMyMGlkfD-Emv6qBLYei5S8RAFwQueFMCcNVKDVed09gIjrR91-8LTj1q87ixuYwGvnPugt5tXgQZgpFan6XZswrmAxPT3hMIVhbssVE-BlrOjnW8PZenLT0Y-tWJM_sbhlUIZEaEb-nmrHC_6m1A=",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa27255c87d0a03d7cc980739fa5",
+        "id": "ws_09b1036093535f82006aa6fb5c3e2887d299b3ffaac2ae81ca",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "open_page",
-          "url": "https://nwdp.nwic.gov.in"
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/view"
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa27dfc887d0b1ae860e43259009",
+        "id": "rs_09b1036093535f82006aa6fb5d687c87d2846b075e560f3756",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvottdk0rlh1PvKYas2MAiDGQ4tCD5LcquggBJQ1jW0dj4MOW-1nIFtWwPukJRkbbY6CKdoVz8EC-M2v-xxoML5UM1Ss-HpjFba7DvsyM1zxgq45_F5DCLIhDA9kz0GNiP93MxnkNPlYTS4NoK4-vSvFmF-pNzRstKmfTvKJtuPFij3-bZgbQcarHOmPqQ3Gv2Jv2ZD9WDSlYyNj4uRypoTlWMssZbvip2l4uuTDSPJRxtAlBEdu_wyuYAD7hwMP4c1ApibObOgIoQZ_GzCEwRZV71qOckyEb8XS-A4G-b8Twa373-LNat4BXJCcly2L-VYWo5urFFKediZIqJ05zZljFn2jcG3LARlApyfwK-M_XWkI0gflfD81f4zkNskc2ccCHGdTKR48aA5dv_uEGfKo1zRMBxPXsT4Qs2Vv-HtdQFOQm2kw86zp13nzDA992iHxwtQaT4h_lp0tYnIMhabjUrHxFdYzwcB9pKRrUFC3vTCjHc6PLluJ00jRjUW15kByugi3NqKdhLuE4yCdO4ge4PohJh4QPhEh4J1M1njzTy8pHgGY9GL1msDssqPlYJZXOfdWc986WPlUgpYvNdI286A0KAccy3UsIT5W7_dezrIxSfecjus4h_BzKt2ud5smw4Fh05Q9_FYigzzpZCrrEpBpruse7bEwRX1QHjl6qTaSQc0CxRhaweu715ntaZlQtXufFRKq-4qRjSWBed6WOEA8Tl4fcRFEOpKPtenDznvLhKcvjFhDFPu10xKoAvq2vwVupRSvKt1RY78IQVQmzjhEBAQAKHsIoiO5yUzwX5921aTWxXo0Tw8rRrWar7EmLqNMdDfrggsL5MaXKFAHMRWqm5qbvYTdPSUekIporf271TYkWiJQmXuH-FlxOVRKzVYngPxbrye8jfTMGEGU34BB7OKcaPg7jX7jS22_K5rxh57mS0QLgaytRAdmVEj7cWwcuxeQjwjndmLqaaX4nhLXXMGUXb3MTqzbLJtdyVZ7GXAxFRZhM7FZu_-mPD3HT6HS0Q8bZIk8lHZnTl0WgeRZujo-7G6gwy43gVWwcsJ_Ki5Hz15uJXlI0BAY-sqgESTcjhA_lkY4ISK_q7X5n60qPuGi3uaAwD2MoKcyvTvYmV3h9GuR1O7sBTcWLElR9XUKln0Il6bD3QqEn5VRF3ScYCSdfJcV8B1xVPZ5CMz9P7JaRYHfsNmySiS8iErlSJ8h03wpj09dTcJGFD3nJ96xICg2dUoHwovE3H9YDkdZ8qQnH3edMPjHlqkVHJC3GES-m2mmisIs39YZ1gmqx2fJVqHtCdU8UWckKQ3aa7qyYu_iueNt6ZyF58fTkd-7HMFAST3uvDdR0wUA5gYHsxjPDhRGqNKizz5vMjlPvlA=",
+        "encrypted_content": "gAAAAABqpvtqEsVQ_6DdYGieHk96DbJjH9rY7Ytecm2OdFlbA-S3iqKIp3AtLvYp9MNHq5gZ52TIwNf2C1F9Yfo4fyuTkFju_CJqFBswLf--yvgAzS_Bc2G9t-mXkYhG3H_lzyE-9N8iF9yORU0UY0EzUzeQ3fTSicEvaPDB6qlCNvzlJWrfH8M1XvgfXuU5v2VL9-xhTsM7oGrTGdhxu-NPQukJl1fdHC2R8odjwPia5I5HPM1U92FuKotmwqZ-ESi1oNeacAOftQKUhrfg845zW1-kMkfPOqS3hVRKj2FFcFxmKdqz0C0tdO_s1pFrtDKVfTe7Cq4To2DE2HDnCOWZutEbH236mctBbHbs9pAi1sLjj1XuiqGkzWLk082Ot_K4M9EeEWyJR7tavI-BlYLmIS-7aW47dSk3FletvsmviXfej1OcOUfpzr2dLqPVmrVzpciacbZkoYKY3zN_IcAvyMPieG0itCSgJn3j94Bjp-DcHsRT-O8B58r4EqRjPFhvCJAW9g5AwG21SGWjySCUbviz3Pmqwdgzj_XCqUGPhQ_-REmbdAHMXb7etwQ75ytsvZMm2gbqSG4_fpwFFbgeCaeqeKmHvHAowg1nUW7Fkt8fpfo7PK5xNux3C8Bet_OL06OKWRmqupLP7LK2iyDZ5unhD9IQXFcIQ7mCuDEFWpu3b3PeLc0J0nUs3loyTkJT6apYOWKWUdGJsA6QDXR1JN-TTQ3DmsV298-pWgNAxw8TVrjj0QcSS-vZzRslnv2mMK0fe8EJgxcQ0P_-xpPp_bbSaF0Ly320Vhdz2XJmB1__GCVwDhmAKX6n0cvo5mbRwZXxUN30ExOhGB5d9E4QgQF6dZxlD1-XnYN-PURIG5ND4Gtces9lzh5ujhdVkqh_9HmaHasjJh259pea58DqdKehuLSXK6Mmophj_7o5oA0UbP9hY3VDyi2Mtkrak2c6H0VW5jDRjiEI5YnWdAZfjwezHj13EU_XGaTC4YvfNl9jE1O5qr049LxbuSYk6Mc9iB0KslY9LVI-PIndZRKzKdtbEt7VBtZ-GnJkK6h12kaGR35ePXbF46GTc_QmSg3_TyOBvHyNiutW75ez3PvL5lX1eBlECLw4bn9MbdKshwper3kS5f5uhfJ3IkH0QiJTEM1DI80V6IKtrEAVAUF40pe5DMoyn9DlVzF4j4CkFA9epo1fFVQwvbDGyAP3d1PLcQ7EUSVc0mSaB40tlCtP-5Xmd9kGbY4VgvlBufvPv9baaewTESFFVTYSNg78B-jq2JB7LRwrmCMWLgsYeW4CqUZga5FH4A==",
         "summary": []
       },
       {
-        "id": "ws_061341a565a9a5c7006aa6fa28492887d0acf95473bf8327b4",
+        "id": "ws_09b1036093535f82006aa6fb5da7d087d288ba70a90d38bbbb",
         "type": "web_search_call",
         "status": "completed",
         "action": {
           "type": "search",
           "queries": [
-            "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource \"2026CSV\"",
-            "site:nwdp.nwic.gov.in \"Water level and Dicharge Scada Hourly Telangana SW 2026CSV\""
+            "\"c13c124f-0280-4880-83b1-7fdb2ce93c79\""
           ],
-          "query": "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource \"2026CSV\"",
+          "query": "\"c13c124f-0280-4880-83b1-7fdb2ce93c79\""
+        }
+      },
+      {
+        "id": "rs_09b1036093535f82006aa6fb5e87e887d29501ffb7869dec2f",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqpvtqey37H_jr7fKk9HBnAfZFG2YhRgJAynP4oGRfElqcyZ5ALgpYpN8evMW87-ewdU1AY-p70yRgTeCeWB0x2QXIoh2OjL2qsq2JwLKDdR2OnOYXI_LkzTyhVbtv_0jMTfDjcyr3HNrvlSDZmMx7zkjkP6yPzZf9IEpS81EunH0ClTNVt40cwMHxHQJzobRh7CBAs6S5tYec1m4dSeUPYsT_f5UB37Z6J9KLplDIf2HMTTs5oNPcgbmFJGLN-Jd7Gcr8mm7ZCPjMu63tf-oOGeJP0SABcR5LRHrDyJvyl9_87BC-womjqGJ8Ad1dhz6L6z6xPPm77vbsSyupn8H-8WuGDHC6R5lM5amdkxlTSj8LH0Hv78kPpTMA9atMvSERxn0C-qq4RB7jan0mPJTifQ5EnBfFtqDSRjqz_gMjDABsoFo0nyL0T1VOhQheW7ioWrkM_8o2QYClJzW7vet3Stui2CzLW2-OvfkpYmljCsvzAZ2EGGByVUslaQdg4nJ16GzShRdGM3xwG7SimZMQjBvqnk6RamevzwRS3r-ckhIvcNgNmbuP5CcMHpdfiDIupKKauNhfBk27MQb2TziTDNGL7mh2iqViC_8llzJuu2kvtIRKrU-6tW5Y7PZATg9Dsy_5Aj7X4QAAelzju-iUYCQqLv5aWUNOM4rfm0CPmkVUVM7j3VKYAkZ33bzxpWgqoCDIZwg69b_D2Q7hr_o3eep2FcKyIDi9dIxwB6M92qSkZUTHUgmJIFTHC0LpyAUCrbAuB4qWJo5R_2pn4PsMLQK00gQM9k849f6F8gW3o3Tfasph5dI1_ymOzBJrcveOr7e3oeOKC1A9DVS3TydVLaZ8YiKFkCRndqKSmebttlyvkDnWlR6Zm00cmuBysGs2TAqH1jwHd41ikraTKH9ZIxp57M8053RaLuyTbWPp6irbs4t9HCV3i7NePVDENn1mvnnpF6aN5RcWE_AWCuwCcARRRy44GlpbDPOt3OP5VsevXDRCfKk5-OJmfNImsn3KR0dMFCF-BkBf3muJgW_X67460fkwJ91YbDVgc7i7vRtQHTj6oE8HTFjP2xh-zIWsrGlElK0DXiFJnZwIB6m-j817sUv0vC3qMoJK8lnR3R0po-TsPiO_-jgNvdtZEXcVWBAWxgPfDnGBgrwZfRoHESL8E4VAimH0xTDJW-Uf69bqG5aflwGNlvthpFxM-mMfPqAyJuCW0fdFTWSdCfMWFiZdpoL-xHwVzMZeW0xYGQWBrpP8LiDXooeGOCxjO4GwFApE5UOEAOU_BeuABLiI0-KsmoAWx13PYCFKcWuqO3nPb5M=",
+        "summary": []
+      },
+      {
+        "id": "ws_09b1036093535f82006aa6fb5ebbc487d2a018d3abf91617e4",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource \"2026\" \"Data Acquisition Time\"",
+            "site:nwdp.nwic.gov.in \"Water level and Dicharge Scada Hourly Telangana SW 2026\""
+          ],
+          "query": "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource \"2026\" \"Data Acquisition Time\"",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh/resource/508f10b8-70ef-47b4-9699-7f0b62ce28a8/view/a809e3bd-65ff-47d1-a9c2-66801f031590"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/wind-speed-telemetry-hourly-telangana-sw/resource/f31da111-83b2-4549-9813-f0677a9cccda/view/fdab4ec1-2e90-4169-95ae-deca6c75b1b9"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/ground-water-level-telemetry-daily-cgwb-as-assam/resource/137d0a1c-8fe0-4bb1-97a8-983c28ec96db/view/6ddc3439-8d16-48a5-afd2-fcefc3974a6a"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b/view/944a7cd8-c922-46e5-9cf4-2f6e3b7eb955"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/ground-water-quality-manual-chemical-parameters-cgwb-f-gfg/resource/7b9cc751-839d-412d-b0e8-44b98c1b43aa/view/2c9a2227-d82a-4043-9a4c-a5100ca68207"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/ground-water-quality-manual-chemical-parameters-cgwb-f-gfg/resource/9946e904-573a-4fca-8eec-d259a27e8903/view/f78fc0eb-c81f-4fed-97e7-2b88b0aef32e"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/hi/dataset/river-water-level-manual-hourly-cwc-subernarekha/resource/c96f82a9-00b3-43d7-b9df-9ab00df9d42c/view/e4c69202-391a-4855-b7a4-cce15648ce70"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/ground-water-quality-manual-chemical-parameters-cgwb-f-gfg/resource/d8c9f79d-7dbf-4698-911e-4a5976df5300/view/7019f674-70e9-4ed2-9022-2576588ea430"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir_discharge_mahi_head_regulator_canal_rajasthan_telemetry_hourly/resource/e3f07a86-1356-47fd-8590-2bcb8cd4ab25/view/5f512f57-ae9f-4bd2-8044-002054eec140"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/surface-water-quality-manual-physical-parameters-cpcb/resource/5ecbb1c9-cc40-446e-98a7-ed1db44418b0/view/e472c6ed-2f51-4f0d-8144-88c9340d9578"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_09b1036093535f82006aa6fb61905087d2b75df869b0e786d7",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqpvtqnENc2D2a03X1PlI3jHF0tntYls9JyLsrplg9MojSSAYvSoVpL6MxYO1rCu8iqexQOtBEBHk3KcTWs7h3FksINzzkNi1aSx6fjqEvOCjMZhJQaQod2g6bozld9BJuU6cCPKD_JyYx4_Ly13skD7fxWQ1gMJz5vYYzP37Br14wQPG7iG-97FoItey8GyBTTDFjKQW2NMS4pOaMvnzBQGVr6tGnAob_2r45SfEh3gFTAU_6KZ-ozpY_SxcwF_i5ndBFAmkl4I90x7NVK2Ruic4FaF8kjDSV4t-uXUUyHXiffbV7FK0lmj5mH5LZBjAhAAVIr3iHu4pOlspiWmmpqhNT_LWb_zvm1zZnYGq9NK-zqXilMxBTGcFvx-QYxG0WzLmbZKWFUTQ6ZEoGou1-Yypqb3p26J1VvSlCpGbY0yRnuK8wxp21ZzbFVmJ5R3mVK3o_eGxyIovAHiFfNuiG1KBk5t7ifoe7ZSIcDYxbcx2FIWwmWZw9SNJwZu0lW2VgShmmOOZ_0bCAevKoNb3MEtJ8muNSdiYQgjK_j2JtvgAbhCdzHNNOAHChxgRmPEuRrV2lUVZ8AwKBHyk8rDvW8VOEfXXoMnVyiDEP-ZqMdj3BSLkSDOuQkm8OqTG7Jo8wiWpyZnbNbilnKvT9pJOAg8pACNYrCnbGkKUwUB4iDBURRsHIdFufsmvXm7tt1bNZzh4GhtNsyFbNk3X2jQztXweA3owWaPWWjDYXn6TedGcRd3-shz7qOE-93JLu7oEuk1xGOz6NHzlg6vSM2GNW5BEbehf3OhtvWMaqryhTc_5ezeDtAgKfiiUbAOMUJUzt19Yd9YPo1ZNgSOjxiVaOsPc85aHVWcttsr5v6aJxHbodtnVhyEw8dtzTMpoJcD9XTFzbCANiXMxqgERbNi1o_MMIYNJkBPcIcBK9NNsG6vsp9mB2jFV4X05Eo1viIk99KAGI12TdJTQQ_dXJqbo8w05zI6X3Cb5VhvTuRmbu8CZedl4U6fnG-veKAwcUh2-3FclDfH4Gy4m_eRYOS-L6rODOsc122xEdGiy9DfARxGW1ugm17KanAR4xJbMfPVF8xaEnM62Cg9g9EXclgyna2l-_lYQ-an8CZ6h70nD9vrOujTbPuPZy_GyUDIptziBmM8dXt_xKEvu4Pwf9xw8XSDvYIQJ2sTYAGbu7HCNxH6TmaEuAH1wyE9vxaljxxmZg2sa4GV7dh3dsJd6xiNXFeM9-s3pgAOkAx28Jx8AbTZYVTfYJGUHwIC2nG0TVjNJV47z6MlRIyzbWpvDMtUcbG3E20EXAYVwfcDUklPGqTN6opaLe4BKOIhawU_sv6vnlTEIHfNY9d9b4jegRcHyi4Z40sjAz1DmjeJohdkmSYYuk2_w_Wc9kKjcX2yPlt92sItrUGY8Pdbo_izgx-atop75b6OEjkK3iWl3USo1fBhnXo_O6DZo1_-CzzPUYsF7dQVdjSQBIeKTHoACa07nc_vnuNgpiqZEowCXWCo2egV-RTXnuRzDHO9Y-NYvLn7ioK43zQJqdOXqlLUnetJkqo7sH0Q953e0JyI1_d3cslA20i4g=",
+        "summary": []
+      },
+      {
+        "id": "ws_09b1036093535f82006aa6fb6234c887d2880ec4a2ba824686",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "rs_09b1036093535f82006aa6fb62d81c87d2acc10ac700fd4a0c",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqpvtqCHelaaw3F-g4Xr4k4Pfj_gdULyCdPcG9GmnDOENQ6n2Kp43uI1KpylIU376KhY-HFbm0rXjsyDwoUQGSAWE0lAPFqmOVNr6jocFQYEPc8LNFD-WAEyxxNjhAxUW337fZXAC_Cvef1zYtOZ-HLyAhwH1ejr_2Nm_0LI1s9ivqYyJPdpTmPAG8WPmF0FgM1F6zK9bk9P9q02LeCu-e38MXYKMXuIWnYjKKOPfhYlde3SqZ91-X-fTrNkEjhqlw8NWbDx9mrIG63u8D8rC-8hPLcu6EHXSgJJpACGwtew77ZEzjIQZCdUkmDpoXgubFlpMfdpmHFrzlGe25qbKfTujRBbLGlSTWY7JzL1GF3-hMIhfjdGZsjrTLKBjyNVVgPcy18ZK6hu0KVdybSn2FNcTbByWmTfYWzmP0SseuuSvQ8LxURT2SBaIGnOOrOgbPU5s9joZug73lsE9rOnnXBe1BRMAvInuF-SqyT90SyOVJQezU05T6P5TF0xhxgBPkb2IIZxOJdxk7kAb_y3yiaZJDGdDZ7TMP3bgKxYzG7BV3FmCW7hfMpnY9dnnPY6LHi1gvNb5oHr0agqClSRVfvTjRf137lKaOgvsBYcS_ch_lGGBqKMlUGx3UParVrFZU3bJD_iZ7WuPxKixkizKQfsoiflNpfAqpvtrtKrx3afDPiGO_xL2sHFAyUZexDeTF1maSTJ1zJIOW5Ro_RP0wbtDhMkxx850TEyqTutfRr4OpGvd2KyZdiXTttne4gLhhwbz0cCBjiCIM4w0utcxs-SHr-J40pJVhLDySKMTmfCMPc669KuOrJuTBDqf4X3Q-YGNdccaWj3-5wr79_wqUrXWpVORogIx-G5rxEn1cvholwsjGVvK5Ymp2ONBkuCmtweoCC9PaK7lzpqirgxg6vkrrDgNLiUXpCGocBY0mWKBrZnEPBc8xP6Ua88ocfcTw1CWPpgWjFyMvJxuN6OupOVxbnkLqJwuJ6zLXBPq7Fy4VNDVoAlWJDnSS8yu8qrKpaveeuxb4lv0YPrqOxP64hVy7xKFXxcdmC4ZCG-VxgHmUDelL_TjrmE82N-WRvm_uf10NH3EzbhjHH5lAHb0_BVZzgB2jl2L472X-ddRyxFnJmcTlaOh0PQn1p9GhshzrqPGsLL1LLwK6YPnr1K6qDuYnUNwm1gY0w2y5ayEgIgnElHS_2RRslE_POjmMzr0jEP3Hu9Cvyv8OsLXF5uj-5vSxnQ==",
+        "summary": []
+      },
+      {
+        "id": "ws_09b1036093535f82006aa6fb6304ec87d2bf6de0cc3eab4f40",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79?view_id=e594075f-c06a-479f-8f51-727d2aa04932"
+        }
+      },
+      {
+        "id": "rs_09b1036093535f82006aa6fb64079c87d298574ecdccb57dcf",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqpvtq5NEke5OVvjL1qzXkWG8M7ASktJhh-vSjofQPTXNwWWmNjGVTKLR8YiqxGC6j-dQLiQ5OFmfaYqAeoIzXK0L9IQljDy6cHfFVXCSFvn9AJySkvdF9tFVa6CMs0ySMVnX2OBP16zKxVepQ3g0fcGYVx3v0M8D9ZzCHFnacgj_-9jh0sxjnAvKxQP2UIBAlAbKvUh1YBIT-LbgEvgNTAOAtzWD0lu1Y61s8JmweqxWfAdoyOMnxmdjoRlH6l6L30jgWLie1SN3NndUAIM7aRMb6tk2szHzp0YfIp9fMATxk6_mpEvzvWLvsBkE92vhn7nATl5XXrrE-f3x69EriTHgx7jXn9BB07-47T5NiH3yvtSCPv6q8w-_zk5npyEJwjgTH3A7hrS6HtFWZ1JSO5HUespZcR7j9i9DXW2u2yWCnSjcuYAhWaRVx72u8WBS78Tr-1d9ZCUi3rYSsmQvUR0mvXxWIHx3j5yO_U6bLc6Hbob0ugS0v-U-e6Fqvx0vLTBaoC7F5i5BKoTL7xX0GEqoaLA2rw5KXqJWzZZi4vsxKWQMQpTEdNQg_paHpIFOfDdQNpJS2gw6U2HDhqlO74UnBiUiuSZUU967aEjxOdIikH1xFanXxIFA_UhKEVixHM8Iyu2dzIBHrNM-2ONQUkXUgmosMr7ctI58Fb-Zi9wBTQ5Am1XjIIJV1egcOh0juAf3vT77KZWaFzSwRQ1vhdZLfs5wdr44O-_h0yGH4TQZTeeXdYtiySVWuiRYwr4ME00M_wDXTb016KBhlXW2iWnEIvBuAcU7TmVNZxfJH449QtaAFdqTCs5KpU_QGhiMcAh89I84mOYGTgT9YxB2ZGJPQjsHrwY_ggwk5SQlNikEqsCJ7C1pu0mJ_8SIyJW2mGJSIc-V1RZ_4IzVRCHnCdNd4PlwkZrQruac3FCmT8-MmqKMcX7zpOBbL886hHOdr98uX-TeKxDAFhRPoRHjWxb0Ee8mzqnmj8B0bGzn6JSGVEZIEjwi9dGAaTDeCGVGFL8LowtigEZoimXUX-mCRoKZ0ZAPrZFbR8F3LRMd3p2bFrj_SyHCkNGhgFqfkgDZKHrzznOMi1WfD8JKTLTQ8VfVR3kJXRrEyHh_j8JXsiZ5JXz4lNQ7_V2LMOLzkrpZ_jzTw5RK0S9FrGowfmiutZmM4qrQmrdRCJdyu29bbmS9CjjgcW1u0oXT3oLMyzkgJmiAV0F3lPCqA0H202UfHDAXTtyB4Mf5NBK26cXj8EF__NW2dYTkqMQ_d_J3IiEW-wpNU_FJ0AOF-hmLSWnXChyWNJ-eXrKpCPPbx_3fDcnJeYqMr_HcgctzOtcKp3Evjcag1Y3LJsg87HfQ4B83rXQO-R8Qfkt2Zq2JcvBHplITUF-oedcjQEjzy83dhvoIjmnsdwd5segOEt1cZEyywbZ6gg6pmDj97hmEp2xkES5Q6ceDo6N9Onv3dsMtj6gbrUiYzoyyeXEeDHMT6CmzR1B_XfTqHaZdBdpBmHVer1Gu-cAi0QoGU1ruwamdhu_nxABECg3rKIKmbisIn0j5VBIzagEvvDQauzWDwQoPhWlhsu2KcVmXNi-XNF8iF-g-jLfpIspY094XywdXtFfHSbfCJlLoK4-Ssmw3YKvpbk5NudjeZsRzV-Lt33FXXg7Iw0B7N6xmpsH5kAP0cjMZFBtkD63wsGyGYLyvEbidT63RxWIRLBiPwbwREkVrJ8gdUYWNyKHd-xFN7NKrwD27Tqb04nQiw-s2a3rHDAqtHQyTxW3pELdue8r0ecytD36xSwDpu",
+        "summary": []
+      },
+      {
+        "id": "ws_09b1036093535f82006aa6fb6512ec87d2b35952e10130f0cd",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/view Telangana",
+            "site:nwdp.nwic.gov.in \"Telangana SW\" \"Reservoir\" \"Data Acquisition Time\" \"Water Level\"",
+            "site:nwdp.nwic.gov.in \"Water Level and Discharge, Scada (Hourly)\" Telangana \"Data Value\""
+          ],
+          "query": "site:nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/view Telangana",
           "sources": [
             {
               "type": "url",
@@ -328,40 +392,56 @@
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.gov.in/dataset/cwc-well-water-level-data"
+              "url": "https://nwdp.nwic.gov.in/organization/telangana-sw"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/cwc-well-water-level-data"
+              "url": "https://nwdp.nwic.gov.in/dataset/?groups=water-quantity&organization=telangana-sw"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-data-karnataka"
+              "url": "https://www.nwdp.nwic.gov.in/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
             },
             {
               "type": "url",
-              "url": "https://www.nwdp.nwic.gov.in/dataset/surface-water-quality-manual-sikkim"
+              "url": "https://www.nwdp.nwic.gov.in/dataset/reservoir_discharge_kaddam_narayan_reddy_head_regulator_telangana_telemetry_hourly"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.gov.in/dataset/surface-water-quality-manual-sikkim"
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir_discharge_lower_manair_canal_head_regulator_telangana_telemetry_hourly"
             },
             {
               "type": "url",
-              "url": "https://nwdp.nwic.gov.in/hi/dataset/surface-water-quality-manual-sikkim"
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/rainfall-telemetry-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?organization=telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?groups=water-quantity&organization=telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir_discharge_flood_flow_canal_head_regulator_telangana_telemetry_hourly"
             }
           ]
         }
       },
       {
-        "id": "rs_061341a565a9a5c7006aa6fa2a63a087d080bbc102ed150363",
+        "id": "rs_09b1036093535f82006aa6fb68585c87d2a6d499739a107f06",
         "type": "reasoning",
         "content": [],
-        "encrypted_content": "gAAAAABqpvotRqu1K7fSna5KPF8lLtFfz0wM17aBQbkJyx6-2RkhGdrmn8z6_T2NEWTbAkYq2eClgTadw3BVrM-yf4K4BdPLcFJyLc3LfvkXESvMyK9t6aDH65yyG_JoyMiPjLsmQsGYpP7cmu223J1kXFSv_71TO7ophEDzFHfb4eBBXA0g_mNA4s-NzDTkAqwTny5rMWXd9fapZUtCq5WYEzBn32QkK5OiS6YmSt82ncc26Dz8p2-9PFd7wy73wI3dbQIRVbNoukXe9VJqhWG_KEKdOu40cTB1PuOZjWcrj7tZx_-JDienyeBhbFggIQBBezGE7p88d61WCgI_4yGfWKv_KN0Gv8brhdznsdOtBmYx9RO1kkPqSafMIJeyL4vNniHF45AtE7wCNbgDpC3IP8HDyzXW1RVYiPN6kKd1N1bU74RD2ZKniii1ssaqZ7WQNYQHa137-651PBZERKW2SIjdYyOlfIywEPTaCxVnaOuxzCCuLvaHq9NpcIeVOWnJZnn0DkR4rGJNy2V2abUY-yeY2oYvjQooGH45jneT9E45Ta-nWH--nmBX_36MXNtYlGWH5S3lmS84CZnmsfaYTVmPK22xtlSpxK1AEClezZi9IS_Iyc4iMlWz1EjA67h_Fdb5R6N0OJgVRDK8se9L61pYcvxs-htI2cCvUPZXy35ljxTe6DtVjly_HXDUOb0O7Pj_elbLDSFdkO3AKsIz5IbzR9jB4wH9LzV9WCrLdxxdstqunhcOTUyuWHSSxIAG1a7y5CcwC5-INmT7lUFGudGUVZ7HzJE5KHoMXQO5RGYn2fT3Gd4xPbo2mGC9WJknCnv0_aMcnBaFxyNrg8ylW3ckPwtssewPyBGJMlyLf9Ea5IK3xXbu2tynJHczexmeDs8m-9n9mCfIF20fNJLoEYV_vmXm95wG-NEwtQRJ_EwjSm63GkwGaFGV9pi5MIqhtMJ2Ymwks8PEDzGppCyqIiNm3ZZAKS88XO8xGuinQS5DGtAsT8E0jWav4H8X07cRNurR0S_AIDSXpl36Z2R4G9Nga5XTGSzRg-Sb7mF_7_ZRL8q0w6BtDVVkbTuDdBLHWUCfJ4VcDHOebFbyHILc_tY4Pce7S3fF4C1c6IMZluJXtSPPuhyP20kbsGnFHd5EYdPsJ6Nly2pHu2bLCCG232GEeZVpQfQ3vwM8WzBP_zAz9UKF3PjQt3oEEI2OUv0705_BMclCdVzIqNPW3HN8mCE--jLtbsY1k37lrTWDIrtuPis2MJxUVXqsBe8E4L6-5GXeRS7vk7sUJ1w380a94OlCjSsFg5l9X8cv5yU_eiEXMF6CKtnBeTQ_qUcOunIQk-Mn3mj0iyWLgRxz6xb0teRBb2x_0bc51notzjHIIgoagiNMAuTLA5-Wj2ccq5jeT5Tt4POIpc_x9mxosnAo2Od-_LvSTeWQ3XSVcArz5BISgOSnN_nXPRmVz4r1NNol9AcWvxK6IIHUQySjbRm8TtToGbL1JlySII1eQPBakPREu2PwAVoU9iXRus38d4GReK-Ci1Egs3fPonoHHV9uBmIC6tq3sCiPRyct4n_No_QWDoy9np3njwQfGAxODYnJTQttdIKDEIb5y9E2bukGETuwl4dXCjiC7oh3FqtLYFWZGJXJvWkCB_Za_2dWWnIe4kAwt4PHcP46wCQpBaCTpHs1qLb6ovZ2jg8UC7oMYRM1frov3fT7eam5Qux4X3G2yu8ndXkPXHM_ZLA1n-dDgZeRFhAU05lXyrhdOr0yAhPDrG4YZ-pkqafu7cz58mEn1SNYDIXQu-M4UMEaAcc3mTxS9-i4QVnyz0YOBoAUfDwOqC3DX3todAYBEBDEloYgMNtdJR9lLKnQnepaepmbGd3k81Qc9KsZbEn9tvQlOmdv52M3ldHbt7mmAfXeaLFHBCNpvuVGUrKHicLNIrJtsfBt7pDQPTGsJP-A2ItkEmVu1V6R1wNMDrYd5lQT6UnnX3hBECdQ_MyHUbi3kPzQQYmofdMPN23L2vnP0a9n8ecVnW9gUUT8QVQBFvV8gp92dnKp9trhbiJwLuvkznuqQCfKO3oct-Kjchc7YtBSGdVIThrGsefH4YSon1G-9_Xoycx0HDy7TcQZmBvSn2HeUu9MR64xf4rjre-LgXy9apgJE_rzIOSH8oo3XRIPQb-QilSUFh7kl2NynVn9DBR_K2C0QzXH-IQgsTbKu2t00Bb_fUxcZakJDblCShMBkGw1ZM5jg04sdxA7Skne9wSMKAHnTuak-6UU-k-vfw2Xd66J8CjRaZXJhMffRmSxk5hlHPuODZccgylFJdXMjpW0qz_66_PnvWXdufqOiqShU2ze_gk_aT4cpFvdLaak185W7vZce7rHuEuPRLRr1EY7vcIH7eKZoGdRxp2cLUDMivrSInjks78tupkT4FDApgNKJllgM_X9vz3_kZe1h4eW59NsvLZgnTwpYTEca0XtvezQwjiKzCYCeu0Q47hGFRM8Gx0HL-A3YWSXlUP8cFvonZrPVsGuLwhcwa5HHKNlpKrN42SeaNDEVnSx79TsNNVO_3MuhT9pPv7IIL7dT-cc1NhKswqbyb99CxiCbRVcu9E7VhMJ22M9OVzKuUgsKjX4QZRuOVZIWgKuyRN8yaZs53PtZ5qN8qZID3Skinnr0g6u2ELPp-LYfq2MnpIk_kblFfBUJfTimziJNlfPstjOa39eKpOzpiE33XcSIxUDtiC0cY32XM865uLk0sloSOYp5Hst4MOJjD6SSCnWEOqs-zBDCkauqBBEhic4OH2On4cRJ_OESU95D8lio5CkOAEHatIeUKsRsSVabOzz3YhnhlYIZFDkor6ipm10ERpl0NazbxOfRSMY5CxmxIiTkjBOuWk2P6QQKvqhIGM7IuRGTKcc0FN5Ktr0YcHmkkcOjAx_HDAsjx8oGQg42vV5ID7Rx91eb6Xeu08-G16goqwNb_vkGgrl63io7C2iUmFYQ5-CkG9V7-w=",
+        "encrypted_content": "gAAAAABqpvtqW_Lyn-fEwxeJIeAzbvfAvB6ooYmShXmLtflM-vnsARIJ3MX5JTySI-hKZjFgCooUtHy3_3uBBfQh-ibo0bxhvBr93kPIDghsSoYuzEoAXmi6ldM1TSRrzi31CnJPruXxBO5VnRjm1iEk-pQMfah5kGWU9F6c6w_wCvWmOcV14PH95NpBolx4dZz1VxqoZqybIXb3H4dxKHdNhrODY2_byybKsNzcyTUpUAd5J1ihDapK4CYzebGGP7vUtC5tCjiwCP91cS-khR7dq_8NvmtO66NbD59wodTBQy_13HNBfMMhZKtPFLql0MHw_giMdT3VsY4p904UMYtQHt-MI6iweG0sIaypCauphdarB_I_WhK_Ask3J-OVm4XYrJd_ZcPktx7oG6lfisZjt-n7j1bPJiu6RM-EQ7yIkcyiCa8zBGwK21vyACV7aTz1TQQSg9p_g2CJxKHVgnNGfScV18PVLEsXkCFfU3IfSZxKCN3ONiTa13RxXEw8WI8WgdrgLDFaCkuz4oqMVJIyp8o6c6XmxpbUwN2aEvpOD_Vx8jH_jCIqdl8yHWfcuuOhohAECP_s1zkWDqkZUQPbGC0DEjS7OLuxGjjsmewzRmTbqvaKupigBosfcsRKXTCefBHYXowPg8dKOAiIyrXXXxdjrAQGiom_AH_s8jA1o7_MuO255V9_hrIFDWrG5YXHYQsvrmMhD7Q99_va9J1zzIyhgbbzRJ_v3kX37ga_SP6j4yOBkE1ER6tCVc7PtbBbFi93a20zMy4cCxY2zjzKNIxhiMyNX6a8iwm7eS_vqFIyiLXIald_kTftJ1GyrUAYe_dGhEc06H51pFcrvheMQS5enax0EAP6HRAqiqNIKCZMVMolswR8plj90fHlCiy0AzuWsX5XyP13bImoqIqY9V2pDVy7XAnhZdd7hg4Exz9k7qBmOuuVoZJj_1voBiAjmPGuWFP0Vf8q354FO-VonOy4oPdR5WRkcAwiYoYG7BGpn0ZIFNNRLek1-lYKLOQKI-LPOAdIGo1sG28-8uKlCkq4EBHE3xNSiwruna5_Zy2tAzMTYb5_O_F2RRHd6gWhhfdrvehU8TcL7OT_HslF9tTNliWPvTE7nBLREyIkpLlKPefHGOMQ8Js0ntfWxmVVfFSW7oFaWjpMMUSzjHk57fm1RpCxFBvp_MbSKeH69K6q4ihADkJ4v6LtFzC7FFyHQ6oRGfPgSlbb36JGpu7d7aSuff4fSz8bP3T9vHXl_Lmcdr4iXN-f6ETr_jGkcvpzUkFcSKmWjbVBVx0x0s2-MOobejagfVuNWNWMup1cee-Mx9KX2hiUyLE5BJ-i2BL0FfiH_91uzgykgd1v8pfoh_Ofp7GKyaeQSmeaGecujHE4bUM3GFrlBTQzO0ICrmEjznKruEmdSXrkfwl3VJvzYeeTxJcBd5HZS3A3Pijfy42mZHQ8Gela2xiHXHPCQgx1n2DH52sfnuCBMflzBhT5Ye4RyJVbck3cL_jqtRVXMuNQz4tUEATnz_hAxB_5KS9QDhJOD5jJyE9hzf8ZnjqpKwGSGfLFYSfYbWoRkUlf_V-u7t1V3b1LwkpcTqzlwjY6B5WZfD5fzrcjE0JVoe6tEK2KPhyYfvGMImk89WAhAFORGT9nhIlcZZvmXeuuXebpEiroLYjH-jjPOtbOGs3Xrh_LS_yn0rd6fdMWm5FmQ9dOB3PYgAdRvB8wej1l45sSGfrJR5qs",
         "summary": []
       },
       {
-        "id": "msg_061341a565a9a5c7006aa6fa2c19b887d0926b43334ee486cc",
+        "id": "msg_09b1036093535f82006aa6fb6970ec87d28005bae0a5bd82ee",
         "type": "message",
         "status": "completed",
         "content": [
@@ -546,7 +626,7 @@
         "total_tokens": 0
       },
       "web_search": {
-        "num_requests": 4
+        "num_requests": 5
       }
     },
     "tools": [
@@ -570,16 +650,16 @@
     "top_p": 0.98,
     "truncation": "disabled",
     "usage": {
-      "input_tokens": 24621,
+      "input_tokens": 37238,
       "input_tokens_details": {
         "cache_write_tokens": 0,
         "cached_tokens": 5005
       },
-      "output_tokens": 1235,
+      "output_tokens": 1223,
       "output_tokens_details": {
-        "reasoning_tokens": 1139
+        "reasoning_tokens": 1127
       },
-      "total_tokens": 25856
+      "total_tokens": 38461
     },
     "user": null,
     "metadata": {}
