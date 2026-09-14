@@ -1,0 +1,272 @@
+{
+  "observation_date": "2026-09-14",
+  "retrieved_at": "2026-09-14T08:04:33.714571+00:00",
+  "freshness_policy": {
+    "max_current_age_days": 3
+  },
+  "pipeline": "official NWDP CSV -> deterministic parser -> freshness validation -> OpenAI official-source fallback",
+  "runs": [
+    {
+      "state": "Karnataka",
+      "status": "success",
+      "collector": "nwdp_direct",
+      "source": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "accepted_observations": 8,
+      "rejected_observations": [
+        {
+          "reservoir": "Almatti Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Amaravathy",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Amarja Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Bennithora Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Bhavani",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Chandrampalli Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Chulkinala Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Gandorinala Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Hattikuni Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Karanja Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Lower Mullamari Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Mettur",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Soudagar Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Upper Mullamari Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        },
+        {
+          "reservoir": "Vanivilasa Sagar Dam",
+          "reason": "report is 3.3 days old",
+          "report_date": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "state": "Andhra Pradesh",
+      "status": "no_current_data",
+      "collector": "openai_official_search",
+      "source": "https://nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department/resource/6b4a1ebf-413c-4503-ba59-59518e97471b",
+      "accepted_observations": 0,
+      "rejected_observations": []
+    },
+    {
+      "state": "Telangana",
+      "status": "no_current_data",
+      "collector": "openai_official_search",
+      "source": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw",
+      "accepted_observations": 0,
+      "rejected_observations": []
+    }
+  ],
+  "observations": [
+    {
+      "reservoir": "Bhadra Dam",
+      "water_level": 2150.52,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-13",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Harangi Dam",
+      "water_level": 2854.07,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Hemavathy Dam",
+      "water_level": 2901.93,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Hidkal Dam",
+      "water_level": 2174.45,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Kabini Dam",
+      "water_level": 2268.47,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "K.R.Sagara Dam",
+      "water_level": 2449.71,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Malaprabha Dam",
+      "water_level": 2065.92,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-12",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    },
+    {
+      "reservoir": "Tungabhadra Dam",
+      "water_level": 1628.04,
+      "water_level_unit": "ft",
+      "storage": null,
+      "storage_unit": null,
+      "storage_percentage": null,
+      "inflow": null,
+      "inflow_unit": null,
+      "outflow": null,
+      "outflow_unit": null,
+      "report_date": "2026-09-14",
+      "notes": "Directly parsed from official NWDP CSV; source field: Reservoir Level (ft); no unit conversion applied.",
+      "state": "Karnataka",
+      "source_name": "National Water Data Portal (NWIC)",
+      "source_url": "https://nwdp.nwic.gov.in/dataset/e35dc28a-6f9c-486d-b598-87a21397018e/resource/26800982-045c-41de-821d-b1ca080a79a8/download/karnataka_man_reservoir_data.csv",
+      "retrieved_at": "2026-09-14T08:04:40.071203+00:00",
+      "collector": "nwdp_direct",
+      "status": "official_source_verified_current"
+    }
+  ]
+}
