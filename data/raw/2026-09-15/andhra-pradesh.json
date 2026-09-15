@@ -1,0 +1,583 @@
+{
+  "state": "Andhra Pradesh",
+  "observation_date": null,
+  "source_name": "National Water Data Portal \u2014 Reservoir Storage (Manual - Daily), Andhra Pradesh Surface Water Department",
+  "source_url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department",
+  "retrieved_at": "2026-09-15T07:59:58.105202+00:00",
+  "observations": [],
+  "_raw_response": {
+    "id": "resp_0c6ec9945792dd60006aa8fae9be2087d1baeb61012a1936a0",
+    "object": "response",
+    "created_at": 1789459177,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789459197,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faea9fd487d1a3f99c4c56527c58",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9A-iBPJ7thi1jFdK6Zi17Es9BYUBmzqzE1PGNWJ59NFUoHzyriEBtB137kPHNwkCSfVPqF5N9-Y8zwHKBywhs_27bhDqLbmRHvrj35oT1tDd-32AyaklxQFaDQfhJDKvVEvipH4ODcrQcVjoBZUUxgRzE5lMOc-j6NMayzwCrvDcnsUMe5SxthMM1YQVo0WMp9pu38CFY_3ErBjD3B3SJ424PGKxMZKod3jFAEjp9GRV-yarXfuAQca762SEDWIJvIg5s3tkMrGAlw4d6ZO0Wof5CA50aVF9jvcoktQqQQOFc0RG3ucfEw-GXHBeWpiodHQz5C5QbJqhBXs25usANzw3ex8xcwnDpiL9_vXPkcRqRIqE7xdnnQY88RhmqSH4CkhYhtaCl4ERILEFk6NSxl-idWxBTmhA2uIaVKOjrE-57c8Bcu1o4Stlr6rCjLtjmYRqhcwBxBDssL2kbUZ6I4POt9tc5iEAlBUepLucLa9v3S2HkS0oZcEZkCcQln4_MMek90JLquJK5xIkCLr0lTIfo1gf-YG_PheDNjHrkRzP_O9KpgEOECD6wBqPvVhbIBXeDWwj7YSP263av3agd5DE36mtUp8cqoxR0KhZyZcWkYil_JVk0ZlAu03Jz3oZWLVdZXxm7Jw3IC8AZHrB5morTuv4L-1jBZrsHfwf86NiCOdJ4ZLYSadhiAFjlpmgcQAzleCFUes_EovVmzYi-F1OgWyDbMYDt4SWXtL-8JADQB_UG2uLKgBTick2CacOVcdxy4mtC93D8p2VLzm-PihAmVB5aJaiXn60FJEXBocT-qZ8EZoaCc5DPagqs5HRlJY12vFhfSNEtwgPxkePWAEiWZ-PM7DUDGTPAaGVzKUixyIJ3nTJDDCruqgT1pHyeBkfePDQDh5lVlaQX_LwySpoJVDijO-RRuDEceI2gaCW1gCmVGvZHtAgCqDB_XS-tQfS5WfnQ3uBpSbxZ-Y8k6QzVLu__JPyi22m1lVBH9Kux5HAUNpvdKmuPt7HtQmmudX56Xk9OUH11LaozA3JaWs759FsqpVUbasEyA9RYDvKMct3LZs2c2wmLQnVZbPxnCFxN5q5QPsppemKdwRB_rNsc4ZmjjaGSSNlJrJKHXAd0eiSG_JRgOIjzdECIjM6Rf4_2NBpmIKqO5YqO5dA-iBNRMzklNpOUEj52Ty9kpIp6eUaglOk8VVJs_DeyxzvsneEHqEVA0W8XXMXQIsjqRIb9ABiSDjkn6rh07GE6tBq86y6Z2nPLmzhxrqUIGnk_Ik0b3v_BiYVJW6zc7epbDtpp46tuS9WownM4LD0u_P1URK6t8PimMT7aRwW720l4",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faeaeb3087d1b0723ab6734cf159",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://apwrims.ap.gov.in/mis/reservoir/summary"
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faebd1f087d1b7a95fbeed2b8696",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9fXcgeTrFXMXVEYusufbLx8uGAdTylrBJjZXL5_4s5sNTaCEl3XJ3YoIayT6sRXsn4Nj6y4nwZCBnjGmj8ECb_0sjkGsngiiKETS__dAmYGQMM1OPZBamIJ7tHUtrZXpMfVf4F0fVnPl_KsD09XBBohLBWepxW4UOijXEUTezMhjII58zpHvrIk-RkDC0GJ7hjv7eW_jtviiuBYrPoMky1Saxb5wNTXxBYiVBL5WH7J_BgdVv5QAairAYPXBGabXfRorBL9FxCxMP_XLlbcxinkukQ0pPmbUbL-fwU2gT8lInzUPelqota1EVjXVBrOT6Er3lOTRSY1NTG3sdyJAHf7ztGeBvhXvLs5Fukk78qhxWOSIMb8k2V8FwJ0JMNk_xFtji0jZSoQonXXKgMSg0vLU5hwGYh-gWlD2gVEHm-ZO-MxeNuhFPfVdcCaVZrUBlbxA3YjSgTtWjAaN2fmTx2iTIwIdwAtu5sJ_C7lnCst795muRJCBWpkDCPi87JN77-uRhjbNA9r3VptfhX0XKkwVjC76NSzT_PRCY8xG5MLJ0dhoUkse8J0qnWhF6CzsuDRFBCa3Ad62M2TX8SQmWlQklkQ43hdx85MG6uRahhjFOV5da4F7No0CVT4ySHw-CNCm4T4-rC45j6CjmJAk-lP_bDSzm6lfCv6H4u1c2EcDmIdkw8DnimWfyQhvEE7zQUtm8WHM5C33lrQuuc7IM7uGRoB6h3bIKeKNN8MswrrvUFLY1pOkDgBulx8eKZBRkpwtg6II7Lcf3LoIaeRL4k3zMSqvUv1ENOVFhidjZbwVClicCYlvS3cHTj1-Bir9jbRSl2NPgDKaNhxbFbW8Mo2krejx1owZLZ0nY5ahIp2QwklYLFcvJcBA10KYZft0AOmCc_W6lWhgHesQpAB35k2OzwPj3zrW63SN6XlrkluRcRaofpW2-E_YiO3QZJdCJSZoyuu7pQcx2KVTOdT4uDt2glSq75y7m6MIzZGsBRuF2IzBAmtBh_x_vdZR-pCi3l0ZJxwjPgC6bs4R5GGxdI5vgnQ2HNRRLXR6nKbh-VWpiGM48-g4lQfkhgNU95OraFW0sPOxJHfSrCJBBkdCgB7BGNJxFKknr_25ylMWpYiQGvihT05sFYusO1DOw54xI9Vj7PcPtBDkBIUpKf0YNTzE9Hb2oioIxTYLP11K_36Et7LjUlta828R02SNk7L7x",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faebf01887d1a496a587113b9194",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:apwrims.ap.gov.in/mis/reservoir/summary reservoir Andhra Pradesh 2026",
+            "site:nwdp.nwic.gov.in Andhra Pradesh Surface Water Department reservoir 2026",
+            "site:desweather.ap.gov.in/Realtime/ReservoirData.jsp 2026 Andhra Pradesh reservoir"
+          ],
+          "query": "site:apwrims.ap.gov.in/mis/reservoir/summary reservoir Andhra Pradesh 2026",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/weather/Realtime/Reservoir.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/ReservoirData.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/Realtime/WeatherStatus.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/WeatherStatus.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/weather/Realtime/DayCount.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/DayCount.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/CummCount.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/Seasonaldata.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.desweather.ap.gov.in/Realtime/Reservoir.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Realtime/Reservoir.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/weather/Realtime/WeatherStatus.jsp"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Pdfs/Weather/Project%20report_Rainfall.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/weather/Pdfs/Weather/Project%20report_Floods.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/weather/Pdfs/Rainfall2022-23.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Pdfs/Monthly/AnnualData2014-23.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://desweather.ap.gov.in/Pdfs/Rainfall2022-23.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faee80cc87d192b9886feb751118",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9mZEcnxK6owxp-VIYLw-5ijtiL7ETzMzJ26R0Pfsj3ghNyWlzwRuTn4xNKUg2xxieUhRfQTJQ3gC-AJUbl3Su8xw95EWAGU7RGyAloeybuYkyQlDOPOmoGbYSn66Bivnsoz3cEX_PcZZD9iKNOSmPo0iuxtUisVhDXvrFZcbBSVR19XLrQn6ofjEE_PLOhl5HplPOMuxLu7EaXSVxHqKzxroGhrr3FRpZQF0v-m-YzgIK2XrFbRj8pJOccI4O0ltKtQPhKQuKFGa2nx-BindNG4udKbCqSMci0ovZdPe0r1XU6JBwnwsPBxAs2B73qidboOzMvZtR3paLo-SA3a9wRZbKbzq9W7n6lh_3vrNOn4bcmqeEnhvncPOHfzwH8wP37RpnNaDqxXuI-moPv0K83CvXnhvwWgQ12P3ZpU-LQzopGXq-_dqA8MBIMd6UiR9OWrjTpZMBH-B6yelCldpMnU2Z6Hj8aBu-isnEgPtMIDcKVTEfWbKCwxcwLDAWM1UZrnug7jc0YqlrJGXFVYKceYEIgAJgZ_jMu9k2rIYd8RzxMbUP6jOxLbsZ5t8aZjH47wIa2Ng5xEaKJa6_eSzbtF-AIjf7o2PL9a_gMzSIL9cxEIjwvfLTSrJ74LS0BxDrclV-Lh6MHdMB2jspy7C_KlpywIFoe9dRX9SISGWfdJGnWbqMZiGHBMT7q3TQnSKO-2G3aUAsTC4vwOJxOvo4HyW2AZwo83T-1y6L20jesRbTw0KupXiPk8i-wTq5ysTApIrh6EHdCFNzWSRRa12f7i0wpNRmaXrOEaIZDcQCkjRRDCh7LVxhSfD4dSh9Hr4KLZ85WQSo4cMYp-_aLBBcHfHvNxJlT8DJV6S8f5wbt5AGSVcdlf6ibwCz8xNzXshgCklMDLemHtrhEm8U1ZYHNUp4pGFTbcjaswwwanUfxMv0BLVNmw3MZpR76xzntx9hR-oFZWOjAZ0WfVLbQdO_dyuWBOJjcDeoAdb2XBroXVV6EkVIFsHd4nNs9q0YfB66Sv7JR_IAfhvN03xRjMqevOr9mQ2qy2DSQar9XgEi2HEoVsIegH23ZWP_E-04AZTy0asmBjQVc3Z6Sz-OEV44B_-0KDxuBR3FS6zNxb5YhklHJxaVYXDdDXm3ekAXNkml_AjHsXPqHNFiC-xTJGlbPU3DSzXtO6k7DAfciXjy_is2-Ap7WwZq4_loTlwJK8-pSkuFE37LPbZv0ZUBfnnOzYdqmfs84XhLvBl7qkTCGutKPPI0vcn_fsKJf8DL3G4T2rJwECgYP5jSrAFruPm0cqmYFmH1MZ4Xg1MoL0N_7YU=",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faef03dc87d1a8ec0e69435c065c",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faeff2f087d198553368d55031bb",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9QDqtUBneZkcb42vjMEx3olt2pY7sjUm-dfuzWbxOVI5krSJHw4lTkePtQFZHUDd-Q0LYMaQ_YEQELIywOdT3LQK6JRJNpwvFWlckcmHseSFhMv4CqFfyARHvQbriVMsOjGW3Efc7wb88YfapQ34AkF5FurWFtIsGYgPLwDUH7LYBmK1HJvJDzmBmdJe2G0U7TSRP5ZOyBj8bGvtMSUbRkNbKIuNykUZouRoAohfcm14AW8UsGFJ27L88akgFHakgbYZ2p0K63kGPf6_Xx1zjRvQX0pleO3zt1P0Q6KcvglmQrcf2gugPy5nIPhT1mssXc1DxDclBMD_JgFE_igDiUAHinvpuONTdX1vGk6CvnOdKh6gLplcM_T9WFEYkCEiTnDN1ExCdMU9vSh9YJbef5AqEIfhy3ca0zVj90ZuwcefDBJ3C8NOwqnxG7Ezsw-51tZX429PDxxQwpAOQO7sQZg9tc8KlxiQwHGS96QIxE1j_3yz9KkWN3RDDMOBNJID3XA7eEg2qtsJNypp5VuRVWmkDGP9ObZ1Tm_zFphGAXRFiZEB33aYPSMx7CZ2cevPOM3yBSsFDnG1VX98XPj0gkrOwbZ_0gIvvcxqXvwNnJr7t76NegjiFt9OPBgxVbIT1FEJpjZkcIRZ5bd_5a71R1_8sDoY3AGG4QIp6Mfp9_hcaVICELBxOtlECrMSmA9SZHUvfTKZ7-AkTASp270_RoWEjQkCfYBug-enpANssz9up8qkn3awRWxxrRRBM7ZJeJzoQbfcWqRgxz1xq0hjCeBzGjmAUXorxlIZibrzFeJf2WLDKRoahUMS97XzaQIOPCTntweqz7_S8-3OVvQ1d2wkYxmbBx8Gbcdyg62ErrFCsKPxiIoVCdYt3Q1JEjf-6nL0sNC7OPYcgzDy_662Gt_ur3MAvUNs4C9NVj_MPw-U0qLJEBFe9oZIjcGMzqiZUkZ0nRyMmE9UAWBtygbfbXyIPzX1nMhHjvf_vdepARcgJ0WE2lDfDdgq_nJaiDrj_wtr6wssTG0mwIuQTULGMgqIxVZuzLhcjH20lDpCLHdbVD8UWKXJf8dUMMpWOFtJXSx8QwBIzfKSUwWY3kNypDEczApEQo75Epn6ekIFkIgNWcIK28VG3iS5w5ipzF-cVZIz7bnJPkcwtCc6NLo7NIUjMqn6wTecobcoh9EppNbQ5DKjmkoxNsLzuqmxt6cfP0y95GTF8w_YcohVDZALlRw==",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faf019e087d19b851df03c1efcab",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faf11b0c87d1ae067aafdc07f8af",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9a9oD7Z7zC8w0LEWZF749C39-RaIlbZq2VCk18p1cksJW4tsNDllw7rJk3SABqgik4bbKHxjaujF2SltSs5_Yt5TbV7_stG8uVHvB67C2Wz5KPSUBSHApDpyGp3mtEPvPGGOQsZTOgTqwhxZchtlPQykcjIX9NevoYV3h1dGNzA3DV9lgmF8FazgiYWKsdIQDINowfYRwNB2MWgBwfsYPFnOJFE8eqa5leIS72uusRfIMoEMumHyFnaq_oZrHYTJ1u3miDiyq4qP2VjVyV8Sw5QRkhiaf7jfRDm4aaAYAP108YAZggRQcGdSri7oDLEeRuZqbV1qiNuWa3Wwkefl2MmmcNBpfqrLaxB9tb-HHFinoR2SbjulMCOYxKv_CJQid2L9QVtbzHfVtO5Vse9xfBbRbbS8DhDfh4HV4tH71D_vuRqmCLelg9S1v4t8gxn8W6nk4YfdqKAQiXvuyUunyP7IH0b1sAEDhGgxQgkX_VDZwK2-jx9tWQd4WT7Ognbnhx3jTg0U6mZoBfzjp9MZegog5zE3YOJ8nXVRE5u-AMOZbL2yAcyUsGdHlZQQy7M-mkMLcIsqZgOeE7a8o5VsZHWikYOw02lyLDA636sflw_Uo9zjWvKJIKZTbQdsosRuPvvh_4YiBs_Q_YvojICPVN0jKPIWbutd73-ua5RmcEqNhORA_f2L_2W2W_kd8clPRL09CGCfhlQ4SEBUsCKmPeClEHy5-teSOTr0FQYolEsQ4g0veGjzW4QcuKnYidiuK9wberVWBD6qKDSnLDAoTsSE2gc4vbhHfjJ9EHwUvrq11qnpaUuEbVbzTfi7-5tdEeWIPrXOr5Tkx5OQfRpVCHbRw_J3y9Hd7BJvNNI-GYqoZZCFE-UrlDl1vV4eoX4L9_9sSThgc5v1BCM4M1gsy7bsM4e8YuWlaCYTh3X5ahYjwma96huGChVDlm6ttKDa5XWjjOSD0MOZXB-GxPGRS7vJDQ_Ty2kYr3XfiZWooZYPVfo2eGcE_-8RF85PkW9gcax7Xh_EilmHV9_calQhOc9zx32Zv4n_0BpOh6fNxROgqBoBu0L0Othzhdz6cqgm1sMenk1MqJRPZYr67-yFDVpwWPUL50wVbhvfepILT5y6OIeq-Gc4t42ic_zyGEJV0dy4aFHY4tDuHri_U4hvUacCDQqSRGyQAnI_pCB57Ecy9j90b6c-v0yeZbKzX5PmfQpqR5om5d7B7wUbrdsnxFpvLMV6pYaz4QaFK6o467X9VL44bh7qV_JmnhzuQq6zopfNVBllBI398OMn6MtLpw_ex2-V--BMq9OMLId1mnGE=",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faf182a487d18ad4d7fc9c17d530",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"reservior_water_level_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
+            "\"reservior_storage_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
+            "site:nwdp.nwic.gov.in/dataset/e2dc7dae-f0b5-46ed-a7c4-1edd0a73064c reservoir"
+          ],
+          "query": "\"reservior_water_level_manual_daily_andhra_pradesh_sw_ap_2026_2030.csv\"",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/reservoir"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-centre-water-commission_cwc"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/group/infrastructure"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/reservoir_discharge_durgapur_scada-barakar_west_bengal_telemetry_hourly"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir_discharge_durgapur_scada-barakar_west_bengal_telemetry_hourly"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/?groups=infrastructure"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faf465e887d187fe991120101af8",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9JeiAMU6oH935Q-UG8F-EYKkOrmHo8GBlKk7LqZjnEOGnL1kDNdrLhcuruxZss1ceV-4nLWNMYm_j-q59RzV5ob5JebVT_QcKUDZ_XIF1_Niau0a5YF4Jri2e0WtK6SJoTBBmxswtg5Jc2MClbsSEGgQSvO_zzm4STHMMMXcVsolBp_1RypP922Hf8jwHDjnsmHb4eznynng_p5-oOeE_hoAHF5eMgQtuKQ4N5hYyzpl2mVxduyxD_rSQnhRAS4B8xKryid-GnvITc_Xf30MWjklTVo8skZaMKJyb9wiYoqtcNUUMrujPcKH0n7Y5RVF4M3nZeywcGxe2Qp6dPLhnH3w9pao4OSWiFtqtqFbw3U0LvXOFFv53WrHd3AOl9_e_qao4itwGNmywHCSk6-Xirc_Ex0YHGTqaQvRD_95WQeM3MNXuX7W4b4G9mM0fhRZdvD890PafX4mHhCshfnMQsfbYTyix5gOlW9u-JhjELa2beMC9ZUJCZKn0IioBZc8h-6Ey1uS1ulFiHjcplstaMwR4vVOiaZoBF2wbhvLSdqkyanDeBTsa74Me17WAL1ArYfreJVVf2CbQDnwedOL9RV_tGJCPj0gEw2IylYSrKFKD9tblE9eOgPVjVz0FIXiFHQBz86iCwQvW2TEpZe28_SKyjV0ddUlPJuxDUkvi94lFiFtWu4rOu1mF0gf10WneLsQi8HAlgIv6DqSEwSZoq1FWW5T3_PYq88dJo3kZ5ra9OJwFKFckOBCy0Xp5fOqJ7xF2T-d0izv008nmOnjiOSwdwlCTPwUJvVIOLZR7o45iYPKz6h_ADinxHIKdmlZWKxwFFYBAgTDITVTlWUAIpp5kL-Yg0aGp-az_sSIRSh6UKVOd8Jvk9wM53z_VkW7ERXWijKQ8hN199q6rq-acj4qNMDDzcZlbCc-6aPuM2HuCH-6q9-gAO6CdVEHSplV43CKZgUTlw8Gp3Csd-qE5yKFmQXIxcL4c4Frq7H5xmCUT9fYbP3yVOal5i8Gn_9XBR5YhptAjQSzXVniUAy9DTkXN85v45A09uie6FSecCs4I7LCABVrJAxn9q3L3faaTAo1Cj-1mfGhnHR50Z0Y-i5pg22yrygZjXI1fXZHv1HPd8AAz4v8e93DbplxD-6wIIDiFIFlIKkBYWuksxRlBSgSbDhFbDhLi16HljYyYsWE44zyFBdIYpAbtbnjS9T24rkUv7pemQZ5aWJ5fifSrDlHDNbREMAsvtC3Z3oNiQOqhn1OeA4BBAbo6wZkhy3WKc_lwdmGrk3FkX90j73Xgu2ssi49OkEgkHIRCgEdJKrS3zofCrTCoiEYoaKY1uwCklEP1sOBttonQF49BZniF8MVWPNA_Y0ydBVfRWQqoTwfNaeVYxCT47LZPNChypLk9REKOqOWnrHzBfHFQ8_eDDw==",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faf5100c87d1b331704e12dd8919",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/api/3/action/package_show?id=reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department"
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faf60e8087d1ac3574ac28f2c078",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9lKN_sF6w44Xp-wCjeoses5F__RJ5MCl59c-CZ6Zo7pjh5DGjAjMPW_jcpTQXKE3-LNvv3IZXOv10jppwD9Jw2YhlKflV4IVdd5qaxujX3pIhADA7SKG8gkCnQFkut5EUWmt5DssSm5ZdENNrHkhOn4AKUksaVCCNjZswhdSIXQ5e6FwznSO0JIFCiYf1isFJ4EsU0fmy_yqR4WgcrkGmFRO7XyeKCQpalhEHl5VndRjbE7ILlYiBTR4BEkS-EYG-R59di-38WRaXgaU_DgXC0G5iDfOHTMs_TK0DG27jxp6x49Yt5bnfSUsanj25c6xwXGz9QoUdGprl4-k9oLfV7RcpfhBMt7tbLTBbhYSRn8EISnKeBIMpP2PQPvekbcKwViEom3dXuDHDf9b1QLFZ0TpiuhFaYLhtsHCRWndrp47JJ_qijJisq9LuS0rbV7e4PAsruBu70JmYiyDv3BwMfnLvz4vRyUnF9FJzBgJUdxAMXEyXW9v6b5kzHlwRVMK881rEiEM9SVwN2hyy3DwTPa0YXCz7583TtE6a-EhNoE5SEMrTlLi10I1jwzRQ6lgAGJAjxbea1yXFrdpJUVY7dqTlQyBY08aDbZA7-kXXSRgiwg9W9zb0iI7pjFuHMZq4dknjggUlAlag2jGnfRIUXaQUBrkWTNtnaE56j3yssflTmovQKshMzMahB4b2vGyKMxOEWsNm_CUTLIQHFeVVT-Z1K-cDnpeMdxYJr5ugpyFRYQo5UjY0DoAGNHUiTfndRdPhdmyqPI0hKP3AGbMThhQZcdcPA4qWPJLb9B4-kKGkER0fWeveWqtU_XWJyUieDAz5tqESoapO7fHLNraDU7jtITYklVHwZEnI3XsPCYe6jgoiUL6AH-Ih5RfryD0A-9VmD8Ho4Gg1P9nD5DwSPqlHHcAMPolhDIkhba1F15B6_sgvaLIrJfIzjFY9QHPAyQ8OOClKcBit9zSbVinq0MhGP5CiA4BH6mb_cgLmsdNACcc1MhrPtXSlDrL4gEihZUUM8i2jM-ba-2ZIqeAt1GSlvv3801Uwh5_X8iTf7wQYDUtZJx7KWUi4PXt9PMsslwhzUsWsqydBmhZIifoKzTGmkfhxiMkgGyX79eE7UHIo04477bCqMRyaUIX94VHSJU0s1kdSIPuLmr3uIhvkO36cKlr-p67i6RZ5fUMIMYcvZS4IP1m7tpLC2enV58AS",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faf62f2487d18b01f1f8e403c2c7",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "https://nwdp.nwic.gov.in/api/3/action/package_show?id=e2dc7dae-f0b5-46ed-a7c4-1edd0a73064c",
+            "site:nwdp.nwic.gov.in/api/3/action/datastore_search 6b4a1ebf-413c-4503-ba59-59518e97471b"
+          ],
+          "query": "https://nwdp.nwic.gov.in/api/3/action/package_show?id=e2dc7dae-f0b5-46ed-a7c4-1edd0a73064c",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/about/featureswaterdataportal"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/about/nwicwaterdata"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/about/digitalpublicinfrastructuretwatersector"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/?groups=infrastructure"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/organization/about/national-water-development-agency"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/dataset/village-boundary"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/footer/disclaimer"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/?page=26"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.in/about/mandate"
+            },
+            {
+              "type": "url",
+              "url": "https://sikenvis.nic.in/writereaddata/sd30.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://nwic.gov.in/uploads/public/notice/10NWICIndia-WRIS17thDec2021pdf-846eb4da76c53c84ffb4601e8eef52eb.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8faf8f9e487d189289f4ed75ee016",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9cNbEcLpIfEnrHP4cIBf-V_B4He_y_jwfAdD2smXq2ktEyY8Rg88RzwMhnnexi2BwlPWjQspRW9UOy4lHzUiLhe-7VtDDuRJDfk-Gau8maNIYr9vd7bccRp6XHSojV7jlr6stOe14P_jMHSfg-MVekytvGJlti-1mQXyLWZTIhdwIKq5KMxQUt18eALNkX0KP_0H5RQ3dTzP-j8mFocG4KveLJjBtL8S1vKjyG7q1mrDhFXM9sugEHOSR2Nnv0VkczTw0cTF5k3A5lxXDU5UJ5G5IGCxQW7EJeSt1XNbeBhRXYKkxnXnx7STmJRpRv8Zqud2bfPpT983_9lTKIrCzhKgmNVvifiIJ6xOGlFJnV0psktq0Lm9_dlypT9FwrXoIfRc6JrER7_E-b20tfdV1IB1aza2ZtCifcABll3MYe4eQ1F2VcZ4Q4mcN5os3nAulMjdZNkbT69AEbxV7oQq525MldEcWeOguJeZFsml8mMnQMXJmCIv-ohSirrOs5s0_1U2LaoPayDrz84VZRh7ArTDzEMEoZU3ij4XpKFdftcW8kXnd9QlYzC9-VNWuoUY7Yrs4P0dXScQ1wT1CtYerVs_k7NnIeAcxkFf6glfyoz_Bc_P-D0IBFfLDiInGo1NGOU3lyYrcmYYwmCmlSOcfWueecUNI0AaPI-uk1sHALl0S5NY3YEgSKr5h6PZKvenZ3wBuPKb_qoWfRB5lXXZF1WjCowbFVpyS9wLS8Q6iflzCxjCSy6JrFJJV7YnaX4SKE-X2n8x5w7fd4ceMu9uLc1DyfvRlTHPsCll6fdjStZ1qUZee334KvNd5BXt9Pwk32eFsnVK1-pHKD1HE8Tjky1XO3fii6dzGdUX55prdGMgPy8NEyamGuBLKBZ9orqz4Hf0Dyxze1MeOOj_mFN7IVQO_mOm7WK0RL9ULN51WMSO6LXz_s-AXk3FSyQeim9mH9rL26Zwf2n2n_zr2I15MDJ7mN9ecJWtDUmRlA6Cgby4WNQceUd_wa_hPdi6vCS43uVgityg5ojXZM25_gUDdEHa_IKvgnDABBLyrMRbplzgbHsLy0parC6QyU9RlGGF20v5QeHH0LidWDnVrBr0eLI0ppYHo5puAwp2SIjCJHzEla_Z4OtV-cA2bHgdej7Q30AbznXeT0mC0RW4Ij8GSIaSiMvR3zMtiOSRFaGkckJ5HFquuBj-VVcN9yVRaqz-IcX2oHTexnMI0im7aflOItVaOwSKhUXCKj0a-EelINWJAg6dzmh23vKGH9_8s56iTdOMRwZ1XfeyCMxwlUNKAZO0RL08Qqu9j3iHgpImuLocSJ6sMmz0MSa_NRDyfrShW4ANNKfnHevcqEcsWx3Y2A9rYfcQ1_ZbuDEmETThrx2fuBe4q4squnRK0SBSUX5p-R9PUyfAoxSJN-eOALuCMmRpBE4pWgLhd2uVj3ucNaOVDMDeb1VFR5qXa4pfG4D-WuuEfTHFIrM4JM9Bp1EOChX5keszf7_Lb30FFd3PbYluYqYnF-_Zg25N5ryHzjREaBrRp3Wyp-snzbuvsVqw39Rrak5wcG6vti07S70JQvEmTdvLakNi24uM3d40Fd2Xe3qZ50CJcfS5ltayRa5SlG_FvhTxrVw2Zi4OnhDtw2S30qOP_9C8bjoo5mAZpNW8X",
+        "summary": []
+      },
+      {
+        "id": "ws_0c6ec9945792dd60006aa8faf9b60887d1be5be4bd1c0157fe",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:apwrims.ap.gov.in \"15/09/2026\" reservoir",
+            "site:apwrims.ap.gov.in \"14/09/2026\" reservoir",
+            "site:nwdp.nwic.gov.in \"13/09/2026\" \"Andhra Pradesh\" reservoir"
+          ],
+          "query": "site:apwrims.ap.gov.in \"15/09/2026\" reservoir"
+        }
+      },
+      {
+        "id": "rs_0c6ec9945792dd60006aa8fafac2a887d19d9aa711275feb9e",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPr9iktpshCQGC0QSQOrx2MJiFoe6FftmOD5gqvrsiMlKJ9HVSpWl_hOis9m6BUoBtK4styMXR3jfhfMwULKunNdVF3C48VJr99lqvLFXqceKcMMlLpIWzqyw7Dl7hjpC8H_FwUyEixHl1ru2BQfSeUNfLLL-UXHvZLh3gZgYdc0SERSGY1OV_in1f3tbLg2hWdolbjF8jZvkfX9xdCItaskqSYuA_QtT2carJHs1jab9NUdXYOx4mi_0BTA3C-IFer881pi_W6dZjJi4QdvGq4uky0t67EdC02kA9ktySfzHGit9C8BaiXHKJWbDMggGm7gEALK34k2zuoIWZgk9JvyPqs3ky63wt6bKky6XsG5SFPa_WX7hxqMYDqBfXkPy-N6vzdL2BiU3jCQK2YMehiy7UYaK7gu5GXS3NHirbYbZ1S1LbG80pzYefYkxXR5J3MJkgr1MYGC3h2_N2ZXsMso4mpHD9iqivNPLsgwzM44KsU7UY_bJ0GD_hO8_SfW2mQQ-RuqkT5JpB7gtfat_hsnqvV0CQcQVqrqeAk3uAdOvnoj0GA-HG-bW3P8ttrbXcP704ygFd2A76NzC5KUJ8FKBHnbm4DQbWnejPcUxMIpCVlvDYYLmDFsOx3Nnb8CdPR0Ddtc0OZ_eSoo3P029AzfLanlOdgIWJCKxgCsvYYRhPU3jEft92D9jTWUQeeIAYjReenSdDfhM2FDub4DWriXZxOKI8I0Jtf2RyVccXWeTXy9lHjMElj5uqC2U16rClwr3ovbYG30qBfENd79K0hpZmjnxCpv1TwF9dfx8kL7Iw9W_w3C75V1pGyJuUKIQVP_KDBsRb-vdA9adpTH4t801OxkV1iI7wu5Tz0c__G4pzBZ3RT0tKw1WVyQfIox2BaqsL8CTw-pyiiav_qUadtHj5YOvV5ZcOenoL-crzWmDvoYkMwyVegHKCC6cQfEtcGNXuSAQDFaHbvCp0Z5F9d8YIp5byAmZqSR8uvZWkwzTNZaGCknrTJ1lHXOlqM-UxRke5qoowc1BOh--kUbTW23OhYCBi8K5DLbUc38GnxXJcE4rYsW4X2yQBk1jPjSiBT0dEapioYw7KAVY2Gb5nnfUs7xEy5D1PyonlG51DpRp9IhpJAZ0KdBFZD6cIsF6Kxhx1D9Ou4RfLJWGULOUzHt-x1RjiMoy6dSSEzpXMyFUx69pQqhLQ7ZcwdXI5zcxXo0Tr3DSX5p1hMZypDtKFZ1cUN0RKQ8ZRyiq6lh7NReWf3kf0aTYZVIjr2vC1xPZ7KZj2582DD-k7xIqTPTyPY1SgbejSMb7s3XOIngc344sD0SyGu_WCyh2mBN4tw0-GYbwwupR12LqslZijpttQm7vixBmCPzPfjT2oHmS3R8D-xYuFc2X0WWhz8Hq2wj-ekvtEYOQTBH6whFpjhUE33Vjh2mAmf5vqdG9v1wSkIRw6eWkh0dh3k8pyUXN2ELajFyarFBH5byRfpcqBBoQv5uugy4PHGr-In83-Wx1xoetzwwgYBEsikBh9tFLlrSQR463T0cdQRmmcgOOx3dVy5YS41ob7AtnBugOKmcJfBxsE6-himXMDqRx2HX8ocy7bQya-usKFE2hr1EyY-HUJQ8pgkQGAI2nW6drw9u25Bc88qpDg28FXSPnSUHUUQ8ZO3MXNq_hMqYhy31L5TnmD3Px-k5k0fTYRaFaaimaKeLh3uExFjlxeANzR26FbrJGzoVuHIZh6rmz7_3JfATmVNZk9HOEex5GiH5g0zTPXjsSWIW6o9ve53L2H5bqRx4DEzgJ8c8TX2btA9qS8ypthp5UKwjC7XNhxTmFrJEkXGtF7KokPjwtrLbSg5CMWbg8twc4ZgZjdXTzJAMSdhq8Qv3XTAXNNztY1wOLeMMf3Ly2o6dYNyw_yBiPiCFZ1uh1Hw0esS5NVv6L0-capItsLcWNh0CMMyr5Otuyikp-cMiWCaLCHX_jPzyLSKG21usI5Ut8jaQB6U0-VC2QnSm4UKdm8PcQzFRnRoUvqajjUIx4xGZUxc6nm4d62wH_3lPz8VReZe79GcXXopY59jouiDKoLNn4EBvyoD5tKyZBNvzjOF_7uG_gbYsggDOTmXmX4M0dPmysdOP7nKBJJ0EAoigZn0-U2Nm5lCmCYlQlI5rHoN-TWv2rD_YBfI1C1QAOd-WUEXx0Yht_Ks44K1OJUfb5rlSn1ZwjPNAEHhGhjAqs_SXbd32kcWLDMfoa43rA2Ec7X8ODRVkVP8FT_6Y-R2HJ164H4KWFcybdZqPnw3_9e3Vr5mjamzzQolgLNltXYOzVqc7NzwJ2viw67vjSe4GRR_17C_oi_JDOzCwlAUemw-DuLHNK2SH6-jW0UsGxmFMP5yGcC56KSL5Z3Ia6baaFyAbjtvPuxzmSb91OAXU49yj8gfDBS7efqQfTQZpGPgHF-fT0oQuIyuZB0rMCjsdfi0s618Id_QecjMZZ48v4dA0w1P5k3YD3mShMOoQ_JF4Tud8ow6bno3PvyOopTpp_lsrMDR5-QCPdKmNJqltrcaTgtl-_VJx1iHAW-J9B6FoL2nNSOrbYk8YxCJkc_l71_JJ4c0HFa_kTIf2pe8M_nA=",
+        "summary": []
+      },
+      {
+        "id": "msg_0c6ec9945792dd60006aa8fafce41c87d18b75ea89bbdbe3ce",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"state\":\"Andhra Pradesh\",\"observation_date\":null,\"source_name\":\"National Water Data Portal \u2014 Reservoir Storage (Manual - Daily), Andhra Pradesh Surface Water Department\",\"source_url\":\"https://www.nwdp.nwic.gov.in/en/dataset/reservoir-water-level-manual-daily-andhra-pradesh-surface-water-department\",\"retrieved_at\":\"2026-09-15T00:00:00Z\",\"observations\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "reservoir_data",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string"
+            },
+            "observation_date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "retrieved_at": {
+              "type": "string"
+            },
+            "observations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "reservoir": {
+                    "type": "string"
+                  },
+                  "water_level": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "water_level_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "storage": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "storage_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "storage_percentage": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "inflow": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "inflow_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "outflow": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "outflow_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "report_date": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "notes": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "reservoir",
+                  "water_level",
+                  "water_level_unit",
+                  "storage",
+                  "storage_unit",
+                  "storage_percentage",
+                  "inflow",
+                  "inflow_unit",
+                  "outflow",
+                  "outflow_unit",
+                  "report_date",
+                  "notes"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "state",
+            "observation_date",
+            "source_name",
+            "source_url",
+            "retrieved_at",
+            "observations"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 28530,
+      "input_tokens_details": {
+        "cache_write_tokens": 5060,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1280,
+      "output_tokens_details": {
+        "reasoning_tokens": 1178
+      },
+      "total_tokens": 29810
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

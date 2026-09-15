@@ -1,0 +1,594 @@
+{
+  "state": "Telangana",
+  "observation_date": null,
+  "source_name": "National Water Data Portal \u2014 Water Level and Discharge, SCADA (Hourly), Telangana SW",
+  "source_url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79",
+  "retrieved_at": "2026-09-15T08:01:47.486710+00:00",
+  "observations": [],
+  "_raw_response": {
+    "id": "resp_045e49819b4dfa3c006aa8fb50e07087d1b965c21cb5f970f6",
+    "object": "response",
+    "created_at": 1789459280,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1789459307,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.6-luna",
+    "moderation": null,
+    "output": [
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb5257c487d196c62582147594d0",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrYWL4PJ5xhQ7tyFn8DV2yX9Ru3aBWTUMsPp9dIgUK_r4wNEn_pGUiR5FUQwJLYkVCjaEkNjV_iiCMO0I9dAPT6DEEU_yupRo2VAINEXoMj8MrAEPDM_IZBMdh15U41xsB7-mO8jwN9uy_nlnGIGy4bhupWEnmuvSmLZfCdnXTHK_TAM4RmCVGVBHYW425facQSA9WJMywkBFsReMsnpKSfWy-oxIpWq5-fzszChEZt1hMkI4mQhyIGZq1pe5Y6lb_GmYuaT0gd_r0LR_KOmlx4WAtvZv9WFJQtydZdYN7GuxyMhPAvgGOV693_vEBaeHGAwEOt-4SAIB6FX1_YAaUC5qbm0cOD00R6giBi10ht1654yEchPCoX5gM6cAi7yG5YwHvMkkS5hweehN8iCKINhc9-LcuG0FhlP03fkl8wBbt32c34V3mQUBBTNw5UCkL2-QF1IYQjIeykw_nyk4uxCCJ932MxH9Kg91udnuHPu6q6KbnHQi_o8fkYo8VoSu8FoWRt3kcDgsveobLmtTWEp2uHZhmALGVLIkymfkRl9wRNx-_2zVfzmFHJpgSEuPZrmX3vk58TloeU5T5jbwPFeGTlmfNdcb7U6GAW5qsxHK1PUQ0FO--rNTwdDtGYrsF1d4QPTwi6YEFjBaIB3Mfpum_D_b_sETiES549KjDKxHthfxmI0eVJKl_Vy-2hnrO-ajELDQc7P5Uz_tJRcvT__DcRYrd63h1nlYW3F4mdfoOIcu5OG_e__AqkqmgjS_zXkCFZP6WhDx1cqo3yfySoPi-OpatJQCEdGmRueJjMV_Lcf5umEqhFhIhCzWvc-xn20hMKhsWMwW6ktBrPw2zFm76gH2JAN7uwE_uRPIjwaqf0sikDuEDSV92Yl-bdTKapMrzoAqcI5Ar3lHiPbCofb9hQ6FDInX2iX5NPWMxsNsCtfxS8qWRHma1-JbbAHKomU1eF_Tn-g-5teEvs5cHnUoYzbEroXO1q2bzNdfReCNprrOkMrdNSckPmfffwS-Nbo-zJZxsKjhu98TauTPXzTMMqodyhuBSdB_Nia5nSPFaXvAm6Skuu3MgkQf3mLr4_TznF_huINXsTQ0denbwXFfLoUvQVZ_BnGz6BnwfGubkxs1ZjtIzpQ3gXmGhUtRXYmHofeta6vQlYPcYTjQzC1FnX3oFklWTwpQLCmKNxZ8nGQJ3hxgqCidCIKNk8bXRGBhJmhbMJULhdnR3EZUsZ3q81jqgwGlfuDgxM2PqZmo8RGZPXuIvIII3aW0bk7zc",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb52a3c887d1b9cd20e3ed95b719",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "site:nwdp.nwic.gov.in Telangana SW SCADA reservoir 2026",
+            "site:nwdp.nwic.gov.in Telangana reservoir water level discharge September 2026",
+            "site:telangana.gov.in reservoir SCADA Telangana September 2026"
+          ],
+          "query": "site:nwdp.nwic.gov.in Telangana SW SCADA reservoir 2026",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://www.telangana.gov.in/downloads/calendar-2026/"
+            },
+            {
+              "type": "url",
+              "url": "https://www.telangana.gov.in/news/press-releases/2026/09/honble-chief-minister-sri-a-revanth-reddy-participates-in-meeting-with-tcs-hypervault-delegation-at-dr-br-ambedkar-telangana-secretariat-hyderabad/"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/ground-water-level-manual-quarterly-telangana-gw-department"
+            },
+            {
+              "type": "url",
+              "url": "https://tgrac.telangana.gov.in/iandcad/index.html"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/water-level-and-discharge-scada-hourly-andhra-pradeh/resource/508f10b8-70ef-47b4-9699-7f0b62ce28a8/view/a809e3bd-65ff-47d1-a9c2-66801f031590"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/reservoir-water-level-manual-daily-centre-water-commission_cwc"
+            },
+            {
+              "type": "url",
+              "url": "https://nalgonda.telangana.gov.in/notice/land-acquisition-nalgonda-district-miryalaguda-division-acquisition-of-lands-for-construction-of-pumping-station-of-foreshore-of-nagarjuna-sagar-reservoir-near-nellikal-v-5/"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/organization/telangana-sw?groups=water-quantity"
+            },
+            {
+              "type": "url",
+              "url": "https://nalgonda.telangana.gov.in/notice/land-acquisition-dlis-nalgonda-district-tirumalagiri-sagar-mandal-nellikal-village-ac-14-30-gts-of-land-2/"
+            },
+            {
+              "type": "url",
+              "url": "https://rera.telangana.gov.in/vbdjksfhbghg-TG-RERA-35690745iynbwir"
+            },
+            {
+              "type": "url",
+              "url": "https://tgerc.telangana.gov.in/file_upload/uploads/Tariff%20Orders/Current%20Year%20Orders/2025/TGERC%20SLDC%20Order%20FY%202025-26_26042025.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://tgerc.telangana.gov.in/file_upload/uploads/Tariff%20Orders/Current%20Year%20Orders/2024/FY%2024-25%20SLDC%20MYTorder.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://tgerc.telangana.gov.in/file_upload/uploads/Tariff%20Orders/Current%20Year%20Orders/2024/SCCL%20Order%20True%20up%20for%20FY%202022-23%20and%20Multi%20Year%20Tariff%20%28MYT%29%20for%20FY%202024-25%20to%20FY%202028-29.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://tgerc.telangana.gov.in/file_upload/uploads/Orders/Commission%20Orders/2023/Resourceplanorders/TSDISCOMsresource%26Businessplan%20Order5th%266thCP.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://tgerc.telangana.gov.in/file_upload/uploads/Filings/ARR%20Filings/2024-25%20AAR%20Transco/SLDC%20Filings.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb551a0087d1822de9ab72fcf3a6",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrYmSIjiDsgZLe8JZhP18BhYhZextG9B8ckn06V3bHqQ9EPoheBtxLszcRaUZKYsUo3lTwKNeiFQC2qjoUUDdS2_LAtdqgskwKUvL7wXLrcYpjb3QWheUKF20OvkEMoJXMGwsV2pLRqzxFfmF_mtwHpyxXCPJhOtuWa8YtgQX-w4XrC0pspa7axkdbpxtSTZJPB3zcoVj0N093agkF-wsENwvEXH2DEuo9pBAOsiB4v83OlywC5CS-K-kTJwVGb3Mk6lq8LueKf-aDURc7cqkoTkGU8h59I6IvW7bFnuKvTcGKpNuxKjnKpwbPO97QXeGo_dMzParEiIlWGzz46Xu8Xxqu71fw4gr3JXn6ky9kwmE4jDNOZEyeThniPuwc9pMDl1aWysb_zggquArzXEmpq6UJWNjLPcTaTBYypiTn42liHLjrSUOAMMkfgwZcGseUSYNiuuz12R9rMaQ8HjWXUmQspvtIexJRyi_baqlLdJXL4lSjhnC2q2RkxwdvZiuqYwtLjm1Nccz1FM-MKegdD2172vuFtfTaLdgacNPNnugvTYBWY_XjSVG7pcgv9bHtQ0Z_KNJmN-muFb1iF_SAcrf70xKLJWLcxmpDDws7UwBbmja5qEWUqdWG0DRoQsfXApXCx7WXukxczlxVUkXk5yOqV_--5Wy4uI89KnjqWPBzVcT-LUOIPOSNkL5KUQDp1muLCtZjjaL2ieSWDeU1nEIrB_-28n4sHiFRy2-5NrGO0NE9dbqg4fuOdpRTb7EDGbAesbMP8skhBaWuhkUYJkZoEFWcHP2A7nzMHJK9XCUthZ5z-lSFciDexEyg5RgZLjZe6OYL8DyX479zBaclseafZLi79KzOziTVDTvI5ntDFmxXgwddNrYF3BhPJ9bFdhmxuc1ei8YH66cGFoVksy_Nr15nqCO8zM9cyyjOnaNNnwaQi_Gu0SCD04BGC4A0sted9FXBddfovnliOulhO7B3rLTnzRHQhzPxpGY3rlGqnUDKFEsW_tzeUtAKhYjI8IFQErIk5J1xv6FGBmxwx1j66kaD1S9fINv4OY7dHsuCMW3Tt0elzT3GC36aoDgoUHasgmnYDrxJpvZXtcz1OKgvMMr6yfWPuvwGUJzpSDyGIvN7vDTAIslH489Du9eFBqpKa2qeyyHQG4Ds8GZMpemX39Cpd_EBC7hYwOgLwMI5x1avBGj6YFyI_1qUJlncn32myxGVUsXNVGbuZ3iQo6AJjRdTzsO6QF7Jl-VokFM=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb55350c87d1849ea6bf50489052",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb5660c887d19312eef156bb03d9",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb57526887d184c0288834f3013e",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrZQs6KUvYTTpeg0KFD1JAVLQ_TJVTCH03qbBW9i1HlFwH2R-wZQyfntuSX6FwngLiXEuWSMr1GYycbYTG2lv_1T_TzZ_iiRU8REQN_BRB5zEanOe9LuJGH8ga5Ok06AiKEcfCoc7rmuQlFkuJyOO8duVqerOvXjcsuSfUQUq1Rb0sxrB9wOWtI4rr1GaKOJZn0fZBwrRPy0SiKdJrCPqK8ODu-HPVMk0C-nnPKOygPxDA_l49Bq4hIw-FyDFux7PUzWpZxsJuT2rghy6Mk4cYAlqUDsyPGNb9g-H8gG72rlTjiItMCnJP0IvwgrwTkfGA7pSoqFIanMVmJ2WVNti3tVTwBZbgOGuTldcmXu8_shJ9YyBcSN6tCJ7JWGAvRbX1SSrRtW1ZsvXlFa0uvCqK4o6oh-aqw6WIdHt9j0y8UVQqSJHLO_OoksUV7e98jk5Gf9ukILeTxxfKoKYX2nULA9VOCiYbDkYa293_dIVjZKzPVHM7Yal483Q6Bl8XDWcLkbNwJHIYHX4vfO0qyWG8VMbhBRaNvv5Px96XqNF0d-ZYVU-iTdnV1dwZNFQ5Q3x0G9Ejvom5cBccyOkqLY_SXqzSMfm0kBvQDk4LnsPvQCHmdjWDYibUJFg8x7xQjaigVlNRLQ7f__mKb9XlC6sLOiT5qWvy1rcnjM_wyRDzYOZlroawZHSg9nbs8ui2XF5wSw7ktCnQ1SiXxu4Db8HEmx2jQBg5UCg7uoXpwSySMXotRVZHqHzdaxHodNaagGjqZUBgZegx73ja_YbwoHz8kK9EypJ2ArS3F165MK6x1k6SuEbCZoV1Nk_VGYMpjorpaZbgSIYiXrRjELt2DxSuTTPyaNWO5hoh3ZTfygFP_MpgCu1yZjzsdCDJkuaBx7rn4ZSLloD7NQNL95RQogI_E04muAUJEdyU-NvlTaW7vzuQbdvmRZC9g1cWtMJmAu9OiT-5IbXfGsM5xY6ob4WErCCHcGqhk78iGb9rtZUQPHmaAJJ80wk2QWlLnknO-50z0ZYsJ6XdXlF__Gspf4T_t-7jj7M2dgb-jGk6fxp4IATgyZqb_t_8BIaYuAEqSKnQDTyeyEDCmBqzXGZmFcbGo4405TfjgGKkpw-OxvbpcrldmeHhnhj3tHvNhBaD7Mq1ym_jPDqQmnyJGJ5RmY7mJuaCpsHI0-qA9_HJ4tuJoFXZLwkk8sJC9W0UxJRZXvyFAcT4iM-84dc1hVxjbM3ZJjukrjEkbDsI7m7I-PMRag23VKWI3AB4EO7EXKiBTPyr5A3sZ63vMP3tsqxctqxJImoZw6LoOpBuQpk9X_-UTYsaQkrXHln1KgOqNQ6WdHyo2TJKDfhviUeSn0b7qMb-jfzlFSlYQMYwRimEfKq-kJ809wFBHOHeIli8EZFqmlO20zjfMraZrCFopmBHDDGiwQ==",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb57cc1c87d1b2da411e80023074",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/api/3/action/package_show?id=water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb58cf8487d19c4b338363af7662",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrPA5eeM6KkfAAxVvihco4P11iUKL7lpBglFG1qo-KVO84NQ1pH7Ol0qoIUMH4gX8urugZjsNeeGvwuCdCaBZmzejnpyWwuKVuL6vQnh75FAvkRBC9mv3BQf1UEuZFAyzJ2Ji6PbCuxl0pRqIkrFFuQMpinyic4SOfoMMw5cT-eYHgOvHavwQi0DRAsMGCcSfIOiuhHYb4H-ALBRIBSrYE-NWzbNwXY67mGMaBcZYWNUnJUEnFRxFmPuRWXZgs_WwaVu87LacDXyf1ibpQzaW34Dl8F8Q2ncZl9p4aIsJlz7C617aLZw_kD9JOiAl23sIbk5Nr4ZNCQ7_g5YlTBcQtP8i371hKBCzL8tJKgo2jXpB1bLrwgwitrdfwnSzUtU-npvIqmz8iB4dPumZ-53GJmNR4RTeLtKmQ6FtXG_Qx1VsEwm1MTsqY0Gi7gyc5oqxYL0exu0LcEslAlxSqdaqtOIm7Xm-ET-P3zQR6lHUkseXyRNeV4cGykKR7q1R_iN8ZArEfbVJSkzd5OlqI2Ivb64TWV3JTEWIpJpDtJ7KciawpyBH3jglIX9QOBE7exVIObV57lNXarpJCUO914t_HidwLVOHilYYLeTyO_P8kY_MwdK8azkiqPJp4xwoZvQSk_a2LimSIyu-067nzbFKoMLVAivfD0AoNkcjufkQkuTlYwyo5k-mPTxX_CuUOOZH964CuNs7Z34dcAKzyN8g7SOc76UBsilcL2f1_5XoePRoHlIuZTbzTaFbzz7Rpp5P2EMROjNMEKYBqAyVGgFyQvQl2ZZ9EZOqUPb07Euk7oapuWZWb9V5oH6AbdMqbYw7Metw4FEljZEXkqnLMjtFwzgXR70d3j4kmOEE7t8v2StM9ProvL7WtKaLrt3HaoCgKSocu41IVfKWoK6isoJcMshF9s79E551cCbfT0hDEf2NW5C1tW-Pp0h3cGAq8NUH1e5pqcwRWyJXzuQxCa0v9TT1gu9UaK144R1P8OMWh0GNqurinAqfVNnBsl-IK2OBLfHOaU6r58fVa4PKj2hu-X9Skc96fdQXWkAzd0iJ5SKXjpSVaN3gnwuwZV1Cahlu6gLG510iMVdg11VipoTVE0_8nGKrvCJP6GsScl5kSBWMM8JOUnxMiz4y-_gxSf0JVopbCrcG6fcub4Wj8g79WBneMOtvkmFqNf6hb3kOQTNPohO1WVU3IuhJw7ES69WnOVdQGDRBvwEMF0DhI1rrMAA==",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb5907c487d19c38a0e26d26aef0",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "nwdp.nwic.gov.in/api/3/action/package_show water-level-and-discharge-scada-hourly-telangana-sw"
+          ],
+          "query": "nwdp.nwic.gov.in/api/3/action/package_show water-level-and-discharge-scada-hourly-telangana-sw",
+          "sources": [
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/organization/telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/organization/telangana-sw?groups=water-quantity"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/dataset/?groups=water-quantity&organization=telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/en/dataset/reservoir_discharge_flood_flow_canal_head_regulator_telangana_telemetry_hourly"
+            },
+            {
+              "type": "url",
+              "url": "https://nwdp.nwic.gov.in/en/dataset/reservoir_discharge_kaddam_narayan_reddy_head_regulator_telangana_telemetry_hourly"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/river-water-level-telemetry-hourly-telangana-surface-water-department"
+            },
+            {
+              "type": "url",
+              "url": "https://www.nwdp.nwic.gov.in/hi/dataset/?organization=telangana-sw"
+            },
+            {
+              "type": "url",
+              "url": "https://gwrms.telangana.gov.in/flow-meter-apis.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://gwd.telangana.gov.in/PublicationLanding/DocumentDownload/37"
+            },
+            {
+              "type": "url",
+              "url": "https://gwd.telangana.gov.in/Document/Document_20250814155952025_4889.pdf"
+            },
+            {
+              "type": "url",
+              "url": "https://gwd.telangana.gov.in/Document/Document_20250823165439095_3687.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb5c20a887d1a3aede09c32574de",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrid_MtQw_AP-GO5-Gw0I1ibL5QQDEZAuGsCRtK1Y9MrTi_mUu7jdIFvTAQ_wrrCugfZv8e1yzM2CbTmXC4d8g9mS5wjX8lDMsJ8hlkZpZa7kt1KhY0LRrjyQwxi5sGANMM1Bw6UtGfD1Hbc1DgSTwcXLy4RSQI3fMUhcz56xW3YMSUvDsP-fdkBEQFYKoy-ubUYZ4FB6GtMMrazYPeRYFSua7HU5Q4GivlglqN5askElkyraXbDYQpzNzNaOFWVI1fxHD7BAKXTOlp3-dvZgIe2NFTncTtf9cWU-49Zc8wbzsYmojKiMliuM1EgQkJG1yXaXYezbcDVgmE4Az1F91YCnMxuhbVQ5h2WQBGPoZYrfB0w5AJxvIRNHoAUbb7BBbhLLDjjyCgdxCMbvO4tNJ2UGcvs3kt5f87rBEhTUkw13bBJh7QY2lt-mxFvJdkvRQX27uNKl1M_f9of6l7Qi7yn8gjWH0z2uQXkdzLZj48L4A4hVuNY3xNFbW1bTFZ05ctxx62p7C_0TyaL8Z8274dBQ69A5cecQ6kLzc5eyoT5lALo56wB9yRKtdi7NkTgF8YeYsDYDt0TmwL_eUn38BlX8A_B3Q83SdDTxvQgIZAUN5XQMG5oWy7_9kpxD-B7jx6qkrI2AMkNRsfXpM2G0vBr664DjY2s_TPTUzDoNjMI8Bfi-8Soe5nklEbWvb8NYV_HIc4HfVWDTfjWsvakuW9SbwIulDNd1VaMnUOmVDP9gcJH2iOfb9mIoD1jo_r7Wc2BKwDPGOXD0qTQMkDiiLxQm3_zj3CrfcVBM6sTaOwNeSKnOYDhyx6u-fWqyALyYaBwC2s4LOUbi8aHxSTUOTD1osL6qyD2K-KaAUO7BqzQe5ikzF4yuPrbJ1JLdYaplNQ2yeQ34B7GTdcJR1usgVIIzV2YpyajICvYAHlo-0e980y_HSsp44Z18bcHzerK9SL1QwhMRjF8Nry_1O-LVNmZsayDu0a_RhIHHkzZsYJKuUAbR9k9jCvk3jyE0-7In24sBaB3oHg-DKsyaJ4TR7e2ymzJaKM-xp3tFUrp55i7Z7oylgxzIfwRoJ50Yn-OENvgfUd-5QQnZCh7rlHU0W8Zs5LVXCOiA3XnfFPTS2abb9UZx3SPj5w_Akc6HjziqUQfh6lvmGcelh4TdYOhkieha44qyhaSRMlpCYZAoKjmvLJk3RINEQGjanXr711qN1oWizEtAvlYg6zGkdo15c3qWSlrrjsSr46iVF9Ej46J-svWHptU6o_eggdYTcYJHd5HNMC0RI0Sfyqv53P17Q6WwHzr2fbJ0-s3uk674ej6anGEOP6bNotI5IVNp6kZJ6xoWx9PeYgBlZW3-GSWPFtXWoCh0hCCHv_Fcu3kz3ei7lmcSjYH3Jlwu_bLfYiTYM1HcbTJhAam4-depQCW79dJ_rWxMw7uoNKOtayeMcw_GzoowaZlW92RZpiRCvMkftJh3pTwCUanjJ_a2b5qSWv2nZbuI3aVtl0AaYLrZjJPbsOKxGa94rvcWJsnmtqmZ_oFuV10x3VZQEAzMpD_y0-mSZy_2kBerCsjctuPsEtZrAQr4pkIjfymz9LW2JK1zjj_jr4uY3idEHkhoAmmyfaB6m1-eviT3xWOS_-016HZMkdtoLb2xRX3HnOak-G36vAj83Q-BP47K3yjZgbkXhh7BJ6jYHdG1Zz51iVw_GJnz2Kj3DSPrG1aU8J7b4ZvyqOcmZnYSpZ026dZixtpvcImLMyceeHlQbWHBNk7mA1pQCUuIyE4jYXsRW058Ven9W7s4OL0BuXYAd5sTt2BDw9FmAEC-IUl7mxzaqVusssUFYc0kaYK0f-bK8aWS2CQm4TRNj-xqpKzdyD9Gm100WLoJDyB4yo7a93fqtltqtcH-vKh-Z2pWq804Xh0s14g4bEQMInCwAeiT3bSh6LrR_H_2FzT2xwSOmjanfk2IkjHa7sEX1NjlBLGtMep8jZGe0tmhJzxhnUbzfuB-cQSFz5LoZJcb_1uY4b9mc5ICpj9E=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb5dac1487d19ec5219fbecb919d",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"c13c124f-0280-4880-83b1-7fdb2ce93c79\"",
+            "site:nwdp.nwic.gov.in \"Water level and Dicharge Scada Hourly Telangana SW 2026\" \"Data Acquisition Time\""
+          ],
+          "query": "\"c13c124f-0280-4880-83b1-7fdb2ce93c79\""
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb5efc1c87d195d30e852507d96b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtraYYn6E75zfsLwVLSu68uPcsRTXDlL8Xhq5mxwoFPT_H3flLaTTgYRJ9lN6JvVxcMMX91sx16bE19sU6EG-skDtCQOL0s_oZh6ElDPQtbxWVfBgdAOg-djEghmsIEKrXK2jTBAirceUAI0sLo0SlzjlMCgpcBsvu0vU8UZMCswBq-wNAe99fhpE8jZq5Ks_mRI7e8im7ZcE6QnUXWgJEzUdMHzLDoZxczC6R63b9ctIIbylYUjqbvwdSMTlQkFBDHAwMHtL0HMeGPQ4l-ZQ0qXqabMlSUTzLWhRs5H1qJElVZJwmZeNtxI0hIC9HB30rXzUYULuzwmarr_IPcyaHjZcMo_I1majpbpVRVkyMazv8iZ4VKesCEQUFTVl5wG3r_Qtw0xBEHMgdJ8rhSbcaaYovzsImWIASfdPhS-MTQoXUumQ5O6pCJpbMCnoKHTEeUwoTAs86UKMxMZ-VjAineYbTXiIVwNJ_d7F6njm4akbjBS97tITgE9u3heWgdjxUbcv6-IuHTkVJ3B3DRQmeSIXtFUYEBlU_4SsBwITmC8_5VKAbbM_ExooS0epy7_VfskCqG3DvlMiRTF0S3A3YPj75AWf0RZxl4p5zixPXn3kRFSUeySy2H60wzWKV6BpA6pF2OWeVeb6PLVUU07uj7yiL9rhfWaY7D5j0CqxKgy7hCiDdpPMgX6-1BufLtn6S7bEkgsPD7y-tcEIfZLqdeS97pEgja2eIABn_wvOloIf_5vUa-KQyjqJFFTvJ_cnC1jQU_lRNtJeFKD4CVKH6qrDQVGBOzNjDQyA_v9jiP17tjxiJbwieTy3zjKPdE6EdNT2x3ldO5misWiIKcnK0C6FtzxkJFKbbLLjLaaBue6-HmZDupYEyyjjdo4UZuzyacyVyolxQCxEHNyFAAEYRL0ngEA6NAzv9kwjedJlwLRbA_C9ZIiVsLGIeA-3fJXRcJWYa16myeCBAeA8RZvS5YPiXTBbkLkkVwIUH4PrgIKJTZuVF2szD0AUzKZYFe8vQWUB-tzS3iP1YU_7xBHKJz5bD2TyYXVJ5tMzLfWvEcdPcUHf1rML3qeujjm5fgNVYvHIrsnXmATC4jxS9SRzmjf3BVl2kPbH6Wx_o-DRxnYV_dvsGjrh6dC7AV8rN3_AWinpJfKtbAyo-cppiOP1mRtq1JHOHtpRMU7SA0B42MOY9lNhJWjNUvKftx-yRYqOsIeUnX9-6ymXkJNIdFd9wRzGgHK5NyTsH_TbyG6QLNobx3ycoZnXN1FYGOPJuHpok1OyQk0zXB711yJvuk6lHryTV1NW_M5sPkob4R3CMG5GPIwJ1t5mLvuvSLlmfmn10_zxb6z8kass_9dxx-j1TZiTl3eklIjrhxfutT6C2FQ764xil4l5otQgXWjB23coXPzUED3vgIDsT876DtSY0qIxZBRsR3tz5JV0USdC71HtI=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb5f7f2087d1aaa1f378b73775c7",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/view/c13c124f-0280-4880-83b1-7fdb2ce93c79"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb60a81887d19e47e6dfb7fc5aec",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrKQ8GzZa6reoMo7zsBcAa2PlDzK12xFKX5X01tVnLi3Thoy52VPPurHBsv3CaEqeSoq-QjaJyafIi1hTd325lorKYyy4loprTQfKmP7HDNhOdOEAoJ2QFPNtQx8vPgELHRsHRUGpcOuKmO37m5mRIF9kMxAEdKqEbK7TPB0sRO1nVwLyD6PLfbCl7T-avg2FxM7GKSydoYpMqyJP1rtFo0rXOy1nzlA32k2yUaJjTAxWkdalwKoVv5LdFDLZ7h_u0fCv9bVAj8nFnk5yklh7gSwNoaRQ3I0_P_g-e_nYZLeKzHreOqovjZog-KnFPo8uS19auwK3WgOCwLKig9FfhgekTPZLrMIzwC75ykCkp_xvs2HaRbg2oTd4ZNLpBBwLzAKvzwtLWfQZ6gsnFBfWk0nS_0-UtlMwXmae3ffI6DUUUfmIBmqajdc4zguaUOXEYT4PYoskFT3CqPa_7Nh1r2Hz_csA2scFCzvMSfa_oGSYragYhC8b3DnMhUyGUqI_s62yIaB35lXpfO3lg405Od7F0id-XseK0DOEmvtIw8wUrTU_Xaslxih_EgOR5Jn9CQ1vJyBhynBL0h015Hyp38DN5XRMJ1w2v-55E7X3QmNDTKl5BOJMNkm7EEPp6WcLW8v7fBUES9gKt5cFnPbUxIS8ZtB9TVYStIjraJJ16bYDIOAlSAQMuGnz-GK0PNSYZvOL9wAaQHvwiFYmPDfqFF8PPvaXD1nrtR8pmNgabydqqe9b6u7WTZshMZC7x4NpUF8RA_DEKVTB-FrFrnpvL3NsPWJtFfyXs3-egd4Quxj3L3XYg60Uyr3r_IXrhbMWW9YI71_b_wNt1TBYtJEbehE21ac6Ev_F1blN9HPL1-dwpp26sLvYUohj2duDZmazGffQlhUxNv-A0bEYZBK62ewFCLfH0IEdDMqshNuvhHERSKo88Dr1pGlVP4JRiYCCHYHqF-p_K4DWfwNyftEiMEIsThNn_cDrJwl0K87PmV_ZS6dUyzt9vvQlqJLRDX6q0tKiWs-v8_F7cvNqqDbIzDDbMaPYVa4d5vjYRDKQJkV-AZHNDTTSWWjgzJb8L7qnPAufkJ-g8Q21x58HWBPnBxcsLGtY1Mq4K_B0gt0x6mG0MLrf4j4l05bDzKO3m7a6EnBaHQ4KrkA1w1JA3jn_EVqFIRgyYvLxY4YhEcDqjQvmyTZ8Y9D7YMnCJS7-s9kfW8_fSf5sJEMPVc8dokbndYryynXpSTO0Y_SCgDE9mi_QSc0xScDnmZLMH6wX1JHt9S_8tXwtU9gp7lNwaMSaJ0CgS76Lsf1e9PdolmBl3PfQ=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb60f01087d18cce490cb7305aea",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb63c99887d1bacd885473029f72",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrLhqJ-sPlecKXMN2gQJzfnuMem5foZLU_DOzDWnKPlsMfbD6xEm2dBhnNpCa6vBI0QkZFeYqUqWeFizBZ8hGQ4Y6e4H4vVFiUk5RwduV1NUSU-qZ14Q7rLV81ZvQcjHjyq_PZKFeKqKfLRR0nuC7taCi1fyZEqtjgG1WChmuRYTBLEAmXi8fWC_hW_kMWWfbNqUI0l_Yr1btdUfKGsp4RpaxG-XTHh8lphIRpNpAV7RqDKjdiDwkryYV-jVwZ74wnv7qvUDRWs0NkR_x-5z2A97ZJPfVtUHCUGW4mWqzR4Ht2QCARSd3Sd5hvYkja4sw_Wiqub7jozUYdS4vyBtfu8j_hVZ5jsmeJNk-McSKRTpmrpxSHLRPOP5fQmQeXrbkGJNt67ZXB-Fi2ZLcgMa53TdpPYXfKDs-qSoyAWo1XWxPm2NgqynPU3W9FxepbNxnWHSmAsfK6SvZquVywafygiyY_PmYQvK1yAuQZh8W75Q2ZtCZNU8ZqyDFNDX-nLf0q8Rjg6rYSW4fNnd1SLuLWkV_S42RKxUmV6oJJ3hUeCXMiFbhJStnYpHVH-CVmLBm9AlfFI5-TfSHcwLaNPzSlBpSW5XgK1WYgyNo_n1LSPULIl1f1ghutB0NH6G8QTSvUQKxzuMr-c2Jcfxmp6eQgYSc3aseA4vzsrGW5gc7OQ8fCjIG4rWNPFTglElvtkV56kimytZi2tOuZUBJGzp6s2fDE4O54-_UOgCM5W0lmwSlbe2YbZE0PkZas-OLRnJniIrFrqoLsKhgzthnDZbdJWSVTOTXD1Z-l0NumvzewGSeNPr91QVEP7L5iMAYTQG9aPLAm73eo8zNoC80jgOkkUHNF5T6naWlDkCRgNgkXzJkSKrkHrsCnYipNPyhNagC92gHeejUwO_jUx6-qnSXX16hcPFHzcfp3EOdDF1Cij07jLtKNg-j0n6On7mEKub2HCBvdhqwVSulSKB_2-K-n8lwAvP77sA11XI5PdCbaVCCI51RFLYlWJVmlUtn80dBkEghu3f2ISwjLyubT6zT14sKMumUJbnp7fGspaCtKo7Lcm2994teffh6wqa4VE_vNj0Ac6Ad-THSrrd2DBNM6l2nIgqXOZx3yM4Ky7IFXc8PNEpRH3KGAdFMfbnUZxfdqhsVF7zsFIg8ZVd8yqp4wRv0xMq1o_Pn3cLs-8MJ-tgm0dQJVMoHTLX3WMRDV9camvBEpCWITr4kv906dT9-IfjqcH4J4XJ00LD3ezOxKCNQM-Vmh7KHxhw5Q2DRqzkShvIRn1XDYW7ObvA3cDoATbgYHFLMX-uJkjkgNgchHib8=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb6429f087d1af531098b9a95958",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb64f13c87d19240c68fd9134336",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrb3aTUpyQuT4hgbcONvHw6eVASj0qaNZxMspWcBnKG45pprwteARqT_z6OCBVvdZAb9uGzRYDouVH83L7SKTpa8r2ZGUxNiahU9jYKhyHXQ6C85aLa6POJzoprSWWo9SKYELAtiIcrtdf_NhggumaLRH-DbMD_RSXbKWtLDr9oTqNHPSTW38o0gQH4qJYYEETVqjvDSgJkh3_YngaZv33vxqlinLpiGB4KBnB-Gqyh-_l5GMbskjT_9i5J8mWkXEXMP2WMsPgYBfdghbq-2oKCAa6ifFtr7wCAAP_sOmDqfJWPVzHPESgbOd3yz0K6XWlhcTOXkkG1Ku6fr9Q89nG-mw9SbxxaN8SuhMBXIZMOM0CpiQiSmawxaUvYZYmtjNSH4PTiTh3uuR-Gq8jB3ebtlA70soVl3h_V5RZ1d_4wg9FH06JwQuZmn483EFRek5bJUgYjGt0v3PUYzu43bVjgyny32JrsZ7gexEyTIbZRzyXt7CN22FOxp9p5G37iBi1kOtK-F9qOlNMDQ_YAnil_xNywzI1qloly1mTtwA4jRjY78sYMND7py16olSF84CZFbiH86xqqNqYTTVnHwJNFH9LG--BcMG3R-fZAJT-RMuw6k2TlTLsVjGSEVGqbX10d3thqfUo3SGFudeJvN21Ecto2eez71T59pEV3JdM3w993dkW1wWNvJv44AJMCi61yxX1bgMTOpccYPjh5qvOkYv10riqlQQC7toonrA8agKL7BOpN1Os_aTn-h17ShCA8IsYKNSUnGo47GTl7C4M9IqGpf7UN0HjKYQwegi8DGSkQzxS6IcsPJoKJROyEg89oi1xPf_JZVuYHP2AqFMUiWMiBb_TMW2K4FV5MvlMLAOyD7Dw4-QNKrPO_PHe_FHjJmAakDxU2uSG3v7uwQYIkgvrzfj_HNk1BsKefnPY2GqAgnS670tW6URpZzPlxzyvh4kTtsQdtv_BQUZkRB_s8hj0IpPziBa2CnnNpMySvwSoHNkE1GyzZkxfpnE4uV8hwA_amSk5b6sihU8yizJ6yLiZqOEBMwpKN8nzwsG8R2M4smbRz3ZniDBwu2QSmACl4J09tWRnCuZnC-kD-o4kmFVAe4cnGwiF3z5UfRIAZMKj2ieearG8AOwMZKebu8o8JqsL4DqRfgsX8qMZa6kmBcBx_qehzw-gYusbn-zSbO63batKXNVzsgoYzmlVS2bswXVfQh0RjopbYM2Ig2JuGyLpKKjLh6-sFFY3l0nwRHDGQTj39hFaB3qXUS3K3OwfxR5RfMSg1GNZXYyReD-JAWZsQ-D2g-U9ilZoWBN33yvgoPUg1t5EBvB1pE9eBE9HjijYKbyLQfecuPIjxPccAZ_EEKFcKqICnbDdH-nSRUoy_xDxgLynTu7tq7WlchUnI-B6ncmW9ZYBrR6oAZZ9uhAeX_dkIK168ZhPVX1piqjgSYIggqoRMJZaV75OXwnSwFqeOJkaN-MVgLhUDREdp9Bx1DpFcWUMakUytbUD9Yk=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb656b0087d1aa877238097c3b85",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb66128887d1ae2518c0c52c42ef",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrz84JnlZNlSyRqj91OA-NnQkIpF8ypc58aDcJHJ6hTpPVpa4NP_P515K8WUSXnwQqxOmkJAM1x_AGyZ6pc08Dc9W6joqlq8MYKtpOUsxD0R91iFNnIBTMz3uY344uKRy8ynecFM_hWSoqrFYQM_jwzGVyV5rBfDQFrXjOuvzwEQcZw9PvIS-5R9qiNpYHHptCjRcZS0pmTpsSh6Fm2DRUkkjWEgs4tetCZfkBePNil12YvNOMWJehvtA_4MpCrFriz6tE5dcB7jWg3OjPsgePgA65QU8iFvcuzZkrmsvbhS7WknHF9bfMa4i85QB51TOecqQ-yj0hTXpiOAXCCKrj52gz9Fxyc8kBETWsbtEgn_b3NUbi8CJmVmg-tRQeK-bARAnJNsNEI9dnZmeZuhSE2Sn8_-EB1Uj4EFQEPwTecnt07C30ZPnOsarWutcgvu-dgAYwdXfYyxZpTljc7PZ7ZWFhl13nEnyezsxU3XWcYteM7Dkf4f_uV6yslNlI1nP9JfGP03nbM4gOBUr2Xz-84Yqctz9PgQ_tjrV9yVURgHx5sBg0nVkqHYIhGYKfsYWrUlrlcZ62RurqeTDraS9-DDnJ0jtzvjxCJ4P0nRyyx1ipFyRjOz0aLDFIsEZMoCZBOGIUexe_g2uAzPdCoNLtwP8HtS_64HpDEnfoVIiw9Q6jGliqVodfPihHinxLAZS0aBXX0r5lEu7aPCqOkREQCkxjNr8jBp0BpGH0RV2zUsCTeZoODje-wBYFCjabtKRoZ3Wkcxja7BpxxEdDrWbt_3JW-L_WTb49sBlXQK5oIJKckp4Kgyn22kqxBfC-7gE7e5q0eWhULhht0eIuA12-NgXZTOJ1wPokSGV-PwsdFn6iVO60nojHn7amSVP7Ug73Uy4USW3wcCy2upgVcGvprJx0p0WOoHFsTBDgpDxEMPLhkp6KydXH8Iex326XDe_N6vGGSJAxNh7aSc4B7VRL5KNmCIq7P9L4pH50C1hv8L9iLQO46LmpTUcP1_bZdgqGfJaaxl4fdkTkx5cYFbiaWhgQmHxxDheCtygmeRlt7EGsTE4KmXAPG2TVsfXWWyZ9Bjm3d2Mx2DfjidSyeV0SuB6_sUKP1r7cwxrSMwt5L7CWqc9tttbsijUOTNybU9Lk3PnP9WlJCd4LLTZKRVPuWLJDkS0oMPSU3f8-KMvdpuDd8nT0nrjRBfAJz1Zp2BCqyhFI19aeMyD2vfmKwRkVZpcmbJwKD0gLHxs5ANSMU8s=",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb663dd487d1b3e7a517a734d509",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "open_page",
+          "url": "https://nwdp.nwic.gov.in/dataset/0b6bcf25-9e33-432d-9f81-2037b00b0b4c/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79/download/water_level_and_dicharge_scada_hourly_telangana_2026.csv"
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb6751a487d1af4757b5de053f5d",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtrsjXmJUzcANqhfTsQEpmLrkYuBT6ZgDT2T0NM9rsNu55_NMhd18Sf99Ma-ARism8UizinYUsfCh8Mfq-OPCSuCf9RSufPGzh3tHC7lhupOAenm22KIu4U_8OZRSxT5CtNVVlo8OxwrQroiKHM466Ubqkz4d8Inczxc2YhiYTM8gR_Z-rioE2J8X1TwR1ov8nNgd6m2pxcf5gdurd_ZhoUDtqFRgcoBsWE1dbuXtUEFIR8P1yBRJqgPTKfDaO2MXY2wqkHvNyjPCRSKLY-xcN6DkWXHfJIS969Emj6KHhoqmtCiIjYekR4Asa70KqxMK_uyzE5fO0iFKU3QcWilYCE3BdjfaWvqc-6OOKMoJ3C_8S5dNM5LWO1Ix6pDbtp3PG4LBbLjQh1jRsmwNTEisulYeEppwwfnsbH_2MxW05xXUT7dNg31E5Ug6L68vGXpygStO-iZwRp-kIi9fgNzDGDA4NACLXDkNoUDktXAoQyw5ihFvNJkoZst-Tlf-N_EckBMN_P9QKd6ToFYWul6NY0oJY63vDWbTWDvpzN4Kia8y5HsHLc9VAjHF0Ymg58RACgwVFeQNPZCj-ygrXlYM8WAmVnCX-WosgQb93V5WPJ_J16akT32wKq2Dg4LuA8vGFGK-pAXx0YjhGI3JnijYrLIYqiYJq6Iq6TAA8v1N0INSnkcavwe9OuBPiZ4gr-1Vb55yd2XLeWJvE2MT-LQ_2QrLasPueL-GKMtqTeJv4tu4eBZWlXu1dGnRS6zlxEs10cW51_9krAvlIe7FoqMgEK2NoGMvdomdpxzTEArq8U4qrf8LlKUHd1bSuDx7jyGA5_yTDwdET9kORBIZSuFp49tE1kmtTCTc967KCWvfRClVAcPEpbVo__qis--j1Ca8f7ufixaSs4NmR976HhbiW2fN4D4OH7utA5BSvYiyWYkblSCsvSxlezZ1ttu0ktKKyxaaHcS-BOKQ1HudhH3qMeg9IV49TpRFMGDLx5-NuMjkpJHKoMvrymhfcrc_7GhdYaXwfznbliZYlo7705fTMEIMcbV94QB8WGOltF97BU-EjcZuS3oQTED5rM0tlTE1b1lKfWqSJbSwvbqCBLroT-E8248qRHB145LClGjfjhanhsfjSWpdL1bb-IuvlMOxJ3FKWU5KhZ9uZ6Sn_yIXGh8HCc3t0lRkGQp20dsZ95YPYSss4sVQcs0gOzYuqPtppVSgBWcWGdFlP056LvikjeF_d8xUctRw26RqdAR1s6nB8NE-fnve9Ul0k69GiAMOHZ6tyvoS-d8z7gYW4XYuXW2tT8c4zmZPA5bwymWZHLxCswmsBLvSgARINZ1uz4DJixkisvJuwsA3zLiB0OUzXsXFdFzaeMWfgCBCdoyAcalAHakcY0PZoKRoLKlFFR06wOjcZUebkWrfZQ5p0h8MhbItxmR_X9ZHCVMJc64XqIdEyj24qxNAjyffARjsZL46MR",
+        "summary": []
+      },
+      {
+        "id": "ws_045e49819b4dfa3c006aa8fb67a6d087d1910128f5b8371d39",
+        "type": "web_search_call",
+        "status": "completed",
+        "action": {
+          "type": "search",
+          "queries": [
+            "\"e594075f-c06a-479f-8f51-727d2aa04932\"",
+            "\"water_level_and_dicharge_scada_hourly_telangana_2026.csv\""
+          ],
+          "query": "\"e594075f-c06a-479f-8f51-727d2aa04932\""
+        }
+      },
+      {
+        "id": "rs_045e49819b4dfa3c006aa8fb690f9c87d18041cb98d15e174b",
+        "type": "reasoning",
+        "content": [],
+        "encrypted_content": "gAAAAABqqPtryzHJR2jimOy1eVmdV0i75KGcL4qTz10dKzzl57JDsuNaaTwUei9GpwyKgn_l4IPN1ZNrF-bQ3pFF7ebwjugav8VvPHJA4Xp2WJ0KX0JuKjE6h73QENlmKrNIGL5DLAiIypdGgkRBmgJgskvXRfO8OY06HCu2LgVQL4aPsj8XoC4stf7PuCokQXphTowjZkgnGxjGuWcI0GmO3-IDWXROBIMpBEOOpN5A7lweJZ3zZIjG9PU-lRSsI8amkC9honHyamrsPfUzaUCiqSNwzfhqr58aP6Ra7FBKwsfkuRuUV12OETEtjIAkJBPATYb9zdtHSdoDfZfLhjLFxVlOeA4voYdYmgqwkr0TmVPFHQTT2hXxLXLYQKoIHzDUdh7bo0H1-kNdmdATURzw1ahTmG6-1UhI5J2GKtdriy-705JPNqE5IT8gCeKZlkFEZhtBRC9RS4FBhE-1NaAK9Brbb78e8FzNCrEcykZY7sRUqnJGK_LjQWIVwd9WuR1fMoRI38h7eJmsAdxLI3dbwaUVCSjqGQXvxKMru6kbpm0vpM3NpVAOrFdgtDWWqyddrUPqvoJ9TrCB3x26QqD1IzZMHX6pMNhlzHQBoTS00tVUZAP-Zq-HRxitg1bu0W9FzH92QQ9Z-nV0fs6fPunlKVpM9SrLcgS_3xjmZpWIjYB6ar2cVZ1tGXw8WaKOlcBILO_vjzEks582U1X9UsvCV3nFivJ2FeJ1Hvjiq7oRVi-sjfKKa3FZUGl34CtTOUH-BRxO6xEA1Hwlfdg1CIZ1jLGL93sFdpgeK2vRWyu6VXTGQgUbaZTilw-aI43OAy8AV0ig-XeY4PsjwZoiKF0LBADWVBVGOUXhujsCV8VF27u_7xH69nfaoC9P0LCqbK8oVFQ48yGxRk139uc4APqFD5edKOQVm0jJA2lC14eLCMUqq8-9P8ErN10YwAvmTdyhQ0W8tIIOpyWAyNOqf6b782PhbyrgquDn2xFBrUVwbcwBfMbmS1hcmgMDzfwF8ahqkIPB2JF_hPnWeRGipYxSSd-MbAKMezQv8JSnHcs4Lv9aC7ALLGLKxNMTiP6CtvHLC2VmI751VH06AyEcWaOqG7Jj5Gx_g5qKF9kN6kEZL7fMPPqMXaSNYB-4v5yAbx7_d4zJtHDAvxglyUOaI-6_iihuxOrZTgOXZYI4sl6qH5T0uORDKqr7eeZQegWyxcuWry1WmGmL72xKWo_7RLdAWiFsQ35LTncAv0vAXKcs9ocMeQBEl94qfwXVHcDRy1ZoaoZrg8I0n65SrjCsSTYS2LVgdzOA2d6o-mHXZOIDX4Kk6FNaQGr4-LCq_HnNg4arQxgAj8O3cCpcmHBAS466PzdZtHosejONB87Nq8BWhzycJPHNUZEFhvLqWZgKO795qChcTlHlwsBjU86DLgNp1PsQAzEvb7LepppWY0E2PujHDtvG593G0rH0saNs5SFRAkrL2iDsSBKNRZ7eYh_On1m6zGobPR_GqhjA9al3ObxLAyf6gLNq9wyQBl3btSX28FmoJ3XBCQvhE-ZwK9DAFgKbiZ4ZDFCR7X8_cAiRBNzrCFDTA9lai0tr5Vu7gkIPbGH8qcMDW8tLl-jQ1MoTjA--oeCiZnbdh20okplpcXGhJiPWs7-2aj6Mxo_L-S1G6DuRgg492deejGGF15MY1qrH6qMGX2kQm0_pZVWVoZiHrVDfKp5BG3JJvclX9acg8bp86Bb91bSF2h2nl0SXtg1fD80K7EDqCjAZlAq7JRc39k-C3f7hXyez_0k8DVuwNof7yBBYntRRZLf2q_5rAnH3XZxj4oF9m3YGSLi8ocoOLOnGL3oyMELS0y8_b6Mr2yeGFwzczr023x6pLwgC7N_LVYqBkDxz6482QdHNjXjIX-ufIbOoqHg5-6eyHZHlP6kkAGSFU4Eisjd6QnmG0v-cmv8-UmYolWCyorCRfi8UqjchQJ0srhhKgszX8vn_W86OqDmI",
+        "summary": []
+      },
+      {
+        "id": "msg_045e49819b4dfa3c006aa8fb6a227887d18f1f2436791affc1",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "{\"state\":\"Telangana\",\"observation_date\":null,\"source_name\":\"National Water Data Portal \u2014 Water Level and Discharge, SCADA (Hourly), Telangana SW\",\"source_url\":\"https://nwdp.nwic.gov.in/dataset/water-level-and-discharge-scada-hourly-telangana-sw/resource/c13c124f-0280-4880-83b1-7fdb2ce93c79\",\"retrieved_at\":\"2026-09-15\",\"observations\":[]}"
+          }
+        ],
+        "phase": "final_answer",
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "json_schema",
+        "description": null,
+        "name": "reservoir_data",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "state": {
+              "type": "string"
+            },
+            "observation_date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "retrieved_at": {
+              "type": "string"
+            },
+            "observations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "reservoir": {
+                    "type": "string"
+                  },
+                  "water_level": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "water_level_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "storage": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "storage_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "storage_percentage": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "inflow": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "inflow_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "outflow": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "outflow_unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "report_date": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "notes": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "reservoir",
+                  "water_level",
+                  "water_level_unit",
+                  "storage",
+                  "storage_unit",
+                  "storage_percentage",
+                  "inflow",
+                  "inflow_unit",
+                  "outflow",
+                  "outflow_unit",
+                  "report_date",
+                  "notes"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "state",
+            "observation_date",
+            "source_name",
+            "source_url",
+            "retrieved_at",
+            "observations"
+          ],
+          "additionalProperties": false
+        },
+        "strict": true
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 4
+      }
+    },
+    "tools": [
+      {
+        "type": "web_search",
+        "return_token_budget": "default",
+        "search_content_types": [
+          "text"
+        ],
+        "search_context_size": "medium",
+        "user_location": {
+          "type": "approximate",
+          "city": null,
+          "country": "US",
+          "region": null,
+          "timezone": null
+        }
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 22222,
+      "input_tokens_details": {
+        "cache_write_tokens": 437,
+        "cached_tokens": 4568
+      },
+      "output_tokens": 1411,
+      "output_tokens_details": {
+        "reasoning_tokens": 1297
+      },
+      "total_tokens": 23633
+    },
+    "user": null,
+    "metadata": {}
+  }
+}
